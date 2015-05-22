@@ -2,4 +2,70 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ios-dota2/SummaryViewController.swift"
+            timestampString = "454013577.963554"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ios-dota2/FriendsTableViewController.swift"
+            timestampString = "454008276.558671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "getUserSummary(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_dota2.FriendsTableViewController.(getUserSummary (ios_dota2.FriendsTableViewController) -&gt; (Swift.String) -&gt; (personaName : Swift.String, avatarUrl : Swift.String)).(closure #1)"
+                  moduleName = "ios-dota2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosstudents/Desktop/Developer/iOS-Dota2/ios-dota2/ios-dota2/FriendsTableViewController.swift"
+                  timestampString = "453858847.632873"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "4438">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_dota2.FriendsTableViewController.(getUserSummary (ios_dota2.FriendsTableViewController) -&gt; (Swift.String) -&gt; (personaName : Swift.String, avatarUrl : Swift.String)).(closure #1).(closure #1)"
+                  moduleName = "ios-dota2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iosstudents/Desktop/Developer/iOS-Dota2/ios-dota2/ios-dota2/FriendsTableViewController.swift"
+                  timestampString = "453858847.633258"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

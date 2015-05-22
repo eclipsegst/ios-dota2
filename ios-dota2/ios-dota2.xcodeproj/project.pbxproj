@@ -18,6 +18,16 @@
 		56DD66C61B0CCC5C00652205 /* dota2_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DD66C31B0CCC5C00652205 /* dota2_76.png */; };
 		56DD66C81B0CD13800652205 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD66C71B0CD13800652205 /* NewsTableViewController.swift */; };
 		56DD66CD1B0CE54600652205 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD66CC1B0CE54600652205 /* NewsTableViewCell.swift */; };
+		56DD66CF1B0D13E700652205 /* heart_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DD66CE1B0D13E700652205 /* heart_128.png */; };
+		56DD66D21B0D150900652205 /* heart_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DD66D01B0D150900652205 /* heart_32.png */; };
+		56DD66D31B0D150900652205 /* heart_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DD66D11B0D150900652205 /* heart_64.png */; };
+		56DD66D51B0D15A800652205 /* dota2_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DD66D41B0D15A800652205 /* dota2_32.png */; };
+		56DD66D71B0D177100652205 /* dota2_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DD66D61B0D177100652205 /* dota2_48.png */; };
+		56DD66D91B0D192100652205 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD66D81B0D192100652205 /* SummaryViewController.swift */; };
+		56DD66DB1B0D39AD00652205 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD66DA1B0D39AD00652205 /* FriendsTableViewController.swift */; };
+		56DD66DD1B0F6D8F00652205 /* MatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD66DC1B0F6D8F00652205 /* MatchTableViewController.swift */; };
+		56DD66DF1B0F86E600652205 /* Dota2Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD66DE1B0F86E600652205 /* Dota2Client.swift */; };
+		56DD66E11B0F982500652205 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD66E01B0F982500652205 /* Match.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,16 @@
 		56DD66C31B0CCC5C00652205 /* dota2_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota2_76.png; sourceTree = "<group>"; };
 		56DD66C71B0CD13800652205 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		56DD66CC1B0CE54600652205 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		56DD66CE1B0D13E700652205 /* heart_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_128.png; sourceTree = "<group>"; };
+		56DD66D01B0D150900652205 /* heart_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_32.png; sourceTree = "<group>"; };
+		56DD66D11B0D150900652205 /* heart_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_64.png; sourceTree = "<group>"; };
+		56DD66D41B0D15A800652205 /* dota2_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota2_32.png; sourceTree = "<group>"; };
+		56DD66D61B0D177100652205 /* dota2_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota2_48.png; sourceTree = "<group>"; };
+		56DD66D81B0D192100652205 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		56DD66DA1B0D39AD00652205 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		56DD66DC1B0F6D8F00652205 /* MatchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTableViewController.swift; sourceTree = "<group>"; };
+		56DD66DE1B0F86E600652205 /* Dota2Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dota2Client.swift; sourceTree = "<group>"; };
+		56DD66E01B0F982500652205 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +149,13 @@
 		56DD66C01B0CCC5200652205 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				56DD66CE1B0D13E700652205 /* heart_128.png */,
+				56DD66D41B0D15A800652205 /* dota2_32.png */,
+				56DD66D01B0D150900652205 /* heart_32.png */,
+				56DD66D11B0D150900652205 /* heart_64.png */,
 				56DD66C11B0CCC5C00652205 /* dota2_120.png */,
 				56DD66C21B0CCC5C00652205 /* dota2_92.png */,
+				56DD66D61B0D177100652205 /* dota2_48.png */,
 				56DD66C31B0CCC5C00652205 /* dota2_76.png */,
 			);
 			name = Image;
@@ -139,7 +164,12 @@
 		56DD66C91B0CD14400652205 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				56DD66D81B0D192100652205 /* SummaryViewController.swift */,
 				56DD66C71B0CD13800652205 /* NewsTableViewController.swift */,
+				56DD66DA1B0D39AD00652205 /* FriendsTableViewController.swift */,
+				56DD66DC1B0F6D8F00652205 /* MatchTableViewController.swift */,
+				56DD66DE1B0F86E600652205 /* Dota2Client.swift */,
+				56DD66E01B0F982500652205 /* Match.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -245,6 +275,11 @@
 				56DD66C61B0CCC5C00652205 /* dota2_76.png in Resources */,
 				56DD66A51B0CC5EA00652205 /* Images.xcassets in Resources */,
 				56DD66C51B0CCC5C00652205 /* dota2_92.png in Resources */,
+				56DD66D31B0D150900652205 /* heart_64.png in Resources */,
+				56DD66D71B0D177100652205 /* dota2_48.png in Resources */,
+				56DD66CF1B0D13E700652205 /* heart_128.png in Resources */,
+				56DD66D21B0D150900652205 /* heart_32.png in Resources */,
+				56DD66D51B0D15A800652205 /* dota2_32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +299,13 @@
 			files = (
 				56DD66C81B0CD13800652205 /* NewsTableViewController.swift in Sources */,
 				56DD669E1B0CC5EA00652205 /* ios_dota2.xcdatamodeld in Sources */,
+				56DD66E11B0F982500652205 /* Match.swift in Sources */,
+				56DD66DB1B0D39AD00652205 /* FriendsTableViewController.swift in Sources */,
 				56DD66CD1B0CE54600652205 /* NewsTableViewCell.swift in Sources */,
 				56DD669B1B0CC5EA00652205 /* AppDelegate.swift in Sources */,
+				56DD66DF1B0F86E600652205 /* Dota2Client.swift in Sources */,
+				56DD66DD1B0F6D8F00652205 /* MatchTableViewController.swift in Sources */,
+				56DD66D91B0D192100652205 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

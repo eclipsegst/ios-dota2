@@ -1,10 +1,147 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="H8o-Rp-8e0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="w6O-h2-gt3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Friends-->
+        <scene sceneID="7t0-WB-8cf">
+            <objects>
+                <tableViewController id="REb-CB-Lng" customClass="FriendsTableViewController" customModule="ios_dota2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ldf-hC-zYt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendTableViewCell" textLabel="CRH-yc-LON" detailTextLabel="51E-55-2O1" style="IBUITableViewCellStyleSubtitle" id="miC-Bu-zSU">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="miC-Bu-zSU" id="CrV-oB-GCT">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CRH-yc-LON">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="51E-55-2O1">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="REb-CB-Lng" id="7Ob-lm-L8P"/>
+                            <outlet property="delegate" destination="REb-CB-Lng" id="yuy-Yg-cnn"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Friends" image="dota2Icon" id="Y50-BC-e7n"/>
+                    <navigationItem key="navigationItem" title="Friends" id="g2c-ue-6kb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TKa-Cu-5hp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1016" y="639"/>
+        </scene>
+        <!--Summary-->
+        <scene sceneID="YBj-Lc-ols">
+            <objects>
+                <viewController id="Stl-xg-G2b" customClass="SummaryViewController" customModule="ios_dota2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1X9-LW-EOs"/>
+                        <viewControllerLayoutGuide type="bottom" id="pEA-zU-WuG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lSN-tM-9Eb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yh1-wQ-kCS" userLabel="personanameLabel">
+                                <rect key="frame" x="16" y="72" width="451" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VM9-Az-Uwg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jO3-n0-zxF" userLabel="avatar">
+                                <rect key="frame" x="484" y="72" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9Sj-Ec-2oW"/>
+                                    <constraint firstAttribute="width" constant="100" id="Sv9-bA-23g"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGI-Qk-iJc" userLabel="realnameLabel">
+                                <rect key="frame" x="16" y="110" width="451" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ARa-eW-rwB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlz-7Z-fVh" userLabel="timecreatedLabel">
+                                <rect key="frame" x="16" y="148" width="451" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KGI-Qk-iJc" firstAttribute="top" secondItem="yh1-wQ-kCS" secondAttribute="bottom" constant="8" symbolic="YES" id="3FW-qX-h0t"/>
+                            <constraint firstItem="yh1-wQ-kCS" firstAttribute="leading" secondItem="KGI-Qk-iJc" secondAttribute="leading" id="4a6-dA-se9"/>
+                            <constraint firstItem="pEA-zU-WuG" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nlz-7Z-fVh" secondAttribute="bottom" constant="8" symbolic="YES" id="92c-VK-hPn"/>
+                            <constraint firstItem="jO3-n0-zxF" firstAttribute="trailing" secondItem="lSN-tM-9Eb" secondAttribute="trailingMargin" id="AiH-hn-6rf"/>
+                            <constraint firstItem="yh1-wQ-kCS" firstAttribute="top" secondItem="jO3-n0-zxF" secondAttribute="top" id="F8o-Kf-5wt"/>
+                            <constraint firstItem="yh1-wQ-kCS" firstAttribute="trailing" secondItem="KGI-Qk-iJc" secondAttribute="trailing" id="Ffq-q8-0SM"/>
+                            <constraint firstItem="jO3-n0-zxF" firstAttribute="leading" secondItem="yh1-wQ-kCS" secondAttribute="trailing" constant="17" id="KhV-C5-t9f"/>
+                            <constraint firstItem="nlz-7Z-fVh" firstAttribute="top" secondItem="KGI-Qk-iJc" secondAttribute="bottom" constant="8" symbolic="YES" id="XDH-Wp-IuR"/>
+                            <constraint firstItem="yh1-wQ-kCS" firstAttribute="top" secondItem="1X9-LW-EOs" secondAttribute="bottom" constant="8" symbolic="YES" id="f4Y-jz-6JR"/>
+                            <constraint firstItem="KGI-Qk-iJc" firstAttribute="leading" secondItem="nlz-7Z-fVh" secondAttribute="leading" id="hTY-Mb-339"/>
+                            <constraint firstItem="nlz-7Z-fVh" firstAttribute="trailing" secondItem="KGI-Qk-iJc" secondAttribute="trailing" id="hWo-dg-3Nl"/>
+                            <constraint firstItem="yh1-wQ-kCS" firstAttribute="leading" secondItem="lSN-tM-9Eb" secondAttribute="leadingMargin" id="w6E-j6-jIh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Summary" image="dota2Icon" id="Y9B-Lm-CTR"/>
+                    <navigationItem key="navigationItem" title="Summary" id="VzU-gT-sTl"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="avatarImageView" destination="jO3-n0-zxF" id="tZ0-P3-cx2"/>
+                        <outlet property="personanameLabel" destination="yh1-wQ-kCS" id="vPe-sR-YuX"/>
+                        <outlet property="realnameLabel" destination="KGI-Qk-iJc" id="88Q-Ox-Hz2"/>
+                        <outlet property="timecreatedLabel" destination="nlz-7Z-fVh" id="lmk-gy-NOA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gYF-Ms-AF6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008" y="1322"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GOt-3h-JOP">
+            <objects>
+                <tabBarController id="w6O-h2-gt3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="l73-XC-St7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xfD-kr-osB" kind="relationship" relationship="viewControllers" id="lcM-IR-QGg"/>
+                        <segue destination="4Ks-UC-o5r" kind="relationship" relationship="viewControllers" id="wyV-xT-9xf"/>
+                        <segue destination="3TZ-UZ-uNL" kind="relationship" relationship="viewControllers" id="6kl-IY-hfu"/>
+                        <segue destination="PBw-Qg-Zkh" kind="relationship" relationship="viewControllers" id="W5A-sZ-WRS"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bW1-iZ-myP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-482" y="285"/>
+        </scene>
         <!--News-->
         <scene sceneID="eBN-1H-R1w">
             <objects>
@@ -69,29 +206,139 @@
                             <outlet property="delegate" destination="Myt-D5-9TG" id="PLg-IP-4wb"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="News" image="dota2Icon" id="3wQ-4f-nFa"/>
                     <navigationItem key="navigationItem" title="News" id="SYd-fc-ohJ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="57K-8E-Jjs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1208" y="420"/>
+            <point key="canvasLocation" x="1008" y="-738"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="vGs-VO-F39">
+        <!--Match-->
+        <scene sceneID="Esj-yh-s2O">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="H8o-Rp-8e0" sceneMemberID="viewController">
+                <tableViewController id="pSG-nt-suM" customClass="MatchTableViewController" customModule="ios_dota2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="MatchTableView" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" id="3Zz-ML-iVI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatchTableViewCell" textLabel="8sM-kJ-Go2" detailTextLabel="Ruq-Dd-GjV" rowHeight="80" style="IBUITableViewCellStyleSubtitle" id="yTt-Gb-cYl">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yTt-Gb-cYl" id="OJ7-k4-R6O">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8sM-kJ-Go2">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ruq-Dd-GjV">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pSG-nt-suM" id="c3l-fu-bYH"/>
+                            <outlet property="delegate" destination="pSG-nt-suM" id="9Ma-1K-bNr"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Match" image="heart_32.png" id="a9p-iT-rDO"/>
+                    <navigationItem key="navigationItem" title="Match" id="7N9-FJ-MPc"/>
+                    <connections>
+                        <outlet property="matchesTableView" destination="3Zz-ML-iVI" id="LlS-ft-zIc"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7lu-TP-Tq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008" y="-60"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="BFF-om-h1y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3TZ-UZ-uNL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="News" image="dota2Icon" id="OVM-8W-gHS"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="O98-eX-dyv">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rCP-Va-LrP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Myt-D5-9TG" kind="relationship" relationship="rootViewController" id="Zcx-jb-I1D"/>
+                        <segue destination="Myt-D5-9TG" kind="relationship" relationship="rootViewController" id="vDO-4L-uSQ"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0vF-Ww-fZ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gyc-BY-3j6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="420"/>
+            <point key="canvasLocation" x="308" y="-738"/>
+        </scene>
+        <!--Match-->
+        <scene sceneID="xOQ-6h-172">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Ks-UC-o5r" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Match" image="dota2Icon" id="C5f-sQ-I3Y"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kTy-vA-Dkd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pSG-nt-suM" kind="relationship" relationship="rootViewController" id="kXU-L9-8kf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="upO-a6-d1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="-60"/>
+        </scene>
+        <!--Summary-->
+        <scene sceneID="35Q-mM-741">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xfD-kr-osB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Summary" image="dota2Icon" id="C6K-Kn-w6g"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tQe-iG-7ti">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Stl-xg-G2b" kind="relationship" relationship="rootViewController" id="eAF-xc-0Cj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KlT-e1-2zT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="1322"/>
+        </scene>
+        <!--Friends-->
+        <scene sceneID="dWp-pz-NCs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PBw-Qg-Zkh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Friends" image="dota2Icon" id="B5j-PL-HsF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="a68-Ua-C0c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="REb-CB-Lng" kind="relationship" relationship="rootViewController" id="KTT-ah-3Yd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rGH-Rr-BZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="639"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dota2Icon" width="32" height="32"/>
+        <image name="heart_32.png" width="32" height="32"/>
+    </resources>
 </document>

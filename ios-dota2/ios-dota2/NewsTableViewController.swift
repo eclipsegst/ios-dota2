@@ -10,7 +10,7 @@ import UIKit
 
 class NewsTableViewController: UITableViewController {
 
-    //http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=3&maxlength=300&format=json
+   
     
     let BASE_URL = "http://api.steampowered.com/"
     let METHOD_NAME = "ISteamNews/GetNewsForApp/v0002/"
@@ -37,7 +37,7 @@ class NewsTableViewController: UITableViewController {
         super.viewWillAppear(animated)
         
         
-        let urlString = "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=23&maxlength=300&format=json"
+        let urlString = "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=570&count=30&maxlength=300&format=json"
         let url = NSURL(string: urlString)!
         
         let request = NSURLRequest(URL: url)

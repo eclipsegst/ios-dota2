@@ -11,7 +11,15 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    // Constants
+    let steamid = ""
+    let apiKey = ""
+    let baseURLString = "http://api.steampowered.com/"
+    
+    
+    var userID: Int? = nil
+    
     var window: UIWindow?
 
 
