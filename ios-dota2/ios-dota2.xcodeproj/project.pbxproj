@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		566EDEDC1B0FBBA900BBA84E /* MatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */; };
+		566EDEDE1B0FCC1100BBA84E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EDEDD1B0FCC1100BBA84E /* Player.swift */; };
 		56DD669B1B0CC5EA00652205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD669A1B0CC5EA00652205 /* AppDelegate.swift */; };
 		56DD669E1B0CC5EA00652205 /* ios_dota2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56DD669C1B0CC5EA00652205 /* ios_dota2.xcdatamodeld */; };
 		56DD66A31B0CC5EA00652205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DD66A11B0CC5EA00652205 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDetailViewController.swift; sourceTree = "<group>"; };
+		566EDEDD1B0FCC1100BBA84E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		56DD66951B0CC5EA00652205 /* ios-dota2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-dota2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DD66991B0CC5EA00652205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56DD669A1B0CC5EA00652205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -168,8 +172,10 @@
 				56DD66C71B0CD13800652205 /* NewsTableViewController.swift */,
 				56DD66DA1B0D39AD00652205 /* FriendsTableViewController.swift */,
 				56DD66DC1B0F6D8F00652205 /* MatchTableViewController.swift */,
+				566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */,
 				56DD66DE1B0F86E600652205 /* Dota2Client.swift */,
 				56DD66E01B0F982500652205 /* Match.swift */,
+				566EDEDD1B0FCC1100BBA84E /* Player.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -297,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566EDEDE1B0FCC1100BBA84E /* Player.swift in Sources */,
 				56DD66C81B0CD13800652205 /* NewsTableViewController.swift in Sources */,
 				56DD669E1B0CC5EA00652205 /* ios_dota2.xcdatamodeld in Sources */,
 				56DD66E11B0F982500652205 /* Match.swift in Sources */,
+				566EDEDC1B0FBBA900BBA84E /* MatchDetailViewController.swift in Sources */,
 				56DD66DB1B0D39AD00652205 /* FriendsTableViewController.swift in Sources */,
 				56DD66CD1B0CE54600652205 /* NewsTableViewCell.swift in Sources */,
 				56DD669B1B0CC5EA00652205 /* AppDelegate.swift in Sources */,

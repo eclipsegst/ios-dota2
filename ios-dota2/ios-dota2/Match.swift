@@ -55,4 +55,5 @@ struct Match {
         dateFormatter.timeStyle = theTimeFormat
         
         return dateFormatter.stringFromDate(date)
-    }}
+    }
+}

@@ -61,6 +61,12 @@ class MatchTableViewController: UITableViewController {
 
         return cell
     }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let controller = self.storyboard?.instantiateViewControllerWithIdentifier("MatchDetailViewController") as! MatchDetailViewController
+        controller.match = matches[indexPath.row]
+        self.navigationController!.pushViewController(controller, animated: true)
+    }
 
     
 }
