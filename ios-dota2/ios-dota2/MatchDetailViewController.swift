@@ -67,7 +67,6 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
                         if let playersRaw = result["players"] as? [[String : AnyObject]] {
                             
                             self.players = Player.playersFromResults(playersRaw)
-                            
 
                             dispatch_async(dispatch_get_main_queue()) {
 
@@ -94,7 +93,7 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
                                 var radiantWinBool = result["radiant_win"] as? Int
                                 let radiantWin = self.convertWin(radiantWinBool!)
                                 
-                                self.radiantWinLabel.text = "Result: " + "\(radiantWin)"
+                                self.radiantWinLabel.text = "\(radiantWin)"
                                 
                                 self.tableView.reloadData()
                             }
@@ -134,11 +133,15 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
     
     func convertWin(m: Int) -> String {
         if m == 1 {
-            return "Win"
+            return "Result: Radiant Win"
         } else {
-            return "Lose"
+            return "Result: Dier Win"
         }
     }
+    
+//    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//        return 2
+//    }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 
@@ -147,18 +150,83 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("PlayerTableViewCell", forIndexPath: indexPath) as! UITableViewCell
         
+        let cell = tableView.dequeueReusableCellWithIdentifier("PlayerTableViewCell") as! PlayerTableViewCell
 
         let player = players[indexPath.row]
+        
         let accountID = player.account_id
         let hereoID = player.hero_id
-        cell.textLabel?.text = "Account ID: \(accountID)"
-        cell.detailTextLabel!.text = "Hero ID: \(player.hero_id)"
+        let level = player.level
+        let kda = player.kda
+        
+        
+        if player.isRadiant() {
+            cell.backgroundColor = UIColor.greenColor()
+        } else {
+            cell.backgroundColor = UIColor.purpleColor()
+        }
+        
+        cell.levelLabel.text = "Lv.\(level)"
+        cell.playerNameLabel.text = "\(accountID)"
+        cell.kdaLabel.text = kda
+        cell.heroImageView.image = UIImage(named: "dota2Icon")
+        
         
         return cell
     }
+    
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        var headerView = UIView(frame: CGRect(x: 0, y: 0, width: 320, height: 100))
+        headerView.backgroundColor = UIColor.brownColor()
+
+        var heroesLabel = UILabel(frame: CGRect(x: 10, y: 0, width: 250, height: 20))
+        heroesLabel.text = "Heroes"
+        heroesLabel.font = UIFont.boldSystemFontOfSize(12)
+//        heroesLabel.textColor = UIColor(red: 8/255.0, green: 64/255.0, blue: 127/255.0, alpha: 1)
+        heroesLabel.textColor = UIColor.whiteColor()
+        headerView.addSubview(heroesLabel)
+        
+
+        var radiant = UIView(frame: CGRect(x: 75, y: 0, width: 20, height: 20))
+        radiant.backgroundColor = UIColor.greenColor()
+        headerView.addSubview(radiant)
+
+        var radiantLabel = UILabel(frame: CGRect(x: 100, y: 0, width: 250, height: 20))
+        radiantLabel.text = "- Radiant"
+        radiantLabel.font = UIFont.boldSystemFontOfSize(12)
+        radiantLabel.textColor = UIColor.whiteColor()
+        headerView.addSubview(radiantLabel)
+        
+        
+        var dier = UIView(frame: CGRect(x: 155, y: 0, width: 20, height: 20))
+        dier.backgroundColor = UIColor.purpleColor()
+        headerView.addSubview(dier)
+        
+        var dierLabel = UILabel(frame: CGRect(x: 180, y: 0, width: 250, height: 20))
+        dierLabel.text = "- Dier"
+        dierLabel.font = UIFont.boldSystemFontOfSize(12)
+        dierLabel.textColor = UIColor.whiteColor()
+        headerView.addSubview(dierLabel)
+
+        
+        
+        return headerView
+    }
 
     
-
 }
+
+extension UIColor
+{
+    convenience init(red: Int, green: Int, blue: Int)
+    {
+        let newRed = CGFloat(red)/255
+        let newGreen = CGFloat(green)/255
+        let newBlue = CGFloat(blue)/255
+        
+        self.init(red: newRed, green: newGreen, blue: newBlue, alpha: 1.0)
+    }
+}
+
+

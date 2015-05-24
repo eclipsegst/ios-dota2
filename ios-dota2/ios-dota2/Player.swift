@@ -18,9 +18,9 @@ struct Player {
     var deaths = 0
     var assists = 0
     var level = 0
-    
-//    var startTime: String? = nil
-//    var releaseYear: String? = nil
+    var player_slot = 0
+    var kda = ""
+
     
     /* Construct a TMDBMovie from a dictionary */
     init(dictionary: [String : AnyObject]) {
@@ -31,21 +31,10 @@ struct Player {
         deaths = dictionary["deaths"] as! Int
         assists = dictionary["assists"] as! Int
         level = dictionary["level"] as! Int
+        player_slot = dictionary["player_slot"] as! Int
+        kda = "\(kills)/\(deaths)/\(assists)"
         
-        //        startTime = dictionary[Dota2Client.JSONResponseKeys.StartTime] as? String
-        
-//        var startTimeAnyObject: AnyObject = dictionary[Dota2Client.JSONResponseKeys.StartTime]!
-//        var startTimeStamp = NSTimeInterval(startTimeAnyObject as! NSNumber)
-//        startTime = self.convertNSDateToString(NSDate(timeIntervalSince1970: startTimeStamp))
-        
-        //        if let releaseDateString = dictionary[TMDBClient.JSONResponseKeys.MovieReleaseDate] as? String {
-        //
-        //            if releaseDateString.isEmpty == false {
-        //                releaseYear = releaseDateString.substringToIndex(advance(releaseDateString.startIndex, 4))
-        //            } else {
-        //                releaseYear = ""
-        //            }
-        //        }
+
     }
     
     /* Helper: Given an array of dictionaries, convert them to an array of TMDBMovie objects */
@@ -69,5 +58,61 @@ struct Player {
         dateFormatter.timeStyle = theTimeFormat
         
         return dateFormatter.stringFromDate(date)
+    }
+    
+    func isRadiant() -> Bool {
+        let n = self.player_slot
+        let str = String(n, radix: 2).padding(8)
+        if str[0] == "0" {
+            return true
+        } else {
+            return false
+        }
+    }
+}
+
+
+extension String {
+    // padding leading 0
+    func padding(fieldLength: Int) -> String {
+        var formatedString: String = ""
+        formatedString += self
+        if fieldLength > count(self) {
+            for i in 1...(fieldLength - count(self)) {
+                formatedString = "0" + formatedString
+            }
+        }
+        
+        return formatedString
+    }
+    
+    func padding(fieldLength: Int, paddingChar: String) -> String {
+        var formatedString: String = ""
+        formatedString += self
+        
+        for i in 1...(fieldLength - count(self)) {
+            formatedString += paddingChar
+        }
+        
+        return formatedString
+    }
+}
+
+/*
+"abcde"[0] === "a"
+"abcde"[0...2] === "abc"
+"abcde"[2..<4] === "cd"
+*/
+extension String {
+    subscript (i: Int) -> Character {
+        return self[advance(self.startIndex, i)]
+    }
+    
+    subscript (i: Int) -> String {
+        return String(self[i] as Character)
+    }
+    
+    subscript (r: Range<Int>) -> String {
+        return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
     }
 }
