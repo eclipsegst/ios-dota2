@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Constants
     let steamid = ""
     let apiKey = ""
-    let baseURLString = ""
+    let baseURLString = "http://api.steampowered.com/"
     
     
     var userID: Int? = nil

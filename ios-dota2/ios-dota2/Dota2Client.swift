@@ -166,42 +166,56 @@ class Dota2Client : NSObject {
         }
     }
     
-//    // MARK: - Get match detail
-//    func getMatchDetail(matchid: String, completionHandler: (result: Match?, error: NSError?) -> Void) {
-//        println("start getMatchDetail")
-//        // 1. Set the parameters, method
-//        //        let parameters = [Dota2Client.ParameterKeys: Dota2Client.Constants.ApiKey!]
-//        let parameters = [Dota2Client.ParameterKeys.MatchID : matchid]
-//        var mutableMethod : String = Methods.GetMatchHistory
-//        
-//        println("parameters = \(parameters)")
-//        println("mutableMethod = \(mutableMethod)")
-//        
-//        //        mutableMethod = Dota2Client.subtitudeKeyInMethod(mutableMethod, key: Dota2Client.ParameterKeys.AccountID, value:Dota2Client.Constants.AccountID)
-//        
-//        taskForGETMethod(mutableMethod, parameters: parameters) {JSONResult, error in
-//            
-//            if let error = error {
-//                completionHandler(result: nil, error: error)
-//            } else {
-//                println("get JSONResult success")
-//                //                println("JSONResult = \(JSONResult)")
-//                if let result = JSONResult.valueForKey("result") as? [String : AnyObject] {
-//                    //                    println("results = \(result)")
-//                    //if let matchesRaw = result[""] as? [[String : AnyObject]] {
-//                        //                        println("matchesRaw = \(matchesRaw)")
-//                       // var matches = Match.matchesFromResults(matchesRaw)
-//                        //                        println("matches  = \(matches)")
-//                    let match = result
-//                    completionHandler(result: JSONResult, error: nil)
-//                   // }
-//                    
-//                } else {
-//                    completionHandler(result: nil, error: NSError(domain: "getMatchHistory parsing", code: 0, userInfo: [NSLocalizedDescriptionKey: "Could not parse getMatchHistory"]))
-//                }
-//            }
-//        }
-//    }
+    // MARK: - Get player summaries
+    func getPlayerSummaries(steamidInt: Int64?, account_id: Int?, completionHandler: (result: [Summary]?, error: NSError?) -> Void) {
+        println("start getPlayerSummaries")
+        // 1. Set the parameters, method
+        //        let parameters = [Dota2Client.ParameterKeys: Dota2Client.Constants.ApiKey!]
+        var steamid = ""
+        
+        if steamidInt == nil {
+            var id = 76561197960265728 + account_id!
+            steamid = String(id)
+        } else {
+            steamid = "\(steamidInt)"
+        }
+        
+        let parameters = [Dota2Client.ParameterKeys.SteamID : steamid]
+
+        
+        var mutableMethod : String = Methods.GetPlayerSummaries
+        
+        println("parameters = \(parameters)")
+        println("mutableMethod = \(mutableMethod)")
+        
+
+        taskForGETMethod(mutableMethod, parameters: parameters) {JSONResult, error in
+            
+            if let error = error {
+                completionHandler(result: nil, error: error)
+            } else {
+                println("get JSONResult success")
+                println("JSONResult = \(JSONResult)")
+                if let response = JSONResult.valueForKey("response") as? [String : AnyObject] {
+                    println("response = \(response)")
+                    if let playerArray = response["players"] as? NSArray {
+                        if playerArray.count > 0 {
+                            if let playerInfoDictionary = playerArray[0] as? [String : AnyObject] {
+                                println("playerInfoDictionary = \(playerInfoDictionary)")
+                                var summary = Summary.summaryFromResults(playerInfoDictionary)
+                                completionHandler(result: summary, error: nil)
+                            }
+                        } else {
+                            println("PlayerArray count is 0")
+                        }
+                    }
+                } else {
+                    completionHandler(result: nil, error: NSError(domain: "getMatchHistory parsing", code: 0, userInfo: [NSLocalizedDescriptionKey: "Could not parse getMatchHistory"]))
+                }
+            }
+        }
+    }
+
 }
 
 
@@ -236,7 +250,7 @@ extension Dota2Client {
     // MARK: - URL Keys
     struct ParameterKeys {
         
-        static let SteamID = "steamid"
+        static let SteamID = "steamids"
         static let ApiKey = "key"
         
         static let AccountID = "account_id"

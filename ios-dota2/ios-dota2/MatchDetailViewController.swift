@@ -67,7 +67,11 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
                         if let playersRaw = result["players"] as? [[String : AnyObject]] {
                             
                             self.players = Player.playersFromResults(playersRaw)
-
+                            
+                            //ToDo:
+                            //Getall the summary of all the players
+                            
+                            
                             dispatch_async(dispatch_get_main_queue()) {
 
                                 let matchid = result["match_id"] as! Int
@@ -139,10 +143,6 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         }
     }
     
-//    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-//        return 2
-//    }
-    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 
         return players.count
@@ -156,21 +156,38 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         let player = players[indexPath.row]
         
         let accountID = player.account_id
-        let hereoID = player.hero_id
+        let heroID = player.hero_id
         let level = player.level
         let kda = player.kda
+        
+        
         
         
         if player.isRadiant() {
             cell.backgroundColor = UIColor.greenColor()
         } else {
-            cell.backgroundColor = UIColor.purpleColor()
+            cell.backgroundColor = UIColor.orangeColor()
         }
         
         cell.levelLabel.text = "Lv.\(level)"
         cell.playerNameLabel.text = "\(accountID)"
         cell.kdaLabel.text = kda
-        cell.heroImageView.image = UIImage(named: "dota2Icon")
+        
+        var heroName = Heroes.heroes[heroID]
+        let iconName = "\(heroName!)_sb"
+        if  iconName != "_sb" {
+            cell.heroImageView.image = UIImage(named: iconName)
+        } else {
+            cell.heroImageView.image = UIImage(named: "dota2Icon")
+        }
+       
+        //        Dota2Client.sharedInstance().getPlayerSummaries(nil, account_id: accountID) { (result, error) -> Void in
+        //            if let summaries = result {
+        //                dispatch_async(dispatch_get_main_queue(), {
+        //                    cell.playerNameLabel.text = player.personaname
+        //                })
+        //            }
+        //        }
         
         
         return cell
@@ -178,7 +195,7 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         var headerView = UIView(frame: CGRect(x: 0, y: 0, width: 320, height: 100))
-        headerView.backgroundColor = UIColor.brownColor()
+        headerView.backgroundColor = UIColor.blackColor()
 
         var heroesLabel = UILabel(frame: CGRect(x: 10, y: 0, width: 250, height: 20))
         heroesLabel.text = "Heroes"
@@ -200,7 +217,7 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         
         
         var dier = UIView(frame: CGRect(x: 155, y: 0, width: 20, height: 20))
-        dier.backgroundColor = UIColor.purpleColor()
+        dier.backgroundColor = UIColor.orangeColor()
         headerView.addSubview(dier)
         
         var dierLabel = UILabel(frame: CGRect(x: 180, y: 0, width: 250, height: 20))
