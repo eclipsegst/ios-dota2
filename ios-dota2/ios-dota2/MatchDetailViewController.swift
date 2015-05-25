@@ -160,6 +160,13 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         let level = player.level
         let kda = player.kda
         
+        let item_0 = player.item_0
+        let item_1 = player.item_1
+        let item_2 = player.item_2
+        let item_3 = player.item_3
+        let item_4 = player.item_4
+        let item_5 = player.item_5
+        
         
         
         
@@ -180,7 +187,56 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         } else {
             cell.heroImageView.image = UIImage(named: "dota2Icon")
         }
-       
+        
+        if item_0 == 0 {
+            cell.item_0ImageView.alpha = 0
+        } else {
+            var item_0_name = Items.items[item_0]
+            let icon_0_name = "\(item_0_name!)_lg"
+            cell.item_0ImageView.image = UIImage(named: icon_0_name)
+        }
+        
+        if item_1 == 0 {
+            cell.item_1ImageView.alpha = 0
+        } else {
+            var item_1_name = Items.items[item_1]
+            let icon_1_name = "\(item_1_name!)_lg"
+            cell.item_1ImageView.image = UIImage(named: icon_1_name)
+        }
+        
+        if item_2 == 0 {
+            cell.item_2ImageView.alpha = 0
+        } else {
+            var item_2_name = Items.items[item_2]
+            let icon_2_name = "\(item_2_name!)_lg"
+            cell.item_2ImageView.image = UIImage(named: icon_2_name)
+        }
+        
+        if item_3 == 0 {
+            cell.item_3ImageView.alpha = 0
+        } else {
+            var item_3_name = Items.items[item_3]
+            let icon_3_name = "\(item_3_name!)_lg"
+            cell.item_3ImageView.image = UIImage(named: icon_3_name)
+        }
+        
+        if item_4 == 0 {
+            cell.item_4ImageView.alpha = 0
+        } else {
+            var item_4_name = Items.items[item_4]
+            let icon_4_name = "\(item_4_name!)_lg"
+            cell.item_4ImageView.image = UIImage(named: icon_4_name)
+        }
+        
+        if item_5 == 0 {
+            cell.item_5ImageView.alpha = 0
+        } else {
+            var item_5_name = Items.items[item_5]
+            let icon_5_name = "\(item_5_name!)_lg"
+            cell.item_5ImageView.image = UIImage(named: icon_5_name)
+        }
+        
+        
         //        Dota2Client.sharedInstance().getPlayerSummaries(nil, account_id: accountID) { (result, error) -> Void in
         //            if let summaries = result {
         //                dispatch_async(dispatch_get_main_queue(), {

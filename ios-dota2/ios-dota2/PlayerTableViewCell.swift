@@ -20,6 +20,16 @@ class PlayerTableViewCell: UITableViewCell {
     @IBOutlet weak var playerNameLabel: UILabel!
     @IBOutlet weak var kdaLabel: UILabel!
     
+    @IBOutlet weak var item_0ImageView: UIImageView!
+    
+    @IBOutlet weak var item_1ImageView: UIImageView!
+    @IBOutlet weak var item_2ImageView: UIImageView!
+    @IBOutlet weak var item_3ImageView: UIImageView!
+    @IBOutlet weak var item_4ImageView: UIImageView!
+    @IBOutlet weak var item_5ImageView: UIImageView!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

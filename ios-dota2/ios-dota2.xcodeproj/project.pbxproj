@@ -120,6 +120,253 @@
 		564E8ACE1B1395EB00C89ED8 /* wisp_sb.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8A601B1395EB00C89ED8 /* wisp_sb.png */; };
 		564E8ACF1B1395EB00C89ED8 /* witch_doctor_sb.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8A611B1395EB00C89ED8 /* witch_doctor_sb.png */; };
 		564E8AD01B1395EB00C89ED8 /* zuus_sb.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8A621B1395EB00C89ED8 /* zuus_sb.png */; };
+		564E8AD21B13C30E00C89ED8 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E8AD11B13C30E00C89ED8 /* Items.swift */; };
+		564E8BCA1B13C51200C89ED8 /* abyssal_blade_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AD41B13C51100C89ED8 /* abyssal_blade_lg.png */; };
+		564E8BCB1B13C51200C89ED8 /* aegis_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AD51B13C51100C89ED8 /* aegis_lg.png */; };
+		564E8BCC1B13C51200C89ED8 /* ancient_janggo_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AD61B13C51100C89ED8 /* ancient_janggo_lg.png */; };
+		564E8BCD1B13C51200C89ED8 /* arcane_boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AD71B13C51100C89ED8 /* arcane_boots_lg.png */; };
+		564E8BCE1B13C51200C89ED8 /* armlet_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AD81B13C51100C89ED8 /* armlet_lg.png */; };
+		564E8BCF1B13C51200C89ED8 /* assault_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AD91B13C51100C89ED8 /* assault_lg.png */; };
+		564E8BD01B13C51200C89ED8 /* basher_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8ADA1B13C51100C89ED8 /* basher_lg.png */; };
+		564E8BD11B13C51200C89ED8 /* belt_of_strength_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8ADB1B13C51100C89ED8 /* belt_of_strength_lg.png */; };
+		564E8BD21B13C51200C89ED8 /* bfury_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8ADC1B13C51100C89ED8 /* bfury_lg.png */; };
+		564E8BD31B13C51200C89ED8 /* black_king_bar_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8ADD1B13C51100C89ED8 /* black_king_bar_lg.png */; };
+		564E8BD41B13C51200C89ED8 /* blade_mail_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8ADE1B13C51100C89ED8 /* blade_mail_lg.png */; };
+		564E8BD51B13C51200C89ED8 /* blade_of_alacrity_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8ADF1B13C51100C89ED8 /* blade_of_alacrity_lg.png */; };
+		564E8BD61B13C51200C89ED8 /* blades_of_attack_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE01B13C51100C89ED8 /* blades_of_attack_lg.png */; };
+		564E8BD71B13C51200C89ED8 /* blink_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE11B13C51100C89ED8 /* blink_lg.png */; };
+		564E8BD81B13C51200C89ED8 /* bloodstone_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE21B13C51100C89ED8 /* bloodstone_lg.png */; };
+		564E8BD91B13C51200C89ED8 /* boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE31B13C51100C89ED8 /* boots_lg.png */; };
+		564E8BDA1B13C51200C89ED8 /* boots_of_elves_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE41B13C51100C89ED8 /* boots_of_elves_lg.png */; };
+		564E8BDB1B13C51200C89ED8 /* bottle_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE51B13C51100C89ED8 /* bottle_lg.png */; };
+		564E8BDC1B13C51200C89ED8 /* bracer_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE61B13C51100C89ED8 /* bracer_lg.png */; };
+		564E8BDD1B13C51200C89ED8 /* branches_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE71B13C51100C89ED8 /* branches_lg.png */; };
+		564E8BDE1B13C51200C89ED8 /* broadsword_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE81B13C51100C89ED8 /* broadsword_lg.png */; };
+		564E8BDF1B13C51200C89ED8 /* buckler_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AE91B13C51100C89ED8 /* buckler_lg.png */; };
+		564E8BE01B13C51200C89ED8 /* butterfly_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AEA1B13C51100C89ED8 /* butterfly_lg.png */; };
+		564E8BE11B13C51200C89ED8 /* chainmail_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AEB1B13C51100C89ED8 /* chainmail_lg.png */; };
+		564E8BE21B13C51200C89ED8 /* cheese_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AEC1B13C51100C89ED8 /* cheese_lg.png */; };
+		564E8BE31B13C51200C89ED8 /* circlet_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AED1B13C51100C89ED8 /* circlet_lg.png */; };
+		564E8BE41B13C51200C89ED8 /* clarity_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AEE1B13C51100C89ED8 /* clarity_lg.png */; };
+		564E8BE51B13C51200C89ED8 /* claymore_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AEF1B13C51100C89ED8 /* claymore_lg.png */; };
+		564E8BE61B13C51200C89ED8 /* cloak_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF01B13C51100C89ED8 /* cloak_lg.png */; };
+		564E8BE71B13C51200C89ED8 /* courier_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF11B13C51100C89ED8 /* courier_lg.png */; };
+		564E8BE81B13C51200C89ED8 /* crimson_guard_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF21B13C51100C89ED8 /* crimson_guard_lg.png */; };
+		564E8BE91B13C51200C89ED8 /* cyclone_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF31B13C51100C89ED8 /* cyclone_lg.png */; };
+		564E8BEA1B13C51200C89ED8 /* dagon_2_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF41B13C51100C89ED8 /* dagon_2_lg.png */; };
+		564E8BEB1B13C51200C89ED8 /* dagon_3_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF51B13C51100C89ED8 /* dagon_3_lg.png */; };
+		564E8BEC1B13C51200C89ED8 /* dagon_4_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF61B13C51100C89ED8 /* dagon_4_lg.png */; };
+		564E8BED1B13C51200C89ED8 /* dagon_5_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF71B13C51100C89ED8 /* dagon_5_lg.png */; };
+		564E8BEE1B13C51200C89ED8 /* dagon_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF81B13C51100C89ED8 /* dagon_lg.png */; };
+		564E8BEF1B13C51200C89ED8 /* demon_edge_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AF91B13C51100C89ED8 /* demon_edge_lg.png */; };
+		564E8BF01B13C51200C89ED8 /* desolator_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AFA1B13C51100C89ED8 /* desolator_lg.png */; };
+		564E8BF11B13C51200C89ED8 /* diffusal_blade_2_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AFB1B13C51100C89ED8 /* diffusal_blade_2_lg.png */; };
+		564E8BF21B13C51200C89ED8 /* diffusal_blade_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AFC1B13C51100C89ED8 /* diffusal_blade_lg.png */; };
+		564E8BF31B13C51200C89ED8 /* dust_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AFD1B13C51100C89ED8 /* dust_lg.png */; };
+		564E8BF41B13C51200C89ED8 /* eagle_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AFE1B13C51100C89ED8 /* eagle_lg.png */; };
+		564E8BF51B13C51200C89ED8 /* enchanted_mango_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8AFF1B13C51100C89ED8 /* enchanted_mango_lg.png */; };
+		564E8BF61B13C51200C89ED8 /* energy_booster_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B001B13C51100C89ED8 /* energy_booster_lg.png */; };
+		564E8BF71B13C51200C89ED8 /* ethereal_blade_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B011B13C51100C89ED8 /* ethereal_blade_lg.png */; };
+		564E8BF81B13C51200C89ED8 /* flask_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B021B13C51100C89ED8 /* flask_lg.png */; };
+		564E8BF91B13C51200C89ED8 /* flying_courier_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B031B13C51100C89ED8 /* flying_courier_lg.png */; };
+		564E8BFA1B13C51200C89ED8 /* force_staff_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B041B13C51100C89ED8 /* force_staff_lg.png */; };
+		564E8BFB1B13C51200C89ED8 /* gauntlets_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B051B13C51100C89ED8 /* gauntlets_lg.png */; };
+		564E8BFC1B13C51200C89ED8 /* gem_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B061B13C51100C89ED8 /* gem_lg.png */; };
+		564E8BFD1B13C51200C89ED8 /* ghost_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B071B13C51100C89ED8 /* ghost_lg.png */; };
+		564E8BFE1B13C51200C89ED8 /* glimmer_cape_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B081B13C51100C89ED8 /* glimmer_cape_lg.png */; };
+		564E8BFF1B13C51200C89ED8 /* gloves_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B091B13C51100C89ED8 /* gloves_lg.png */; };
+		564E8C001B13C51200C89ED8 /* greater_crit_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B0A1B13C51100C89ED8 /* greater_crit_lg.png */; };
+		564E8C011B13C51200C89ED8 /* greevil_whistle_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B0B1B13C51100C89ED8 /* greevil_whistle_lg.png */; };
+		564E8C021B13C51200C89ED8 /* greevil_whistle_toggle_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B0C1B13C51100C89ED8 /* greevil_whistle_toggle_lg.png */; };
+		564E8C031B13C51200C89ED8 /* guardian_greaves_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B0D1B13C51100C89ED8 /* guardian_greaves_lg.png */; };
+		564E8C041B13C51200C89ED8 /* halloween_candy_corn_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B0E1B13C51100C89ED8 /* halloween_candy_corn_lg.png */; };
+		564E8C051B13C51200C89ED8 /* halloween_rapier_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B0F1B13C51100C89ED8 /* halloween_rapier_lg.png */; };
+		564E8C061B13C51200C89ED8 /* hand_of_midas_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B101B13C51100C89ED8 /* hand_of_midas_lg.png */; };
+		564E8C071B13C51200C89ED8 /* headdress_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B111B13C51100C89ED8 /* headdress_lg.png */; };
+		564E8C081B13C51200C89ED8 /* heart_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B121B13C51100C89ED8 /* heart_lg.png */; };
+		564E8C091B13C51200C89ED8 /* heavens_halberd_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B131B13C51100C89ED8 /* heavens_halberd_lg.png */; };
+		564E8C0A1B13C51200C89ED8 /* helm_of_iron_will_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B141B13C51100C89ED8 /* helm_of_iron_will_lg.png */; };
+		564E8C0B1B13C51200C89ED8 /* helm_of_the_dominator_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B151B13C51100C89ED8 /* helm_of_the_dominator_lg.png */; };
+		564E8C0C1B13C51200C89ED8 /* hood_of_defiance_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B161B13C51100C89ED8 /* hood_of_defiance_lg.png */; };
+		564E8C0D1B13C51200C89ED8 /* hyperstone_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B171B13C51100C89ED8 /* hyperstone_lg.png */; };
+		564E8C0E1B13C51200C89ED8 /* invis_sword_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B181B13C51100C89ED8 /* invis_sword_lg.png */; };
+		564E8C0F1B13C51200C89ED8 /* javelin_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B191B13C51100C89ED8 /* javelin_lg.png */; };
+		564E8C101B13C51200C89ED8 /* lesser_crit_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B1A1B13C51100C89ED8 /* lesser_crit_lg.png */; };
+		564E8C111B13C51200C89ED8 /* lifesteal_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B1B1B13C51100C89ED8 /* lifesteal_lg.png */; };
+		564E8C121B13C51200C89ED8 /* lotus_orb_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B1C1B13C51100C89ED8 /* lotus_orb_lg.png */; };
+		564E8C131B13C51200C89ED8 /* maelstrom_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B1D1B13C51100C89ED8 /* maelstrom_lg.png */; };
+		564E8C141B13C51200C89ED8 /* magic_stick_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B1E1B13C51100C89ED8 /* magic_stick_lg.png */; };
+		564E8C151B13C51200C89ED8 /* magic_wand_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B1F1B13C51100C89ED8 /* magic_wand_lg.png */; };
+		564E8C161B13C51200C89ED8 /* manta_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B201B13C51100C89ED8 /* manta_lg.png */; };
+		564E8C171B13C51200C89ED8 /* mantle_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B211B13C51100C89ED8 /* mantle_lg.png */; };
+		564E8C181B13C51200C89ED8 /* mask_of_madness_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B221B13C51100C89ED8 /* mask_of_madness_lg.png */; };
+		564E8C191B13C51200C89ED8 /* medallion_of_courage_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B231B13C51100C89ED8 /* medallion_of_courage_lg.png */; };
+		564E8C1A1B13C51200C89ED8 /* mekansm_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B241B13C51100C89ED8 /* mekansm_lg.png */; };
+		564E8C1B1B13C51200C89ED8 /* mithril_hammer_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B251B13C51100C89ED8 /* mithril_hammer_lg.png */; };
+		564E8C1C1B13C51200C89ED8 /* mjollnir_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B261B13C51100C89ED8 /* mjollnir_lg.png */; };
+		564E8C1D1B13C51200C89ED8 /* monkey_king_bar_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B271B13C51100C89ED8 /* monkey_king_bar_lg.png */; };
+		564E8C1E1B13C51200C89ED8 /* moon_shard_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B281B13C51100C89ED8 /* moon_shard_lg.png */; };
+		564E8C1F1B13C51200C89ED8 /* mystery_arrow_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B291B13C51100C89ED8 /* mystery_arrow_lg.png */; };
+		564E8C201B13C51200C89ED8 /* mystery_hook_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B2A1B13C51100C89ED8 /* mystery_hook_lg.png */; };
+		564E8C211B13C51200C89ED8 /* mystery_missile_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B2B1B13C51100C89ED8 /* mystery_missile_lg.png */; };
+		564E8C221B13C51200C89ED8 /* mystery_toss_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B2C1B13C51100C89ED8 /* mystery_toss_lg.png */; };
+		564E8C231B13C51200C89ED8 /* mystery_vacuum_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B2D1B13C51100C89ED8 /* mystery_vacuum_lg.png */; };
+		564E8C241B13C51200C89ED8 /* mystic_staff_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B2E1B13C51100C89ED8 /* mystic_staff_lg.png */; };
+		564E8C251B13C51200C89ED8 /* necronomicon_2_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B2F1B13C51100C89ED8 /* necronomicon_2_lg.png */; };
+		564E8C261B13C51200C89ED8 /* necronomicon_3_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B301B13C51100C89ED8 /* necronomicon_3_lg.png */; };
+		564E8C271B13C51200C89ED8 /* necronomicon_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B311B13C51100C89ED8 /* necronomicon_lg.png */; };
+		564E8C281B13C51200C89ED8 /* null_talisman_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B321B13C51100C89ED8 /* null_talisman_lg.png */; };
+		564E8C291B13C51200C89ED8 /* oblivion_staff_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B331B13C51100C89ED8 /* oblivion_staff_lg.png */; };
+		564E8C2A1B13C51200C89ED8 /* octarine_core_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B341B13C51100C89ED8 /* octarine_core_lg.png */; };
+		564E8C2B1B13C51200C89ED8 /* ogre_axe_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B351B13C51100C89ED8 /* ogre_axe_lg.png */; };
+		564E8C2C1B13C51200C89ED8 /* orb_of_venom_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B361B13C51100C89ED8 /* orb_of_venom_lg.png */; };
+		564E8C2D1B13C51200C89ED8 /* orchid_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B371B13C51100C89ED8 /* orchid_lg.png */; };
+		564E8C2E1B13C51200C89ED8 /* pers_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B381B13C51100C89ED8 /* pers_lg.png */; };
+		564E8C2F1B13C51200C89ED8 /* phase_boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B391B13C51100C89ED8 /* phase_boots_lg.png */; };
+		564E8C301B13C51200C89ED8 /* pipe_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B3A1B13C51100C89ED8 /* pipe_lg.png */; };
+		564E8C311B13C51200C89ED8 /* platemail_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B3B1B13C51100C89ED8 /* platemail_lg.png */; };
+		564E8C321B13C51200C89ED8 /* point_booster_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B3C1B13C51100C89ED8 /* point_booster_lg.png */; };
+		564E8C331B13C51200C89ED8 /* poor_mans_shield_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B3D1B13C51100C89ED8 /* poor_mans_shield_lg.png */; };
+		564E8C341B13C51200C89ED8 /* power_treads_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B3E1B13C51100C89ED8 /* power_treads_lg.png */; };
+		564E8C351B13C51200C89ED8 /* present_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B3F1B13C51100C89ED8 /* present_lg.png */; };
+		564E8C361B13C51200C89ED8 /* quarterstaff_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B401B13C51100C89ED8 /* quarterstaff_lg.png */; };
+		564E8C371B13C51200C89ED8 /* quelling_blade_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B411B13C51100C89ED8 /* quelling_blade_lg.png */; };
+		564E8C381B13C51200C89ED8 /* radiance_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B421B13C51100C89ED8 /* radiance_lg.png */; };
+		564E8C391B13C51200C89ED8 /* rapier_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B431B13C51100C89ED8 /* rapier_lg.png */; };
+		564E8C3A1B13C51200C89ED8 /* reaver_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B441B13C51100C89ED8 /* reaver_lg.png */; };
+		564E8C3B1B13C51200C89ED8 /* recipe_abyssal_blade_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B451B13C51100C89ED8 /* recipe_abyssal_blade_lg.png */; };
+		564E8C3C1B13C51200C89ED8 /* recipe_ancient_janggo_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B461B13C51100C89ED8 /* recipe_ancient_janggo_lg.png */; };
+		564E8C3D1B13C51200C89ED8 /* recipe_arcane_boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B471B13C51100C89ED8 /* recipe_arcane_boots_lg.png */; };
+		564E8C3E1B13C51200C89ED8 /* recipe_armlet_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B481B13C51100C89ED8 /* recipe_armlet_lg.png */; };
+		564E8C3F1B13C51200C89ED8 /* recipe_assault_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B491B13C51100C89ED8 /* recipe_assault_lg.png */; };
+		564E8C401B13C51200C89ED8 /* recipe_basher_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B4A1B13C51100C89ED8 /* recipe_basher_lg.png */; };
+		564E8C411B13C51200C89ED8 /* recipe_bfury_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B4B1B13C51100C89ED8 /* recipe_bfury_lg.png */; };
+		564E8C421B13C51200C89ED8 /* recipe_black_king_bar_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B4C1B13C51100C89ED8 /* recipe_black_king_bar_lg.png */; };
+		564E8C431B13C51200C89ED8 /* recipe_blade_mail_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B4D1B13C51100C89ED8 /* recipe_blade_mail_lg.png */; };
+		564E8C441B13C51200C89ED8 /* recipe_bloodstone_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B4E1B13C51100C89ED8 /* recipe_bloodstone_lg.png */; };
+		564E8C451B13C51200C89ED8 /* recipe_bracer_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B4F1B13C51100C89ED8 /* recipe_bracer_lg.png */; };
+		564E8C461B13C51200C89ED8 /* recipe_buckler_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B501B13C51100C89ED8 /* recipe_buckler_lg.png */; };
+		564E8C471B13C51200C89ED8 /* recipe_butterfly_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B511B13C51100C89ED8 /* recipe_butterfly_lg.png */; };
+		564E8C481B13C51200C89ED8 /* recipe_cyclone_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B521B13C51100C89ED8 /* recipe_cyclone_lg.png */; };
+		564E8C491B13C51200C89ED8 /* recipe_dagon_2_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B531B13C51100C89ED8 /* recipe_dagon_2_lg.png */; };
+		564E8C4A1B13C51200C89ED8 /* recipe_dagon_3_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B541B13C51100C89ED8 /* recipe_dagon_3_lg.png */; };
+		564E8C4B1B13C51200C89ED8 /* recipe_dagon_4_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B551B13C51100C89ED8 /* recipe_dagon_4_lg.png */; };
+		564E8C4C1B13C51200C89ED8 /* recipe_dagon_5_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B561B13C51100C89ED8 /* recipe_dagon_5_lg.png */; };
+		564E8C4D1B13C51200C89ED8 /* recipe_dagon_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B571B13C51100C89ED8 /* recipe_dagon_lg.png */; };
+		564E8C4E1B13C51200C89ED8 /* recipe_desolator_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B581B13C51100C89ED8 /* recipe_desolator_lg.png */; };
+		564E8C4F1B13C51200C89ED8 /* recipe_diffusal_blade_2_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B591B13C51100C89ED8 /* recipe_diffusal_blade_2_lg.png */; };
+		564E8C501B13C51200C89ED8 /* recipe_diffusal_blade_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B5A1B13C51100C89ED8 /* recipe_diffusal_blade_lg.png */; };
+		564E8C511B13C51200C89ED8 /* recipe_ethereal_blade_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B5B1B13C51100C89ED8 /* recipe_ethereal_blade_lg.png */; };
+		564E8C521B13C51200C89ED8 /* recipe_force_staff_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B5C1B13C51100C89ED8 /* recipe_force_staff_lg.png */; };
+		564E8C531B13C51200C89ED8 /* recipe_greater_crit_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B5D1B13C51100C89ED8 /* recipe_greater_crit_lg.png */; };
+		564E8C541B13C51200C89ED8 /* recipe_hand_of_midas_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B5E1B13C51100C89ED8 /* recipe_hand_of_midas_lg.png */; };
+		564E8C551B13C51200C89ED8 /* recipe_headdress_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B5F1B13C51100C89ED8 /* recipe_headdress_lg.png */; };
+		564E8C561B13C51200C89ED8 /* recipe_heart_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B601B13C51100C89ED8 /* recipe_heart_lg.png */; };
+		564E8C571B13C51200C89ED8 /* recipe_heavens_halberd_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B611B13C51100C89ED8 /* recipe_heavens_halberd_lg.png */; };
+		564E8C581B13C51200C89ED8 /* recipe_helm_of_the_dominator_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B621B13C51100C89ED8 /* recipe_helm_of_the_dominator_lg.png */; };
+		564E8C591B13C51200C89ED8 /* recipe_hood_of_defiance_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B631B13C51100C89ED8 /* recipe_hood_of_defiance_lg.png */; };
+		564E8C5A1B13C51200C89ED8 /* recipe_invis_sword_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B641B13C51200C89ED8 /* recipe_invis_sword_lg.png */; };
+		564E8C5B1B13C51200C89ED8 /* recipe_lesser_crit_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B651B13C51200C89ED8 /* recipe_lesser_crit_lg.png */; };
+		564E8C5C1B13C51200C89ED8 /* recipe_maelstrom_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B661B13C51200C89ED8 /* recipe_maelstrom_lg.png */; };
+		564E8C5D1B13C51200C89ED8 /* recipe_magic_wand_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B671B13C51200C89ED8 /* recipe_magic_wand_lg.png */; };
+		564E8C5E1B13C51200C89ED8 /* recipe_manta_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B681B13C51200C89ED8 /* recipe_manta_lg.png */; };
+		564E8C5F1B13C51200C89ED8 /* recipe_mask_of_madness_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B691B13C51200C89ED8 /* recipe_mask_of_madness_lg.png */; };
+		564E8C601B13C51200C89ED8 /* recipe_medallion_of_courage_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B6A1B13C51200C89ED8 /* recipe_medallion_of_courage_lg.png */; };
+		564E8C611B13C51200C89ED8 /* recipe_mekansm_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B6B1B13C51200C89ED8 /* recipe_mekansm_lg.png */; };
+		564E8C621B13C51200C89ED8 /* recipe_mjollnir_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B6C1B13C51200C89ED8 /* recipe_mjollnir_lg.png */; };
+		564E8C631B13C51200C89ED8 /* recipe_monkey_king_bar_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B6D1B13C51200C89ED8 /* recipe_monkey_king_bar_lg.png */; };
+		564E8C641B13C51200C89ED8 /* recipe_necronomicon_2_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B6E1B13C51200C89ED8 /* recipe_necronomicon_2_lg.png */; };
+		564E8C651B13C51200C89ED8 /* recipe_necronomicon_3_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B6F1B13C51200C89ED8 /* recipe_necronomicon_3_lg.png */; };
+		564E8C661B13C51200C89ED8 /* recipe_necronomicon_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B701B13C51200C89ED8 /* recipe_necronomicon_lg.png */; };
+		564E8C671B13C51200C89ED8 /* recipe_null_talisman_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B711B13C51200C89ED8 /* recipe_null_talisman_lg.png */; };
+		564E8C681B13C51200C89ED8 /* recipe_oblivion_staff_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B721B13C51200C89ED8 /* recipe_oblivion_staff_lg.png */; };
+		564E8C691B13C51200C89ED8 /* recipe_orchid_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B731B13C51200C89ED8 /* recipe_orchid_lg.png */; };
+		564E8C6A1B13C51200C89ED8 /* recipe_pers_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B741B13C51200C89ED8 /* recipe_pers_lg.png */; };
+		564E8C6B1B13C51200C89ED8 /* recipe_phase_boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B751B13C51200C89ED8 /* recipe_phase_boots_lg.png */; };
+		564E8C6C1B13C51200C89ED8 /* recipe_pipe_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B761B13C51200C89ED8 /* recipe_pipe_lg.png */; };
+		564E8C6D1B13C51200C89ED8 /* recipe_poor_mans_shield_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B771B13C51200C89ED8 /* recipe_poor_mans_shield_lg.png */; };
+		564E8C6E1B13C51200C89ED8 /* recipe_power_treads_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B781B13C51200C89ED8 /* recipe_power_treads_lg.png */; };
+		564E8C6F1B13C51200C89ED8 /* recipe_radiance_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B791B13C51200C89ED8 /* recipe_radiance_lg.png */; };
+		564E8C701B13C51200C89ED8 /* recipe_rapier_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B7A1B13C51200C89ED8 /* recipe_rapier_lg.png */; };
+		564E8C711B13C51200C89ED8 /* recipe_refresher_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B7B1B13C51200C89ED8 /* recipe_refresher_lg.png */; };
+		564E8C721B13C51200C89ED8 /* recipe_ring_of_aquila_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B7C1B13C51200C89ED8 /* recipe_ring_of_aquila_lg.png */; };
+		564E8C731B13C51200C89ED8 /* recipe_ring_of_basilius_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B7D1B13C51200C89ED8 /* recipe_ring_of_basilius_lg.png */; };
+		564E8C741B13C51200C89ED8 /* recipe_rod_of_atos_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B7E1B13C51200C89ED8 /* recipe_rod_of_atos_lg.png */; };
+		564E8C751B13C51200C89ED8 /* recipe_sange_and_yasha_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B7F1B13C51200C89ED8 /* recipe_sange_and_yasha_lg.png */; };
+		564E8C761B13C51200C89ED8 /* recipe_sange_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B801B13C51200C89ED8 /* recipe_sange_lg.png */; };
+		564E8C771B13C51200C89ED8 /* recipe_satanic_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B811B13C51200C89ED8 /* recipe_satanic_lg.png */; };
+		564E8C781B13C51200C89ED8 /* recipe_sheepstick_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B821B13C51200C89ED8 /* recipe_sheepstick_lg.png */; };
+		564E8C791B13C51200C89ED8 /* recipe_shivas_guard_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B831B13C51200C89ED8 /* recipe_shivas_guard_lg.png */; };
+		564E8C7A1B13C51200C89ED8 /* recipe_skadi_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B841B13C51200C89ED8 /* recipe_skadi_lg.png */; };
+		564E8C7B1B13C51200C89ED8 /* recipe_soul_booster_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B851B13C51200C89ED8 /* recipe_soul_booster_lg.png */; };
+		564E8C7C1B13C51200C89ED8 /* recipe_soul_ring_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B861B13C51200C89ED8 /* recipe_soul_ring_lg.png */; };
+		564E8C7D1B13C51200C89ED8 /* recipe_sphere_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B871B13C51200C89ED8 /* recipe_sphere_lg.png */; };
+		564E8C7E1B13C51200C89ED8 /* recipe_tranquil_boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B881B13C51200C89ED8 /* recipe_tranquil_boots_lg.png */; };
+		564E8C7F1B13C51200C89ED8 /* recipe_travel_boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B891B13C51200C89ED8 /* recipe_travel_boots_lg.png */; };
+		564E8C801B13C51200C89ED8 /* recipe_ultimate_scepter_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B8A1B13C51200C89ED8 /* recipe_ultimate_scepter_lg.png */; };
+		564E8C811B13C51200C89ED8 /* recipe_urn_of_shadows_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B8B1B13C51200C89ED8 /* recipe_urn_of_shadows_lg.png */; };
+		564E8C821B13C51200C89ED8 /* recipe_vanguard_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B8C1B13C51200C89ED8 /* recipe_vanguard_lg.png */; };
+		564E8C831B13C51200C89ED8 /* recipe_veil_of_discord_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B8D1B13C51200C89ED8 /* recipe_veil_of_discord_lg.png */; };
+		564E8C841B13C51200C89ED8 /* recipe_vladmir_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B8E1B13C51200C89ED8 /* recipe_vladmir_lg.png */; };
+		564E8C851B13C51200C89ED8 /* recipe_wraith_band_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B8F1B13C51200C89ED8 /* recipe_wraith_band_lg.png */; };
+		564E8C861B13C51200C89ED8 /* recipe_yasha_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B901B13C51200C89ED8 /* recipe_yasha_lg.png */; };
+		564E8C871B13C51200C89ED8 /* refresher_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B911B13C51200C89ED8 /* refresher_lg.png */; };
+		564E8C881B13C51200C89ED8 /* relic_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B921B13C51200C89ED8 /* relic_lg.png */; };
+		564E8C891B13C51200C89ED8 /* ring_of_aquila_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B931B13C51200C89ED8 /* ring_of_aquila_lg.png */; };
+		564E8C8A1B13C51200C89ED8 /* ring_of_basilius_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B941B13C51200C89ED8 /* ring_of_basilius_lg.png */; };
+		564E8C8B1B13C51200C89ED8 /* ring_of_health_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B951B13C51200C89ED8 /* ring_of_health_lg.png */; };
+		564E8C8C1B13C51200C89ED8 /* ring_of_protection_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B961B13C51200C89ED8 /* ring_of_protection_lg.png */; };
+		564E8C8D1B13C51200C89ED8 /* ring_of_regen_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B971B13C51200C89ED8 /* ring_of_regen_lg.png */; };
+		564E8C8E1B13C51200C89ED8 /* robe_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B981B13C51200C89ED8 /* robe_lg.png */; };
+		564E8C8F1B13C51200C89ED8 /* rod_of_atos_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B991B13C51200C89ED8 /* rod_of_atos_lg.png */; };
+		564E8C901B13C51200C89ED8 /* sange_and_yasha_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B9A1B13C51200C89ED8 /* sange_and_yasha_lg.png */; };
+		564E8C911B13C51200C89ED8 /* sange_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B9B1B13C51200C89ED8 /* sange_lg.png */; };
+		564E8C921B13C51200C89ED8 /* satanic_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B9C1B13C51200C89ED8 /* satanic_lg.png */; };
+		564E8C931B13C51200C89ED8 /* shadow_amulet_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B9D1B13C51200C89ED8 /* shadow_amulet_lg.png */; };
+		564E8C941B13C51200C89ED8 /* sheepstick_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B9E1B13C51200C89ED8 /* sheepstick_lg.png */; };
+		564E8C951B13C51200C89ED8 /* shivas_guard_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8B9F1B13C51200C89ED8 /* shivas_guard_lg.png */; };
+		564E8C961B13C51200C89ED8 /* silver_edge_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA01B13C51200C89ED8 /* silver_edge_lg.png */; };
+		564E8C971B13C51200C89ED8 /* skadi_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA11B13C51200C89ED8 /* skadi_lg.png */; };
+		564E8C981B13C51200C89ED8 /* slippers_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA21B13C51200C89ED8 /* slippers_lg.png */; };
+		564E8C991B13C51200C89ED8 /* smoke_of_deceit_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA31B13C51200C89ED8 /* smoke_of_deceit_lg.png */; };
+		564E8C9A1B13C51200C89ED8 /* sobi_mask_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA41B13C51200C89ED8 /* sobi_mask_lg.png */; };
+		564E8C9B1B13C51200C89ED8 /* solar_crest_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA51B13C51200C89ED8 /* solar_crest_lg.png */; };
+		564E8C9C1B13C51200C89ED8 /* soul_booster_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA61B13C51200C89ED8 /* soul_booster_lg.png */; };
+		564E8C9D1B13C51200C89ED8 /* soul_ring_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA71B13C51200C89ED8 /* soul_ring_lg.png */; };
+		564E8C9E1B13C51200C89ED8 /* sphere_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA81B13C51200C89ED8 /* sphere_lg.png */; };
+		564E8C9F1B13C51200C89ED8 /* staff_of_wizardry_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BA91B13C51200C89ED8 /* staff_of_wizardry_lg.png */; };
+		564E8CA01B13C51200C89ED8 /* stout_shield_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BAA1B13C51200C89ED8 /* stout_shield_lg.png */; };
+		564E8CA11B13C51200C89ED8 /* talisman_of_evasion_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BAB1B13C51200C89ED8 /* talisman_of_evasion_lg.png */; };
+		564E8CA21B13C51200C89ED8 /* tango_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BAC1B13C51200C89ED8 /* tango_lg.png */; };
+		564E8CA31B13C51200C89ED8 /* tango_single_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BAD1B13C51200C89ED8 /* tango_single_lg.png */; };
+		564E8CA41B13C51200C89ED8 /* tpscroll_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BAE1B13C51200C89ED8 /* tpscroll_lg.png */; };
+		564E8CA51B13C51200C89ED8 /* tranquil_boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BAF1B13C51200C89ED8 /* tranquil_boots_lg.png */; };
+		564E8CA61B13C51200C89ED8 /* travel_boots_2_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB01B13C51200C89ED8 /* travel_boots_2_lg.png */; };
+		564E8CA71B13C51200C89ED8 /* travel_boots_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB11B13C51200C89ED8 /* travel_boots_lg.png */; };
+		564E8CA81B13C51200C89ED8 /* ultimate_orb_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB21B13C51200C89ED8 /* ultimate_orb_lg.png */; };
+		564E8CA91B13C51200C89ED8 /* ultimate_scepter_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB31B13C51200C89ED8 /* ultimate_scepter_lg.png */; };
+		564E8CAA1B13C51200C89ED8 /* urn_of_shadows_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB41B13C51200C89ED8 /* urn_of_shadows_lg.png */; };
+		564E8CAB1B13C51200C89ED8 /* vanguard_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB51B13C51200C89ED8 /* vanguard_lg.png */; };
+		564E8CAC1B13C51200C89ED8 /* veil_of_discord_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB61B13C51200C89ED8 /* veil_of_discord_lg.png */; };
+		564E8CAD1B13C51200C89ED8 /* vitality_booster_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB71B13C51200C89ED8 /* vitality_booster_lg.png */; };
+		564E8CAE1B13C51200C89ED8 /* vladmir_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB81B13C51200C89ED8 /* vladmir_lg.png */; };
+		564E8CAF1B13C51200C89ED8 /* void_stone_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BB91B13C51200C89ED8 /* void_stone_lg.png */; };
+		564E8CB01B13C51200C89ED8 /* ward_dispenser_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BBA1B13C51200C89ED8 /* ward_dispenser_lg.png */; };
+		564E8CB11B13C51200C89ED8 /* ward_observer_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BBB1B13C51200C89ED8 /* ward_observer_lg.png */; };
+		564E8CB21B13C51200C89ED8 /* ward_sentry_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BBC1B13C51200C89ED8 /* ward_sentry_lg.png */; };
+		564E8CB31B13C51200C89ED8 /* winter_cake_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BBD1B13C51200C89ED8 /* winter_cake_lg.png */; };
+		564E8CB41B13C51200C89ED8 /* winter_coco_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BBE1B13C51200C89ED8 /* winter_coco_lg.png */; };
+		564E8CB51B13C51200C89ED8 /* winter_cookie_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BBF1B13C51200C89ED8 /* winter_cookie_lg.png */; };
+		564E8CB61B13C51200C89ED8 /* winter_greevil_chewy_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC01B13C51200C89ED8 /* winter_greevil_chewy_lg.png */; };
+		564E8CB71B13C51200C89ED8 /* winter_greevil_garbage_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC11B13C51200C89ED8 /* winter_greevil_garbage_lg.png */; };
+		564E8CB81B13C51200C89ED8 /* winter_greevil_treat_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC21B13C51200C89ED8 /* winter_greevil_treat_lg.png */; };
+		564E8CB91B13C51200C89ED8 /* winter_ham_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC31B13C51200C89ED8 /* winter_ham_lg.png */; };
+		564E8CBA1B13C51200C89ED8 /* winter_kringle_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC41B13C51200C89ED8 /* winter_kringle_lg.png */; };
+		564E8CBB1B13C51200C89ED8 /* winter_mushroom_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC51B13C51200C89ED8 /* winter_mushroom_lg.png */; };
+		564E8CBC1B13C51200C89ED8 /* winter_skates_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC61B13C51200C89ED8 /* winter_skates_lg.png */; };
+		564E8CBD1B13C51200C89ED8 /* winter_stocking_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC71B13C51200C89ED8 /* winter_stocking_lg.png */; };
+		564E8CBE1B13C51200C89ED8 /* wraith_band_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC81B13C51200C89ED8 /* wraith_band_lg.png */; };
+		564E8CBF1B13C51200C89ED8 /* yasha_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC91B13C51200C89ED8 /* yasha_lg.png */; };
 		566EDEDC1B0FBBA900BBA84E /* MatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */; };
 		566EDEDE1B0FCC1100BBA84E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EDEDD1B0FCC1100BBA84E /* Player.swift */; };
 		56DD669B1B0CC5EA00652205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD669A1B0CC5EA00652205 /* AppDelegate.swift */; };
@@ -269,6 +516,253 @@
 		564E8A601B1395EB00C89ED8 /* wisp_sb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wisp_sb.png; sourceTree = "<group>"; };
 		564E8A611B1395EB00C89ED8 /* witch_doctor_sb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witch_doctor_sb.png; sourceTree = "<group>"; };
 		564E8A621B1395EB00C89ED8 /* zuus_sb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuus_sb.png; sourceTree = "<group>"; };
+		564E8AD11B13C30E00C89ED8 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		564E8AD41B13C51100C89ED8 /* abyssal_blade_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abyssal_blade_lg.png; sourceTree = "<group>"; };
+		564E8AD51B13C51100C89ED8 /* aegis_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aegis_lg.png; sourceTree = "<group>"; };
+		564E8AD61B13C51100C89ED8 /* ancient_janggo_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ancient_janggo_lg.png; sourceTree = "<group>"; };
+		564E8AD71B13C51100C89ED8 /* arcane_boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arcane_boots_lg.png; sourceTree = "<group>"; };
+		564E8AD81B13C51100C89ED8 /* armlet_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = armlet_lg.png; sourceTree = "<group>"; };
+		564E8AD91B13C51100C89ED8 /* assault_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assault_lg.png; sourceTree = "<group>"; };
+		564E8ADA1B13C51100C89ED8 /* basher_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basher_lg.png; sourceTree = "<group>"; };
+		564E8ADB1B13C51100C89ED8 /* belt_of_strength_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = belt_of_strength_lg.png; sourceTree = "<group>"; };
+		564E8ADC1B13C51100C89ED8 /* bfury_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bfury_lg.png; sourceTree = "<group>"; };
+		564E8ADD1B13C51100C89ED8 /* black_king_bar_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_king_bar_lg.png; sourceTree = "<group>"; };
+		564E8ADE1B13C51100C89ED8 /* blade_mail_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blade_mail_lg.png; sourceTree = "<group>"; };
+		564E8ADF1B13C51100C89ED8 /* blade_of_alacrity_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blade_of_alacrity_lg.png; sourceTree = "<group>"; };
+		564E8AE01B13C51100C89ED8 /* blades_of_attack_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blades_of_attack_lg.png; sourceTree = "<group>"; };
+		564E8AE11B13C51100C89ED8 /* blink_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blink_lg.png; sourceTree = "<group>"; };
+		564E8AE21B13C51100C89ED8 /* bloodstone_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloodstone_lg.png; sourceTree = "<group>"; };
+		564E8AE31B13C51100C89ED8 /* boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boots_lg.png; sourceTree = "<group>"; };
+		564E8AE41B13C51100C89ED8 /* boots_of_elves_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boots_of_elves_lg.png; sourceTree = "<group>"; };
+		564E8AE51B13C51100C89ED8 /* bottle_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle_lg.png; sourceTree = "<group>"; };
+		564E8AE61B13C51100C89ED8 /* bracer_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bracer_lg.png; sourceTree = "<group>"; };
+		564E8AE71B13C51100C89ED8 /* branches_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = branches_lg.png; sourceTree = "<group>"; };
+		564E8AE81B13C51100C89ED8 /* broadsword_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broadsword_lg.png; sourceTree = "<group>"; };
+		564E8AE91B13C51100C89ED8 /* buckler_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buckler_lg.png; sourceTree = "<group>"; };
+		564E8AEA1B13C51100C89ED8 /* butterfly_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly_lg.png; sourceTree = "<group>"; };
+		564E8AEB1B13C51100C89ED8 /* chainmail_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chainmail_lg.png; sourceTree = "<group>"; };
+		564E8AEC1B13C51100C89ED8 /* cheese_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheese_lg.png; sourceTree = "<group>"; };
+		564E8AED1B13C51100C89ED8 /* circlet_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlet_lg.png; sourceTree = "<group>"; };
+		564E8AEE1B13C51100C89ED8 /* clarity_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clarity_lg.png; sourceTree = "<group>"; };
+		564E8AEF1B13C51100C89ED8 /* claymore_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = claymore_lg.png; sourceTree = "<group>"; };
+		564E8AF01B13C51100C89ED8 /* cloak_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloak_lg.png; sourceTree = "<group>"; };
+		564E8AF11B13C51100C89ED8 /* courier_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courier_lg.png; sourceTree = "<group>"; };
+		564E8AF21B13C51100C89ED8 /* crimson_guard_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crimson_guard_lg.png; sourceTree = "<group>"; };
+		564E8AF31B13C51100C89ED8 /* cyclone_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyclone_lg.png; sourceTree = "<group>"; };
+		564E8AF41B13C51100C89ED8 /* dagon_2_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dagon_2_lg.png; sourceTree = "<group>"; };
+		564E8AF51B13C51100C89ED8 /* dagon_3_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dagon_3_lg.png; sourceTree = "<group>"; };
+		564E8AF61B13C51100C89ED8 /* dagon_4_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dagon_4_lg.png; sourceTree = "<group>"; };
+		564E8AF71B13C51100C89ED8 /* dagon_5_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dagon_5_lg.png; sourceTree = "<group>"; };
+		564E8AF81B13C51100C89ED8 /* dagon_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dagon_lg.png; sourceTree = "<group>"; };
+		564E8AF91B13C51100C89ED8 /* demon_edge_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demon_edge_lg.png; sourceTree = "<group>"; };
+		564E8AFA1B13C51100C89ED8 /* desolator_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desolator_lg.png; sourceTree = "<group>"; };
+		564E8AFB1B13C51100C89ED8 /* diffusal_blade_2_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diffusal_blade_2_lg.png; sourceTree = "<group>"; };
+		564E8AFC1B13C51100C89ED8 /* diffusal_blade_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diffusal_blade_lg.png; sourceTree = "<group>"; };
+		564E8AFD1B13C51100C89ED8 /* dust_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dust_lg.png; sourceTree = "<group>"; };
+		564E8AFE1B13C51100C89ED8 /* eagle_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eagle_lg.png; sourceTree = "<group>"; };
+		564E8AFF1B13C51100C89ED8 /* enchanted_mango_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enchanted_mango_lg.png; sourceTree = "<group>"; };
+		564E8B001B13C51100C89ED8 /* energy_booster_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energy_booster_lg.png; sourceTree = "<group>"; };
+		564E8B011B13C51100C89ED8 /* ethereal_blade_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ethereal_blade_lg.png; sourceTree = "<group>"; };
+		564E8B021B13C51100C89ED8 /* flask_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flask_lg.png; sourceTree = "<group>"; };
+		564E8B031B13C51100C89ED8 /* flying_courier_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flying_courier_lg.png; sourceTree = "<group>"; };
+		564E8B041B13C51100C89ED8 /* force_staff_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = force_staff_lg.png; sourceTree = "<group>"; };
+		564E8B051B13C51100C89ED8 /* gauntlets_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauntlets_lg.png; sourceTree = "<group>"; };
+		564E8B061B13C51100C89ED8 /* gem_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_lg.png; sourceTree = "<group>"; };
+		564E8B071B13C51100C89ED8 /* ghost_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost_lg.png; sourceTree = "<group>"; };
+		564E8B081B13C51100C89ED8 /* glimmer_cape_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glimmer_cape_lg.png; sourceTree = "<group>"; };
+		564E8B091B13C51100C89ED8 /* gloves_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gloves_lg.png; sourceTree = "<group>"; };
+		564E8B0A1B13C51100C89ED8 /* greater_crit_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greater_crit_lg.png; sourceTree = "<group>"; };
+		564E8B0B1B13C51100C89ED8 /* greevil_whistle_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greevil_whistle_lg.png; sourceTree = "<group>"; };
+		564E8B0C1B13C51100C89ED8 /* greevil_whistle_toggle_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greevil_whistle_toggle_lg.png; sourceTree = "<group>"; };
+		564E8B0D1B13C51100C89ED8 /* guardian_greaves_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guardian_greaves_lg.png; sourceTree = "<group>"; };
+		564E8B0E1B13C51100C89ED8 /* halloween_candy_corn_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halloween_candy_corn_lg.png; sourceTree = "<group>"; };
+		564E8B0F1B13C51100C89ED8 /* halloween_rapier_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halloween_rapier_lg.png; sourceTree = "<group>"; };
+		564E8B101B13C51100C89ED8 /* hand_of_midas_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand_of_midas_lg.png; sourceTree = "<group>"; };
+		564E8B111B13C51100C89ED8 /* headdress_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headdress_lg.png; sourceTree = "<group>"; };
+		564E8B121B13C51100C89ED8 /* heart_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_lg.png; sourceTree = "<group>"; };
+		564E8B131B13C51100C89ED8 /* heavens_halberd_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heavens_halberd_lg.png; sourceTree = "<group>"; };
+		564E8B141B13C51100C89ED8 /* helm_of_iron_will_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helm_of_iron_will_lg.png; sourceTree = "<group>"; };
+		564E8B151B13C51100C89ED8 /* helm_of_the_dominator_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helm_of_the_dominator_lg.png; sourceTree = "<group>"; };
+		564E8B161B13C51100C89ED8 /* hood_of_defiance_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hood_of_defiance_lg.png; sourceTree = "<group>"; };
+		564E8B171B13C51100C89ED8 /* hyperstone_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyperstone_lg.png; sourceTree = "<group>"; };
+		564E8B181B13C51100C89ED8 /* invis_sword_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invis_sword_lg.png; sourceTree = "<group>"; };
+		564E8B191B13C51100C89ED8 /* javelin_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javelin_lg.png; sourceTree = "<group>"; };
+		564E8B1A1B13C51100C89ED8 /* lesser_crit_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lesser_crit_lg.png; sourceTree = "<group>"; };
+		564E8B1B1B13C51100C89ED8 /* lifesteal_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifesteal_lg.png; sourceTree = "<group>"; };
+		564E8B1C1B13C51100C89ED8 /* lotus_orb_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lotus_orb_lg.png; sourceTree = "<group>"; };
+		564E8B1D1B13C51100C89ED8 /* maelstrom_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maelstrom_lg.png; sourceTree = "<group>"; };
+		564E8B1E1B13C51100C89ED8 /* magic_stick_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_stick_lg.png; sourceTree = "<group>"; };
+		564E8B1F1B13C51100C89ED8 /* magic_wand_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_wand_lg.png; sourceTree = "<group>"; };
+		564E8B201B13C51100C89ED8 /* manta_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manta_lg.png; sourceTree = "<group>"; };
+		564E8B211B13C51100C89ED8 /* mantle_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mantle_lg.png; sourceTree = "<group>"; };
+		564E8B221B13C51100C89ED8 /* mask_of_madness_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_of_madness_lg.png; sourceTree = "<group>"; };
+		564E8B231B13C51100C89ED8 /* medallion_of_courage_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medallion_of_courage_lg.png; sourceTree = "<group>"; };
+		564E8B241B13C51100C89ED8 /* mekansm_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mekansm_lg.png; sourceTree = "<group>"; };
+		564E8B251B13C51100C89ED8 /* mithril_hammer_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mithril_hammer_lg.png; sourceTree = "<group>"; };
+		564E8B261B13C51100C89ED8 /* mjollnir_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjollnir_lg.png; sourceTree = "<group>"; };
+		564E8B271B13C51100C89ED8 /* monkey_king_bar_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey_king_bar_lg.png; sourceTree = "<group>"; };
+		564E8B281B13C51100C89ED8 /* moon_shard_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon_shard_lg.png; sourceTree = "<group>"; };
+		564E8B291B13C51100C89ED8 /* mystery_arrow_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mystery_arrow_lg.png; sourceTree = "<group>"; };
+		564E8B2A1B13C51100C89ED8 /* mystery_hook_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mystery_hook_lg.png; sourceTree = "<group>"; };
+		564E8B2B1B13C51100C89ED8 /* mystery_missile_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mystery_missile_lg.png; sourceTree = "<group>"; };
+		564E8B2C1B13C51100C89ED8 /* mystery_toss_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mystery_toss_lg.png; sourceTree = "<group>"; };
+		564E8B2D1B13C51100C89ED8 /* mystery_vacuum_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mystery_vacuum_lg.png; sourceTree = "<group>"; };
+		564E8B2E1B13C51100C89ED8 /* mystic_staff_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mystic_staff_lg.png; sourceTree = "<group>"; };
+		564E8B2F1B13C51100C89ED8 /* necronomicon_2_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = necronomicon_2_lg.png; sourceTree = "<group>"; };
+		564E8B301B13C51100C89ED8 /* necronomicon_3_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = necronomicon_3_lg.png; sourceTree = "<group>"; };
+		564E8B311B13C51100C89ED8 /* necronomicon_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = necronomicon_lg.png; sourceTree = "<group>"; };
+		564E8B321B13C51100C89ED8 /* null_talisman_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = null_talisman_lg.png; sourceTree = "<group>"; };
+		564E8B331B13C51100C89ED8 /* oblivion_staff_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oblivion_staff_lg.png; sourceTree = "<group>"; };
+		564E8B341B13C51100C89ED8 /* octarine_core_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octarine_core_lg.png; sourceTree = "<group>"; };
+		564E8B351B13C51100C89ED8 /* ogre_axe_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ogre_axe_lg.png; sourceTree = "<group>"; };
+		564E8B361B13C51100C89ED8 /* orb_of_venom_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orb_of_venom_lg.png; sourceTree = "<group>"; };
+		564E8B371B13C51100C89ED8 /* orchid_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orchid_lg.png; sourceTree = "<group>"; };
+		564E8B381B13C51100C89ED8 /* pers_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pers_lg.png; sourceTree = "<group>"; };
+		564E8B391B13C51100C89ED8 /* phase_boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phase_boots_lg.png; sourceTree = "<group>"; };
+		564E8B3A1B13C51100C89ED8 /* pipe_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe_lg.png; sourceTree = "<group>"; };
+		564E8B3B1B13C51100C89ED8 /* platemail_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platemail_lg.png; sourceTree = "<group>"; };
+		564E8B3C1B13C51100C89ED8 /* point_booster_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_booster_lg.png; sourceTree = "<group>"; };
+		564E8B3D1B13C51100C89ED8 /* poor_mans_shield_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poor_mans_shield_lg.png; sourceTree = "<group>"; };
+		564E8B3E1B13C51100C89ED8 /* power_treads_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power_treads_lg.png; sourceTree = "<group>"; };
+		564E8B3F1B13C51100C89ED8 /* present_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = present_lg.png; sourceTree = "<group>"; };
+		564E8B401B13C51100C89ED8 /* quarterstaff_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarterstaff_lg.png; sourceTree = "<group>"; };
+		564E8B411B13C51100C89ED8 /* quelling_blade_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quelling_blade_lg.png; sourceTree = "<group>"; };
+		564E8B421B13C51100C89ED8 /* radiance_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiance_lg.png; sourceTree = "<group>"; };
+		564E8B431B13C51100C89ED8 /* rapier_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rapier_lg.png; sourceTree = "<group>"; };
+		564E8B441B13C51100C89ED8 /* reaver_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reaver_lg.png; sourceTree = "<group>"; };
+		564E8B451B13C51100C89ED8 /* recipe_abyssal_blade_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_abyssal_blade_lg.png; sourceTree = "<group>"; };
+		564E8B461B13C51100C89ED8 /* recipe_ancient_janggo_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_ancient_janggo_lg.png; sourceTree = "<group>"; };
+		564E8B471B13C51100C89ED8 /* recipe_arcane_boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_arcane_boots_lg.png; sourceTree = "<group>"; };
+		564E8B481B13C51100C89ED8 /* recipe_armlet_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_armlet_lg.png; sourceTree = "<group>"; };
+		564E8B491B13C51100C89ED8 /* recipe_assault_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_assault_lg.png; sourceTree = "<group>"; };
+		564E8B4A1B13C51100C89ED8 /* recipe_basher_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_basher_lg.png; sourceTree = "<group>"; };
+		564E8B4B1B13C51100C89ED8 /* recipe_bfury_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_bfury_lg.png; sourceTree = "<group>"; };
+		564E8B4C1B13C51100C89ED8 /* recipe_black_king_bar_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_black_king_bar_lg.png; sourceTree = "<group>"; };
+		564E8B4D1B13C51100C89ED8 /* recipe_blade_mail_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_blade_mail_lg.png; sourceTree = "<group>"; };
+		564E8B4E1B13C51100C89ED8 /* recipe_bloodstone_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_bloodstone_lg.png; sourceTree = "<group>"; };
+		564E8B4F1B13C51100C89ED8 /* recipe_bracer_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_bracer_lg.png; sourceTree = "<group>"; };
+		564E8B501B13C51100C89ED8 /* recipe_buckler_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_buckler_lg.png; sourceTree = "<group>"; };
+		564E8B511B13C51100C89ED8 /* recipe_butterfly_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_butterfly_lg.png; sourceTree = "<group>"; };
+		564E8B521B13C51100C89ED8 /* recipe_cyclone_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_cyclone_lg.png; sourceTree = "<group>"; };
+		564E8B531B13C51100C89ED8 /* recipe_dagon_2_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_dagon_2_lg.png; sourceTree = "<group>"; };
+		564E8B541B13C51100C89ED8 /* recipe_dagon_3_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_dagon_3_lg.png; sourceTree = "<group>"; };
+		564E8B551B13C51100C89ED8 /* recipe_dagon_4_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_dagon_4_lg.png; sourceTree = "<group>"; };
+		564E8B561B13C51100C89ED8 /* recipe_dagon_5_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_dagon_5_lg.png; sourceTree = "<group>"; };
+		564E8B571B13C51100C89ED8 /* recipe_dagon_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_dagon_lg.png; sourceTree = "<group>"; };
+		564E8B581B13C51100C89ED8 /* recipe_desolator_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_desolator_lg.png; sourceTree = "<group>"; };
+		564E8B591B13C51100C89ED8 /* recipe_diffusal_blade_2_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_diffusal_blade_2_lg.png; sourceTree = "<group>"; };
+		564E8B5A1B13C51100C89ED8 /* recipe_diffusal_blade_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_diffusal_blade_lg.png; sourceTree = "<group>"; };
+		564E8B5B1B13C51100C89ED8 /* recipe_ethereal_blade_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_ethereal_blade_lg.png; sourceTree = "<group>"; };
+		564E8B5C1B13C51100C89ED8 /* recipe_force_staff_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_force_staff_lg.png; sourceTree = "<group>"; };
+		564E8B5D1B13C51100C89ED8 /* recipe_greater_crit_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_greater_crit_lg.png; sourceTree = "<group>"; };
+		564E8B5E1B13C51100C89ED8 /* recipe_hand_of_midas_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_hand_of_midas_lg.png; sourceTree = "<group>"; };
+		564E8B5F1B13C51100C89ED8 /* recipe_headdress_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_headdress_lg.png; sourceTree = "<group>"; };
+		564E8B601B13C51100C89ED8 /* recipe_heart_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_heart_lg.png; sourceTree = "<group>"; };
+		564E8B611B13C51100C89ED8 /* recipe_heavens_halberd_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_heavens_halberd_lg.png; sourceTree = "<group>"; };
+		564E8B621B13C51100C89ED8 /* recipe_helm_of_the_dominator_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_helm_of_the_dominator_lg.png; sourceTree = "<group>"; };
+		564E8B631B13C51100C89ED8 /* recipe_hood_of_defiance_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_hood_of_defiance_lg.png; sourceTree = "<group>"; };
+		564E8B641B13C51200C89ED8 /* recipe_invis_sword_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_invis_sword_lg.png; sourceTree = "<group>"; };
+		564E8B651B13C51200C89ED8 /* recipe_lesser_crit_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_lesser_crit_lg.png; sourceTree = "<group>"; };
+		564E8B661B13C51200C89ED8 /* recipe_maelstrom_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_maelstrom_lg.png; sourceTree = "<group>"; };
+		564E8B671B13C51200C89ED8 /* recipe_magic_wand_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_magic_wand_lg.png; sourceTree = "<group>"; };
+		564E8B681B13C51200C89ED8 /* recipe_manta_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_manta_lg.png; sourceTree = "<group>"; };
+		564E8B691B13C51200C89ED8 /* recipe_mask_of_madness_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_mask_of_madness_lg.png; sourceTree = "<group>"; };
+		564E8B6A1B13C51200C89ED8 /* recipe_medallion_of_courage_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_medallion_of_courage_lg.png; sourceTree = "<group>"; };
+		564E8B6B1B13C51200C89ED8 /* recipe_mekansm_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_mekansm_lg.png; sourceTree = "<group>"; };
+		564E8B6C1B13C51200C89ED8 /* recipe_mjollnir_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_mjollnir_lg.png; sourceTree = "<group>"; };
+		564E8B6D1B13C51200C89ED8 /* recipe_monkey_king_bar_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_monkey_king_bar_lg.png; sourceTree = "<group>"; };
+		564E8B6E1B13C51200C89ED8 /* recipe_necronomicon_2_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_necronomicon_2_lg.png; sourceTree = "<group>"; };
+		564E8B6F1B13C51200C89ED8 /* recipe_necronomicon_3_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_necronomicon_3_lg.png; sourceTree = "<group>"; };
+		564E8B701B13C51200C89ED8 /* recipe_necronomicon_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_necronomicon_lg.png; sourceTree = "<group>"; };
+		564E8B711B13C51200C89ED8 /* recipe_null_talisman_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_null_talisman_lg.png; sourceTree = "<group>"; };
+		564E8B721B13C51200C89ED8 /* recipe_oblivion_staff_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_oblivion_staff_lg.png; sourceTree = "<group>"; };
+		564E8B731B13C51200C89ED8 /* recipe_orchid_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_orchid_lg.png; sourceTree = "<group>"; };
+		564E8B741B13C51200C89ED8 /* recipe_pers_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_pers_lg.png; sourceTree = "<group>"; };
+		564E8B751B13C51200C89ED8 /* recipe_phase_boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_phase_boots_lg.png; sourceTree = "<group>"; };
+		564E8B761B13C51200C89ED8 /* recipe_pipe_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_pipe_lg.png; sourceTree = "<group>"; };
+		564E8B771B13C51200C89ED8 /* recipe_poor_mans_shield_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_poor_mans_shield_lg.png; sourceTree = "<group>"; };
+		564E8B781B13C51200C89ED8 /* recipe_power_treads_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_power_treads_lg.png; sourceTree = "<group>"; };
+		564E8B791B13C51200C89ED8 /* recipe_radiance_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_radiance_lg.png; sourceTree = "<group>"; };
+		564E8B7A1B13C51200C89ED8 /* recipe_rapier_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_rapier_lg.png; sourceTree = "<group>"; };
+		564E8B7B1B13C51200C89ED8 /* recipe_refresher_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_refresher_lg.png; sourceTree = "<group>"; };
+		564E8B7C1B13C51200C89ED8 /* recipe_ring_of_aquila_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_ring_of_aquila_lg.png; sourceTree = "<group>"; };
+		564E8B7D1B13C51200C89ED8 /* recipe_ring_of_basilius_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_ring_of_basilius_lg.png; sourceTree = "<group>"; };
+		564E8B7E1B13C51200C89ED8 /* recipe_rod_of_atos_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_rod_of_atos_lg.png; sourceTree = "<group>"; };
+		564E8B7F1B13C51200C89ED8 /* recipe_sange_and_yasha_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_sange_and_yasha_lg.png; sourceTree = "<group>"; };
+		564E8B801B13C51200C89ED8 /* recipe_sange_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_sange_lg.png; sourceTree = "<group>"; };
+		564E8B811B13C51200C89ED8 /* recipe_satanic_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_satanic_lg.png; sourceTree = "<group>"; };
+		564E8B821B13C51200C89ED8 /* recipe_sheepstick_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_sheepstick_lg.png; sourceTree = "<group>"; };
+		564E8B831B13C51200C89ED8 /* recipe_shivas_guard_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_shivas_guard_lg.png; sourceTree = "<group>"; };
+		564E8B841B13C51200C89ED8 /* recipe_skadi_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_skadi_lg.png; sourceTree = "<group>"; };
+		564E8B851B13C51200C89ED8 /* recipe_soul_booster_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_soul_booster_lg.png; sourceTree = "<group>"; };
+		564E8B861B13C51200C89ED8 /* recipe_soul_ring_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_soul_ring_lg.png; sourceTree = "<group>"; };
+		564E8B871B13C51200C89ED8 /* recipe_sphere_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_sphere_lg.png; sourceTree = "<group>"; };
+		564E8B881B13C51200C89ED8 /* recipe_tranquil_boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_tranquil_boots_lg.png; sourceTree = "<group>"; };
+		564E8B891B13C51200C89ED8 /* recipe_travel_boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_travel_boots_lg.png; sourceTree = "<group>"; };
+		564E8B8A1B13C51200C89ED8 /* recipe_ultimate_scepter_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_ultimate_scepter_lg.png; sourceTree = "<group>"; };
+		564E8B8B1B13C51200C89ED8 /* recipe_urn_of_shadows_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_urn_of_shadows_lg.png; sourceTree = "<group>"; };
+		564E8B8C1B13C51200C89ED8 /* recipe_vanguard_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_vanguard_lg.png; sourceTree = "<group>"; };
+		564E8B8D1B13C51200C89ED8 /* recipe_veil_of_discord_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_veil_of_discord_lg.png; sourceTree = "<group>"; };
+		564E8B8E1B13C51200C89ED8 /* recipe_vladmir_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_vladmir_lg.png; sourceTree = "<group>"; };
+		564E8B8F1B13C51200C89ED8 /* recipe_wraith_band_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_wraith_band_lg.png; sourceTree = "<group>"; };
+		564E8B901B13C51200C89ED8 /* recipe_yasha_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_yasha_lg.png; sourceTree = "<group>"; };
+		564E8B911B13C51200C89ED8 /* refresher_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresher_lg.png; sourceTree = "<group>"; };
+		564E8B921B13C51200C89ED8 /* relic_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relic_lg.png; sourceTree = "<group>"; };
+		564E8B931B13C51200C89ED8 /* ring_of_aquila_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring_of_aquila_lg.png; sourceTree = "<group>"; };
+		564E8B941B13C51200C89ED8 /* ring_of_basilius_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring_of_basilius_lg.png; sourceTree = "<group>"; };
+		564E8B951B13C51200C89ED8 /* ring_of_health_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring_of_health_lg.png; sourceTree = "<group>"; };
+		564E8B961B13C51200C89ED8 /* ring_of_protection_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring_of_protection_lg.png; sourceTree = "<group>"; };
+		564E8B971B13C51200C89ED8 /* ring_of_regen_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring_of_regen_lg.png; sourceTree = "<group>"; };
+		564E8B981B13C51200C89ED8 /* robe_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robe_lg.png; sourceTree = "<group>"; };
+		564E8B991B13C51200C89ED8 /* rod_of_atos_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rod_of_atos_lg.png; sourceTree = "<group>"; };
+		564E8B9A1B13C51200C89ED8 /* sange_and_yasha_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sange_and_yasha_lg.png; sourceTree = "<group>"; };
+		564E8B9B1B13C51200C89ED8 /* sange_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sange_lg.png; sourceTree = "<group>"; };
+		564E8B9C1B13C51200C89ED8 /* satanic_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satanic_lg.png; sourceTree = "<group>"; };
+		564E8B9D1B13C51200C89ED8 /* shadow_amulet_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_amulet_lg.png; sourceTree = "<group>"; };
+		564E8B9E1B13C51200C89ED8 /* sheepstick_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheepstick_lg.png; sourceTree = "<group>"; };
+		564E8B9F1B13C51200C89ED8 /* shivas_guard_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shivas_guard_lg.png; sourceTree = "<group>"; };
+		564E8BA01B13C51200C89ED8 /* silver_edge_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silver_edge_lg.png; sourceTree = "<group>"; };
+		564E8BA11B13C51200C89ED8 /* skadi_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skadi_lg.png; sourceTree = "<group>"; };
+		564E8BA21B13C51200C89ED8 /* slippers_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slippers_lg.png; sourceTree = "<group>"; };
+		564E8BA31B13C51200C89ED8 /* smoke_of_deceit_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke_of_deceit_lg.png; sourceTree = "<group>"; };
+		564E8BA41B13C51200C89ED8 /* sobi_mask_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sobi_mask_lg.png; sourceTree = "<group>"; };
+		564E8BA51B13C51200C89ED8 /* solar_crest_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = solar_crest_lg.png; sourceTree = "<group>"; };
+		564E8BA61B13C51200C89ED8 /* soul_booster_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soul_booster_lg.png; sourceTree = "<group>"; };
+		564E8BA71B13C51200C89ED8 /* soul_ring_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soul_ring_lg.png; sourceTree = "<group>"; };
+		564E8BA81B13C51200C89ED8 /* sphere_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sphere_lg.png; sourceTree = "<group>"; };
+		564E8BA91B13C51200C89ED8 /* staff_of_wizardry_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = staff_of_wizardry_lg.png; sourceTree = "<group>"; };
+		564E8BAA1B13C51200C89ED8 /* stout_shield_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stout_shield_lg.png; sourceTree = "<group>"; };
+		564E8BAB1B13C51200C89ED8 /* talisman_of_evasion_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talisman_of_evasion_lg.png; sourceTree = "<group>"; };
+		564E8BAC1B13C51200C89ED8 /* tango_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tango_lg.png; sourceTree = "<group>"; };
+		564E8BAD1B13C51200C89ED8 /* tango_single_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tango_single_lg.png; sourceTree = "<group>"; };
+		564E8BAE1B13C51200C89ED8 /* tpscroll_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tpscroll_lg.png; sourceTree = "<group>"; };
+		564E8BAF1B13C51200C89ED8 /* tranquil_boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tranquil_boots_lg.png; sourceTree = "<group>"; };
+		564E8BB01B13C51200C89ED8 /* travel_boots_2_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travel_boots_2_lg.png; sourceTree = "<group>"; };
+		564E8BB11B13C51200C89ED8 /* travel_boots_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travel_boots_lg.png; sourceTree = "<group>"; };
+		564E8BB21B13C51200C89ED8 /* ultimate_orb_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultimate_orb_lg.png; sourceTree = "<group>"; };
+		564E8BB31B13C51200C89ED8 /* ultimate_scepter_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultimate_scepter_lg.png; sourceTree = "<group>"; };
+		564E8BB41B13C51200C89ED8 /* urn_of_shadows_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = urn_of_shadows_lg.png; sourceTree = "<group>"; };
+		564E8BB51B13C51200C89ED8 /* vanguard_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanguard_lg.png; sourceTree = "<group>"; };
+		564E8BB61B13C51200C89ED8 /* veil_of_discord_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = veil_of_discord_lg.png; sourceTree = "<group>"; };
+		564E8BB71B13C51200C89ED8 /* vitality_booster_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vitality_booster_lg.png; sourceTree = "<group>"; };
+		564E8BB81B13C51200C89ED8 /* vladmir_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vladmir_lg.png; sourceTree = "<group>"; };
+		564E8BB91B13C51200C89ED8 /* void_stone_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = void_stone_lg.png; sourceTree = "<group>"; };
+		564E8BBA1B13C51200C89ED8 /* ward_dispenser_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ward_dispenser_lg.png; sourceTree = "<group>"; };
+		564E8BBB1B13C51200C89ED8 /* ward_observer_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ward_observer_lg.png; sourceTree = "<group>"; };
+		564E8BBC1B13C51200C89ED8 /* ward_sentry_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ward_sentry_lg.png; sourceTree = "<group>"; };
+		564E8BBD1B13C51200C89ED8 /* winter_cake_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_cake_lg.png; sourceTree = "<group>"; };
+		564E8BBE1B13C51200C89ED8 /* winter_coco_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_coco_lg.png; sourceTree = "<group>"; };
+		564E8BBF1B13C51200C89ED8 /* winter_cookie_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_cookie_lg.png; sourceTree = "<group>"; };
+		564E8BC01B13C51200C89ED8 /* winter_greevil_chewy_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_greevil_chewy_lg.png; sourceTree = "<group>"; };
+		564E8BC11B13C51200C89ED8 /* winter_greevil_garbage_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_greevil_garbage_lg.png; sourceTree = "<group>"; };
+		564E8BC21B13C51200C89ED8 /* winter_greevil_treat_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_greevil_treat_lg.png; sourceTree = "<group>"; };
+		564E8BC31B13C51200C89ED8 /* winter_ham_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_ham_lg.png; sourceTree = "<group>"; };
+		564E8BC41B13C51200C89ED8 /* winter_kringle_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_kringle_lg.png; sourceTree = "<group>"; };
+		564E8BC51B13C51200C89ED8 /* winter_mushroom_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_mushroom_lg.png; sourceTree = "<group>"; };
+		564E8BC61B13C51200C89ED8 /* winter_skates_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_skates_lg.png; sourceTree = "<group>"; };
+		564E8BC71B13C51200C89ED8 /* winter_stocking_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_stocking_lg.png; sourceTree = "<group>"; };
+		564E8BC81B13C51200C89ED8 /* wraith_band_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wraith_band_lg.png; sourceTree = "<group>"; };
+		564E8BC91B13C51200C89ED8 /* yasha_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yasha_lg.png; sourceTree = "<group>"; };
 		566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDetailViewController.swift; sourceTree = "<group>"; };
 		566EDEDD1B0FCC1100BBA84E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		56DD66951B0CC5EA00652205 /* ios-dota2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-dota2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -433,6 +927,259 @@
 			path = heroes_icon;
 			sourceTree = "<group>";
 		};
+		564E8AD31B13C51100C89ED8 /* items_icon */ = {
+			isa = PBXGroup;
+			children = (
+				564E8AD41B13C51100C89ED8 /* abyssal_blade_lg.png */,
+				564E8AD51B13C51100C89ED8 /* aegis_lg.png */,
+				564E8AD61B13C51100C89ED8 /* ancient_janggo_lg.png */,
+				564E8AD71B13C51100C89ED8 /* arcane_boots_lg.png */,
+				564E8AD81B13C51100C89ED8 /* armlet_lg.png */,
+				564E8AD91B13C51100C89ED8 /* assault_lg.png */,
+				564E8ADA1B13C51100C89ED8 /* basher_lg.png */,
+				564E8ADB1B13C51100C89ED8 /* belt_of_strength_lg.png */,
+				564E8ADC1B13C51100C89ED8 /* bfury_lg.png */,
+				564E8ADD1B13C51100C89ED8 /* black_king_bar_lg.png */,
+				564E8ADE1B13C51100C89ED8 /* blade_mail_lg.png */,
+				564E8ADF1B13C51100C89ED8 /* blade_of_alacrity_lg.png */,
+				564E8AE01B13C51100C89ED8 /* blades_of_attack_lg.png */,
+				564E8AE11B13C51100C89ED8 /* blink_lg.png */,
+				564E8AE21B13C51100C89ED8 /* bloodstone_lg.png */,
+				564E8AE31B13C51100C89ED8 /* boots_lg.png */,
+				564E8AE41B13C51100C89ED8 /* boots_of_elves_lg.png */,
+				564E8AE51B13C51100C89ED8 /* bottle_lg.png */,
+				564E8AE61B13C51100C89ED8 /* bracer_lg.png */,
+				564E8AE71B13C51100C89ED8 /* branches_lg.png */,
+				564E8AE81B13C51100C89ED8 /* broadsword_lg.png */,
+				564E8AE91B13C51100C89ED8 /* buckler_lg.png */,
+				564E8AEA1B13C51100C89ED8 /* butterfly_lg.png */,
+				564E8AEB1B13C51100C89ED8 /* chainmail_lg.png */,
+				564E8AEC1B13C51100C89ED8 /* cheese_lg.png */,
+				564E8AED1B13C51100C89ED8 /* circlet_lg.png */,
+				564E8AEE1B13C51100C89ED8 /* clarity_lg.png */,
+				564E8AEF1B13C51100C89ED8 /* claymore_lg.png */,
+				564E8AF01B13C51100C89ED8 /* cloak_lg.png */,
+				564E8AF11B13C51100C89ED8 /* courier_lg.png */,
+				564E8AF21B13C51100C89ED8 /* crimson_guard_lg.png */,
+				564E8AF31B13C51100C89ED8 /* cyclone_lg.png */,
+				564E8AF41B13C51100C89ED8 /* dagon_2_lg.png */,
+				564E8AF51B13C51100C89ED8 /* dagon_3_lg.png */,
+				564E8AF61B13C51100C89ED8 /* dagon_4_lg.png */,
+				564E8AF71B13C51100C89ED8 /* dagon_5_lg.png */,
+				564E8AF81B13C51100C89ED8 /* dagon_lg.png */,
+				564E8AF91B13C51100C89ED8 /* demon_edge_lg.png */,
+				564E8AFA1B13C51100C89ED8 /* desolator_lg.png */,
+				564E8AFB1B13C51100C89ED8 /* diffusal_blade_2_lg.png */,
+				564E8AFC1B13C51100C89ED8 /* diffusal_blade_lg.png */,
+				564E8AFD1B13C51100C89ED8 /* dust_lg.png */,
+				564E8AFE1B13C51100C89ED8 /* eagle_lg.png */,
+				564E8AFF1B13C51100C89ED8 /* enchanted_mango_lg.png */,
+				564E8B001B13C51100C89ED8 /* energy_booster_lg.png */,
+				564E8B011B13C51100C89ED8 /* ethereal_blade_lg.png */,
+				564E8B021B13C51100C89ED8 /* flask_lg.png */,
+				564E8B031B13C51100C89ED8 /* flying_courier_lg.png */,
+				564E8B041B13C51100C89ED8 /* force_staff_lg.png */,
+				564E8B051B13C51100C89ED8 /* gauntlets_lg.png */,
+				564E8B061B13C51100C89ED8 /* gem_lg.png */,
+				564E8B071B13C51100C89ED8 /* ghost_lg.png */,
+				564E8B081B13C51100C89ED8 /* glimmer_cape_lg.png */,
+				564E8B091B13C51100C89ED8 /* gloves_lg.png */,
+				564E8B0A1B13C51100C89ED8 /* greater_crit_lg.png */,
+				564E8B0B1B13C51100C89ED8 /* greevil_whistle_lg.png */,
+				564E8B0C1B13C51100C89ED8 /* greevil_whistle_toggle_lg.png */,
+				564E8B0D1B13C51100C89ED8 /* guardian_greaves_lg.png */,
+				564E8B0E1B13C51100C89ED8 /* halloween_candy_corn_lg.png */,
+				564E8B0F1B13C51100C89ED8 /* halloween_rapier_lg.png */,
+				564E8B101B13C51100C89ED8 /* hand_of_midas_lg.png */,
+				564E8B111B13C51100C89ED8 /* headdress_lg.png */,
+				564E8B121B13C51100C89ED8 /* heart_lg.png */,
+				564E8B131B13C51100C89ED8 /* heavens_halberd_lg.png */,
+				564E8B141B13C51100C89ED8 /* helm_of_iron_will_lg.png */,
+				564E8B151B13C51100C89ED8 /* helm_of_the_dominator_lg.png */,
+				564E8B161B13C51100C89ED8 /* hood_of_defiance_lg.png */,
+				564E8B171B13C51100C89ED8 /* hyperstone_lg.png */,
+				564E8B181B13C51100C89ED8 /* invis_sword_lg.png */,
+				564E8B191B13C51100C89ED8 /* javelin_lg.png */,
+				564E8B1A1B13C51100C89ED8 /* lesser_crit_lg.png */,
+				564E8B1B1B13C51100C89ED8 /* lifesteal_lg.png */,
+				564E8B1C1B13C51100C89ED8 /* lotus_orb_lg.png */,
+				564E8B1D1B13C51100C89ED8 /* maelstrom_lg.png */,
+				564E8B1E1B13C51100C89ED8 /* magic_stick_lg.png */,
+				564E8B1F1B13C51100C89ED8 /* magic_wand_lg.png */,
+				564E8B201B13C51100C89ED8 /* manta_lg.png */,
+				564E8B211B13C51100C89ED8 /* mantle_lg.png */,
+				564E8B221B13C51100C89ED8 /* mask_of_madness_lg.png */,
+				564E8B231B13C51100C89ED8 /* medallion_of_courage_lg.png */,
+				564E8B241B13C51100C89ED8 /* mekansm_lg.png */,
+				564E8B251B13C51100C89ED8 /* mithril_hammer_lg.png */,
+				564E8B261B13C51100C89ED8 /* mjollnir_lg.png */,
+				564E8B271B13C51100C89ED8 /* monkey_king_bar_lg.png */,
+				564E8B281B13C51100C89ED8 /* moon_shard_lg.png */,
+				564E8B291B13C51100C89ED8 /* mystery_arrow_lg.png */,
+				564E8B2A1B13C51100C89ED8 /* mystery_hook_lg.png */,
+				564E8B2B1B13C51100C89ED8 /* mystery_missile_lg.png */,
+				564E8B2C1B13C51100C89ED8 /* mystery_toss_lg.png */,
+				564E8B2D1B13C51100C89ED8 /* mystery_vacuum_lg.png */,
+				564E8B2E1B13C51100C89ED8 /* mystic_staff_lg.png */,
+				564E8B2F1B13C51100C89ED8 /* necronomicon_2_lg.png */,
+				564E8B301B13C51100C89ED8 /* necronomicon_3_lg.png */,
+				564E8B311B13C51100C89ED8 /* necronomicon_lg.png */,
+				564E8B321B13C51100C89ED8 /* null_talisman_lg.png */,
+				564E8B331B13C51100C89ED8 /* oblivion_staff_lg.png */,
+				564E8B341B13C51100C89ED8 /* octarine_core_lg.png */,
+				564E8B351B13C51100C89ED8 /* ogre_axe_lg.png */,
+				564E8B361B13C51100C89ED8 /* orb_of_venom_lg.png */,
+				564E8B371B13C51100C89ED8 /* orchid_lg.png */,
+				564E8B381B13C51100C89ED8 /* pers_lg.png */,
+				564E8B391B13C51100C89ED8 /* phase_boots_lg.png */,
+				564E8B3A1B13C51100C89ED8 /* pipe_lg.png */,
+				564E8B3B1B13C51100C89ED8 /* platemail_lg.png */,
+				564E8B3C1B13C51100C89ED8 /* point_booster_lg.png */,
+				564E8B3D1B13C51100C89ED8 /* poor_mans_shield_lg.png */,
+				564E8B3E1B13C51100C89ED8 /* power_treads_lg.png */,
+				564E8B3F1B13C51100C89ED8 /* present_lg.png */,
+				564E8B401B13C51100C89ED8 /* quarterstaff_lg.png */,
+				564E8B411B13C51100C89ED8 /* quelling_blade_lg.png */,
+				564E8B421B13C51100C89ED8 /* radiance_lg.png */,
+				564E8B431B13C51100C89ED8 /* rapier_lg.png */,
+				564E8B441B13C51100C89ED8 /* reaver_lg.png */,
+				564E8B451B13C51100C89ED8 /* recipe_abyssal_blade_lg.png */,
+				564E8B461B13C51100C89ED8 /* recipe_ancient_janggo_lg.png */,
+				564E8B471B13C51100C89ED8 /* recipe_arcane_boots_lg.png */,
+				564E8B481B13C51100C89ED8 /* recipe_armlet_lg.png */,
+				564E8B491B13C51100C89ED8 /* recipe_assault_lg.png */,
+				564E8B4A1B13C51100C89ED8 /* recipe_basher_lg.png */,
+				564E8B4B1B13C51100C89ED8 /* recipe_bfury_lg.png */,
+				564E8B4C1B13C51100C89ED8 /* recipe_black_king_bar_lg.png */,
+				564E8B4D1B13C51100C89ED8 /* recipe_blade_mail_lg.png */,
+				564E8B4E1B13C51100C89ED8 /* recipe_bloodstone_lg.png */,
+				564E8B4F1B13C51100C89ED8 /* recipe_bracer_lg.png */,
+				564E8B501B13C51100C89ED8 /* recipe_buckler_lg.png */,
+				564E8B511B13C51100C89ED8 /* recipe_butterfly_lg.png */,
+				564E8B521B13C51100C89ED8 /* recipe_cyclone_lg.png */,
+				564E8B531B13C51100C89ED8 /* recipe_dagon_2_lg.png */,
+				564E8B541B13C51100C89ED8 /* recipe_dagon_3_lg.png */,
+				564E8B551B13C51100C89ED8 /* recipe_dagon_4_lg.png */,
+				564E8B561B13C51100C89ED8 /* recipe_dagon_5_lg.png */,
+				564E8B571B13C51100C89ED8 /* recipe_dagon_lg.png */,
+				564E8B581B13C51100C89ED8 /* recipe_desolator_lg.png */,
+				564E8B591B13C51100C89ED8 /* recipe_diffusal_blade_2_lg.png */,
+				564E8B5A1B13C51100C89ED8 /* recipe_diffusal_blade_lg.png */,
+				564E8B5B1B13C51100C89ED8 /* recipe_ethereal_blade_lg.png */,
+				564E8B5C1B13C51100C89ED8 /* recipe_force_staff_lg.png */,
+				564E8B5D1B13C51100C89ED8 /* recipe_greater_crit_lg.png */,
+				564E8B5E1B13C51100C89ED8 /* recipe_hand_of_midas_lg.png */,
+				564E8B5F1B13C51100C89ED8 /* recipe_headdress_lg.png */,
+				564E8B601B13C51100C89ED8 /* recipe_heart_lg.png */,
+				564E8B611B13C51100C89ED8 /* recipe_heavens_halberd_lg.png */,
+				564E8B621B13C51100C89ED8 /* recipe_helm_of_the_dominator_lg.png */,
+				564E8B631B13C51100C89ED8 /* recipe_hood_of_defiance_lg.png */,
+				564E8B641B13C51200C89ED8 /* recipe_invis_sword_lg.png */,
+				564E8B651B13C51200C89ED8 /* recipe_lesser_crit_lg.png */,
+				564E8B661B13C51200C89ED8 /* recipe_maelstrom_lg.png */,
+				564E8B671B13C51200C89ED8 /* recipe_magic_wand_lg.png */,
+				564E8B681B13C51200C89ED8 /* recipe_manta_lg.png */,
+				564E8B691B13C51200C89ED8 /* recipe_mask_of_madness_lg.png */,
+				564E8B6A1B13C51200C89ED8 /* recipe_medallion_of_courage_lg.png */,
+				564E8B6B1B13C51200C89ED8 /* recipe_mekansm_lg.png */,
+				564E8B6C1B13C51200C89ED8 /* recipe_mjollnir_lg.png */,
+				564E8B6D1B13C51200C89ED8 /* recipe_monkey_king_bar_lg.png */,
+				564E8B6E1B13C51200C89ED8 /* recipe_necronomicon_2_lg.png */,
+				564E8B6F1B13C51200C89ED8 /* recipe_necronomicon_3_lg.png */,
+				564E8B701B13C51200C89ED8 /* recipe_necronomicon_lg.png */,
+				564E8B711B13C51200C89ED8 /* recipe_null_talisman_lg.png */,
+				564E8B721B13C51200C89ED8 /* recipe_oblivion_staff_lg.png */,
+				564E8B731B13C51200C89ED8 /* recipe_orchid_lg.png */,
+				564E8B741B13C51200C89ED8 /* recipe_pers_lg.png */,
+				564E8B751B13C51200C89ED8 /* recipe_phase_boots_lg.png */,
+				564E8B761B13C51200C89ED8 /* recipe_pipe_lg.png */,
+				564E8B771B13C51200C89ED8 /* recipe_poor_mans_shield_lg.png */,
+				564E8B781B13C51200C89ED8 /* recipe_power_treads_lg.png */,
+				564E8B791B13C51200C89ED8 /* recipe_radiance_lg.png */,
+				564E8B7A1B13C51200C89ED8 /* recipe_rapier_lg.png */,
+				564E8B7B1B13C51200C89ED8 /* recipe_refresher_lg.png */,
+				564E8B7C1B13C51200C89ED8 /* recipe_ring_of_aquila_lg.png */,
+				564E8B7D1B13C51200C89ED8 /* recipe_ring_of_basilius_lg.png */,
+				564E8B7E1B13C51200C89ED8 /* recipe_rod_of_atos_lg.png */,
+				564E8B7F1B13C51200C89ED8 /* recipe_sange_and_yasha_lg.png */,
+				564E8B801B13C51200C89ED8 /* recipe_sange_lg.png */,
+				564E8B811B13C51200C89ED8 /* recipe_satanic_lg.png */,
+				564E8B821B13C51200C89ED8 /* recipe_sheepstick_lg.png */,
+				564E8B831B13C51200C89ED8 /* recipe_shivas_guard_lg.png */,
+				564E8B841B13C51200C89ED8 /* recipe_skadi_lg.png */,
+				564E8B851B13C51200C89ED8 /* recipe_soul_booster_lg.png */,
+				564E8B861B13C51200C89ED8 /* recipe_soul_ring_lg.png */,
+				564E8B871B13C51200C89ED8 /* recipe_sphere_lg.png */,
+				564E8B881B13C51200C89ED8 /* recipe_tranquil_boots_lg.png */,
+				564E8B891B13C51200C89ED8 /* recipe_travel_boots_lg.png */,
+				564E8B8A1B13C51200C89ED8 /* recipe_ultimate_scepter_lg.png */,
+				564E8B8B1B13C51200C89ED8 /* recipe_urn_of_shadows_lg.png */,
+				564E8B8C1B13C51200C89ED8 /* recipe_vanguard_lg.png */,
+				564E8B8D1B13C51200C89ED8 /* recipe_veil_of_discord_lg.png */,
+				564E8B8E1B13C51200C89ED8 /* recipe_vladmir_lg.png */,
+				564E8B8F1B13C51200C89ED8 /* recipe_wraith_band_lg.png */,
+				564E8B901B13C51200C89ED8 /* recipe_yasha_lg.png */,
+				564E8B911B13C51200C89ED8 /* refresher_lg.png */,
+				564E8B921B13C51200C89ED8 /* relic_lg.png */,
+				564E8B931B13C51200C89ED8 /* ring_of_aquila_lg.png */,
+				564E8B941B13C51200C89ED8 /* ring_of_basilius_lg.png */,
+				564E8B951B13C51200C89ED8 /* ring_of_health_lg.png */,
+				564E8B961B13C51200C89ED8 /* ring_of_protection_lg.png */,
+				564E8B971B13C51200C89ED8 /* ring_of_regen_lg.png */,
+				564E8B981B13C51200C89ED8 /* robe_lg.png */,
+				564E8B991B13C51200C89ED8 /* rod_of_atos_lg.png */,
+				564E8B9A1B13C51200C89ED8 /* sange_and_yasha_lg.png */,
+				564E8B9B1B13C51200C89ED8 /* sange_lg.png */,
+				564E8B9C1B13C51200C89ED8 /* satanic_lg.png */,
+				564E8B9D1B13C51200C89ED8 /* shadow_amulet_lg.png */,
+				564E8B9E1B13C51200C89ED8 /* sheepstick_lg.png */,
+				564E8B9F1B13C51200C89ED8 /* shivas_guard_lg.png */,
+				564E8BA01B13C51200C89ED8 /* silver_edge_lg.png */,
+				564E8BA11B13C51200C89ED8 /* skadi_lg.png */,
+				564E8BA21B13C51200C89ED8 /* slippers_lg.png */,
+				564E8BA31B13C51200C89ED8 /* smoke_of_deceit_lg.png */,
+				564E8BA41B13C51200C89ED8 /* sobi_mask_lg.png */,
+				564E8BA51B13C51200C89ED8 /* solar_crest_lg.png */,
+				564E8BA61B13C51200C89ED8 /* soul_booster_lg.png */,
+				564E8BA71B13C51200C89ED8 /* soul_ring_lg.png */,
+				564E8BA81B13C51200C89ED8 /* sphere_lg.png */,
+				564E8BA91B13C51200C89ED8 /* staff_of_wizardry_lg.png */,
+				564E8BAA1B13C51200C89ED8 /* stout_shield_lg.png */,
+				564E8BAB1B13C51200C89ED8 /* talisman_of_evasion_lg.png */,
+				564E8BAC1B13C51200C89ED8 /* tango_lg.png */,
+				564E8BAD1B13C51200C89ED8 /* tango_single_lg.png */,
+				564E8BAE1B13C51200C89ED8 /* tpscroll_lg.png */,
+				564E8BAF1B13C51200C89ED8 /* tranquil_boots_lg.png */,
+				564E8BB01B13C51200C89ED8 /* travel_boots_2_lg.png */,
+				564E8BB11B13C51200C89ED8 /* travel_boots_lg.png */,
+				564E8BB21B13C51200C89ED8 /* ultimate_orb_lg.png */,
+				564E8BB31B13C51200C89ED8 /* ultimate_scepter_lg.png */,
+				564E8BB41B13C51200C89ED8 /* urn_of_shadows_lg.png */,
+				564E8BB51B13C51200C89ED8 /* vanguard_lg.png */,
+				564E8BB61B13C51200C89ED8 /* veil_of_discord_lg.png */,
+				564E8BB71B13C51200C89ED8 /* vitality_booster_lg.png */,
+				564E8BB81B13C51200C89ED8 /* vladmir_lg.png */,
+				564E8BB91B13C51200C89ED8 /* void_stone_lg.png */,
+				564E8BBA1B13C51200C89ED8 /* ward_dispenser_lg.png */,
+				564E8BBB1B13C51200C89ED8 /* ward_observer_lg.png */,
+				564E8BBC1B13C51200C89ED8 /* ward_sentry_lg.png */,
+				564E8BBD1B13C51200C89ED8 /* winter_cake_lg.png */,
+				564E8BBE1B13C51200C89ED8 /* winter_coco_lg.png */,
+				564E8BBF1B13C51200C89ED8 /* winter_cookie_lg.png */,
+				564E8BC01B13C51200C89ED8 /* winter_greevil_chewy_lg.png */,
+				564E8BC11B13C51200C89ED8 /* winter_greevil_garbage_lg.png */,
+				564E8BC21B13C51200C89ED8 /* winter_greevil_treat_lg.png */,
+				564E8BC31B13C51200C89ED8 /* winter_ham_lg.png */,
+				564E8BC41B13C51200C89ED8 /* winter_kringle_lg.png */,
+				564E8BC51B13C51200C89ED8 /* winter_mushroom_lg.png */,
+				564E8BC61B13C51200C89ED8 /* winter_skates_lg.png */,
+				564E8BC71B13C51200C89ED8 /* winter_stocking_lg.png */,
+				564E8BC81B13C51200C89ED8 /* wraith_band_lg.png */,
+				564E8BC91B13C51200C89ED8 /* yasha_lg.png */,
+			);
+			path = items_icon;
+			sourceTree = "<group>";
+		};
 		56DD668C1B0CC5E900652205 = {
 			isa = PBXGroup;
 			children = (
@@ -469,6 +1216,7 @@
 		56DD66981B0CC5EA00652205 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				564E8AD31B13C51100C89ED8 /* items_icon */,
 				564E89F41B1395EB00C89ED8 /* heroes_icon */,
 				56DD66A41B0CC5EA00652205 /* Images.xcassets */,
 				56DD66C01B0CCC5200652205 /* Image */,
@@ -519,6 +1267,7 @@
 				566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */,
 				564E89F21B1375B000C89ED8 /* Heroes.swift */,
 				56DD66DE1B0F86E600652205 /* Dota2Client.swift */,
+				564E8AD11B13C30E00C89ED8 /* Items.swift */,
 				56DD66E01B0F982500652205 /* Match.swift */,
 				566EDEDD1B0FCC1100BBA84E /* Player.swift */,
 				564E89F01B12822600C89ED8 /* Summary.swift */,
@@ -623,126 +1372,372 @@
 			buildActionMask = 2147483647;
 			files = (
 				564E8A841B1395EB00C89ED8 /* gyrocopter_sb.png in Resources */,
+				564E8C551B13C51200C89ED8 /* recipe_headdress_lg.png in Resources */,
+				564E8C4D1B13C51200C89ED8 /* recipe_dagon_lg.png in Resources */,
 				564E8AAD1B1395EB00C89ED8 /* sand_king_sb.png in Resources */,
+				564E8C801B13C51200C89ED8 /* recipe_ultimate_scepter_lg.png in Resources */,
+				564E8C931B13C51200C89ED8 /* shadow_amulet_lg.png in Resources */,
 				564E8A9F1B1395EB00C89ED8 /* ogre_magi_sb.png in Resources */,
 				564E8A651B1395EB00C89ED8 /* ancient_apparition_sb.png in Resources */,
 				564E8AAC1B1395EB00C89ED8 /* rubick_sb.png in Resources */,
+				564E8C181B13C51200C89ED8 /* mask_of_madness_lg.png in Resources */,
 				564E8AA61B1395EB00C89ED8 /* pudge_sb.png in Resources */,
 				564E8AAA1B1395EB00C89ED8 /* razor_sb.png in Resources */,
 				564E8AA31B1395EB00C89ED8 /* phantom_lancer_sb.png in Resources */,
+				564E8C8E1B13C51200C89ED8 /* robe_lg.png in Resources */,
+				564E8C6D1B13C51200C89ED8 /* recipe_poor_mans_shield_lg.png in Resources */,
+				564E8C441B13C51200C89ED8 /* recipe_bloodstone_lg.png in Resources */,
+				564E8C4A1B13C51200C89ED8 /* recipe_dagon_3_lg.png in Resources */,
+				564E8C8D1B13C51200C89ED8 /* ring_of_regen_lg.png in Resources */,
+				564E8C3A1B13C51200C89ED8 /* reaver_lg.png in Resources */,
 				564E8AAF1B1395EB00C89ED8 /* shadow_shaman_sb.png in Resources */,
+				564E8CB01B13C51200C89ED8 /* ward_dispenser_lg.png in Resources */,
+				564E8BDA1B13C51200C89ED8 /* boots_of_elves_lg.png in Resources */,
+				564E8C9B1B13C51200C89ED8 /* solar_crest_lg.png in Resources */,
+				564E8C6C1B13C51200C89ED8 /* recipe_pipe_lg.png in Resources */,
+				564E8C731B13C51200C89ED8 /* recipe_ring_of_basilius_lg.png in Resources */,
 				56DD66C41B0CCC5C00652205 /* dota2_120.png in Resources */,
+				564E8C0A1B13C51200C89ED8 /* helm_of_iron_will_lg.png in Resources */,
 				564E8A771B1395EB00C89ED8 /* death_prophet_sb.png in Resources */,
+				564E8C561B13C51200C89ED8 /* recipe_heart_lg.png in Resources */,
+				564E8C4B1B13C51200C89ED8 /* recipe_dagon_4_lg.png in Resources */,
+				564E8C541B13C51200C89ED8 /* recipe_hand_of_midas_lg.png in Resources */,
+				564E8BCA1B13C51200C89ED8 /* abyssal_blade_lg.png in Resources */,
 				564E8ABD1B1395EB00C89ED8 /* terrorblade_sb.png in Resources */,
 				564E8A721B1395EB00C89ED8 /* chen_sb.png in Resources */,
+				564E8CB11B13C51200C89ED8 /* ward_observer_lg.png in Resources */,
+				564E8C291B13C51200C89ED8 /* oblivion_staff_lg.png in Resources */,
+				564E8C4C1B13C51200C89ED8 /* recipe_dagon_5_lg.png in Resources */,
+				564E8BF61B13C51200C89ED8 /* energy_booster_lg.png in Resources */,
 				564E8AB41B1395EB00C89ED8 /* slardar_sb.png in Resources */,
+				564E8CB91B13C51200C89ED8 /* winter_ham_lg.png in Resources */,
+				564E8C481B13C51200C89ED8 /* recipe_cyclone_lg.png in Resources */,
 				564E8A6E1B1395EB00C89ED8 /* bristleback_sb.png in Resources */,
 				564E8A811B1395EB00C89ED8 /* enigma_sb.png in Resources */,
+				564E8C221B13C51200C89ED8 /* mystery_toss_lg.png in Resources */,
 				564E8AA11B1395EB00C89ED8 /* oracle_sb.png in Resources */,
+				564E8C051B13C51200C89ED8 /* halloween_rapier_lg.png in Resources */,
+				564E8C101B13C51200C89ED8 /* lesser_crit_lg.png in Resources */,
 				564E8A641B1395EB00C89ED8 /* alchemist_sb.png in Resources */,
+				564E8C3D1B13C51200C89ED8 /* recipe_arcane_boots_lg.png in Resources */,
 				56DD66A31B0CC5EA00652205 /* Main.storyboard in Resources */,
+				564E8C571B13C51200C89ED8 /* recipe_heavens_halberd_lg.png in Resources */,
+				564E8CAB1B13C51200C89ED8 /* vanguard_lg.png in Resources */,
 				564E8A661B1395EB00C89ED8 /* antimage_sb.png in Resources */,
+				564E8C741B13C51200C89ED8 /* recipe_rod_of_atos_lg.png in Resources */,
+				564E8C1C1B13C51200C89ED8 /* mjollnir_lg.png in Resources */,
+				564E8C301B13C51200C89ED8 /* pipe_lg.png in Resources */,
+				564E8C631B13C51200C89ED8 /* recipe_monkey_king_bar_lg.png in Resources */,
 				564E8A6F1B1395EB00C89ED8 /* broodmother_sb.png in Resources */,
+				564E8BF71B13C51200C89ED8 /* ethereal_blade_lg.png in Resources */,
+				564E8C721B13C51200C89ED8 /* recipe_ring_of_aquila_lg.png in Resources */,
+				564E8C9D1B13C51200C89ED8 /* soul_ring_lg.png in Resources */,
 				564E8A991B1395EB00C89ED8 /* naga_siren_sb.png in Resources */,
 				564E8A791B1395EB00C89ED8 /* doom_bringer_sb.png in Resources */,
 				564E8AA91B1395EB00C89ED8 /* rattletrap_sb.png in Resources */,
+				564E8BF91B13C51200C89ED8 /* flying_courier_lg.png in Resources */,
+				564E8C521B13C51200C89ED8 /* recipe_force_staff_lg.png in Resources */,
+				564E8C4F1B13C51200C89ED8 /* recipe_diffusal_blade_2_lg.png in Resources */,
+				564E8C251B13C51200C89ED8 /* necronomicon_2_lg.png in Resources */,
 				56DD66A81B0CC5EA00652205 /* LaunchScreen.xib in Resources */,
 				564E8AC41B1395EB00C89ED8 /* undying_sb.png in Resources */,
+				564E8CA71B13C51200C89ED8 /* travel_boots_lg.png in Resources */,
 				564E8ABF1B1395EB00C89ED8 /* tinker_sb.png in Resources */,
+				564E8C061B13C51200C89ED8 /* hand_of_midas_lg.png in Resources */,
+				564E8C8B1B13C51200C89ED8 /* ring_of_health_lg.png in Resources */,
+				564E8CBF1B13C51200C89ED8 /* yasha_lg.png in Resources */,
+				564E8BE11B13C51200C89ED8 /* chainmail_lg.png in Resources */,
+				564E8C5B1B13C51200C89ED8 /* recipe_lesser_crit_lg.png in Resources */,
+				564E8BFD1B13C51200C89ED8 /* ghost_lg.png in Resources */,
+				564E8C5A1B13C51200C89ED8 /* recipe_invis_sword_lg.png in Resources */,
+				564E8BE31B13C51200C89ED8 /* circlet_lg.png in Resources */,
 				564E8AA51B1395EB00C89ED8 /* puck_sb.png in Resources */,
+				564E8C941B13C51200C89ED8 /* sheepstick_lg.png in Resources */,
+				564E8BFA1B13C51200C89ED8 /* force_staff_lg.png in Resources */,
 				564E8A751B1395EB00C89ED8 /* dark_seer_sb.png in Resources */,
 				564E8A781B1395EB00C89ED8 /* disruptor_sb.png in Resources */,
+				564E8BEF1B13C51200C89ED8 /* demon_edge_lg.png in Resources */,
 				56DD66C61B0CCC5C00652205 /* dota2_76.png in Resources */,
+				564E8CBA1B13C51200C89ED8 /* winter_kringle_lg.png in Resources */,
+				564E8C3E1B13C51200C89ED8 /* recipe_armlet_lg.png in Resources */,
+				564E8C501B13C51200C89ED8 /* recipe_diffusal_blade_lg.png in Resources */,
+				564E8BEB1B13C51200C89ED8 /* dagon_3_lg.png in Resources */,
+				564E8C311B13C51200C89ED8 /* platemail_lg.png in Resources */,
 				564E8AB21B1395EB00C89ED8 /* skeleton_king_sb.png in Resources */,
 				56DD66A51B0CC5EA00652205 /* Images.xcassets in Resources */,
+				564E8C751B13C51200C89ED8 /* recipe_sange_and_yasha_lg.png in Resources */,
+				564E8C021B13C51200C89ED8 /* greevil_whistle_toggle_lg.png in Resources */,
 				564E8A9C1B1395EB00C89ED8 /* night_stalker_sb.png in Resources */,
+				564E8C071B13C51200C89ED8 /* headdress_lg.png in Resources */,
+				564E8C0B1B13C51200C89ED8 /* helm_of_the_dominator_lg.png in Resources */,
+				564E8C851B13C51200C89ED8 /* recipe_wraith_band_lg.png in Resources */,
+				564E8C381B13C51200C89ED8 /* radiance_lg.png in Resources */,
+				564E8CA31B13C51200C89ED8 /* tango_single_lg.png in Resources */,
+				564E8CB21B13C51200C89ED8 /* ward_sentry_lg.png in Resources */,
+				564E8C031B13C51200C89ED8 /* guardian_greaves_lg.png in Resources */,
+				564E8C991B13C51200C89ED8 /* smoke_of_deceit_lg.png in Resources */,
+				564E8BEC1B13C51200C89ED8 /* dagon_4_lg.png in Resources */,
+				564E8C891B13C51200C89ED8 /* ring_of_aquila_lg.png in Resources */,
+				564E8CBD1B13C51200C89ED8 /* winter_stocking_lg.png in Resources */,
+				564E8C591B13C51200C89ED8 /* recipe_hood_of_defiance_lg.png in Resources */,
 				564E8A861B1395EB00C89ED8 /* invoker_sb.png in Resources */,
+				564E8C811B13C51200C89ED8 /* recipe_urn_of_shadows_lg.png in Resources */,
+				564E8C9E1B13C51200C89ED8 /* sphere_lg.png in Resources */,
 				564E8ACC1B1395EB00C89ED8 /* windrunner_sb.png in Resources */,
+				564E8C081B13C51200C89ED8 /* heart_lg.png in Resources */,
 				564E8AB01B1395EB00C89ED8 /* shredder_sb.png in Resources */,
 				564E8AA41B1395EB00C89ED8 /* phoenix_sb.png in Resources */,
+				564E8BD21B13C51200C89ED8 /* bfury_lg.png in Resources */,
+				564E8BFF1B13C51200C89ED8 /* gloves_lg.png in Resources */,
+				564E8CAF1B13C51200C89ED8 /* void_stone_lg.png in Resources */,
+				564E8CBE1B13C51200C89ED8 /* wraith_band_lg.png in Resources */,
+				564E8C691B13C51200C89ED8 /* recipe_orchid_lg.png in Resources */,
+				564E8BD01B13C51200C89ED8 /* basher_lg.png in Resources */,
+				564E8C261B13C51200C89ED8 /* necronomicon_3_lg.png in Resources */,
+				564E8C0F1B13C51200C89ED8 /* javelin_lg.png in Resources */,
+				564E8C951B13C51200C89ED8 /* shivas_guard_lg.png in Resources */,
+				564E8C231B13C51200C89ED8 /* mystery_vacuum_lg.png in Resources */,
+				564E8C601B13C51200C89ED8 /* recipe_medallion_of_courage_lg.png in Resources */,
 				564E8AC91B1395EB00C89ED8 /* visage_sb.png in Resources */,
+				564E8C841B13C51200C89ED8 /* recipe_vladmir_lg.png in Resources */,
 				564E8A931B1395EB00C89ED8 /* lycan_sb.png in Resources */,
 				564E8A7F1B1395EB00C89ED8 /* ember_spirit_sb.png in Resources */,
 				564E8A7B1B1395EB00C89ED8 /* drow_ranger_sb.png in Resources */,
+				564E8C831B13C51200C89ED8 /* recipe_veil_of_discord_lg.png in Resources */,
 				564E8A7C1B1395EB00C89ED8 /* earth_spirit_sb.png in Resources */,
 				564E8A831B1395EB00C89ED8 /* furion_sb.png in Resources */,
+				564E8C761B13C51200C89ED8 /* recipe_sange_lg.png in Resources */,
+				564E8BEE1B13C51200C89ED8 /* dagon_lg.png in Resources */,
+				564E8C341B13C51200C89ED8 /* power_treads_lg.png in Resources */,
+				564E8CB81B13C51200C89ED8 /* winter_greevil_treat_lg.png in Resources */,
+				564E8CAD1B13C51200C89ED8 /* vitality_booster_lg.png in Resources */,
+				564E8C9C1B13C51200C89ED8 /* soul_booster_lg.png in Resources */,
+				564E8C9A1B13C51200C89ED8 /* sobi_mask_lg.png in Resources */,
 				564E8ABE1B1395EB00C89ED8 /* tidehunter_sb.png in Resources */,
 				564E8A6B1B1395EB00C89ED8 /* bloodseeker_sb.png in Resources */,
+				564E8BFC1B13C51200C89ED8 /* gem_lg.png in Resources */,
+				564E8C7D1B13C51200C89ED8 /* recipe_sphere_lg.png in Resources */,
+				564E8C511B13C51200C89ED8 /* recipe_ethereal_blade_lg.png in Resources */,
 				564E8A741B1395EB00C89ED8 /* crystal_maiden_sb.png in Resources */,
+				564E8C6B1B13C51200C89ED8 /* recipe_phase_boots_lg.png in Resources */,
 				564E8A6C1B1395EB00C89ED8 /* bounty_hunter_sb.png in Resources */,
+				564E8BCC1B13C51200C89ED8 /* ancient_janggo_lg.png in Resources */,
 				564E8ABB1B1395EB00C89ED8 /* techies_sb.png in Resources */,
 				564E8ACA1B1395EB00C89ED8 /* warlock_sb.png in Resources */,
+				564E8C921B13C51200C89ED8 /* satanic_lg.png in Resources */,
+				564E8C701B13C51200C89ED8 /* recipe_rapier_lg.png in Resources */,
 				56DD66C51B0CCC5C00652205 /* dota2_92.png in Resources */,
 				564E8AB71B1395EB00C89ED8 /* spectre_sb.png in Resources */,
 				564E8A901B1395EB00C89ED8 /* lion_sb.png in Resources */,
+				564E8BE21B13C51200C89ED8 /* cheese_lg.png in Resources */,
+				564E8C0C1B13C51200C89ED8 /* hood_of_defiance_lg.png in Resources */,
 				564E8A691B1395EB00C89ED8 /* batrider_sb.png in Resources */,
+				564E8C7E1B13C51200C89ED8 /* recipe_tranquil_boots_lg.png in Resources */,
+				564E8C3F1B13C51200C89ED8 /* recipe_assault_lg.png in Resources */,
+				564E8BD61B13C51200C89ED8 /* blades_of_attack_lg.png in Resources */,
+				564E8BF21B13C51200C89ED8 /* diffusal_blade_lg.png in Resources */,
 				564E8A951B1395EB00C89ED8 /* medusa_sb.png in Resources */,
+				564E8BF31B13C51200C89ED8 /* dust_lg.png in Resources */,
 				564E8A851B1395EB00C89ED8 /* huskar_sb.png in Resources */,
+				564E8C8A1B13C51200C89ED8 /* ring_of_basilius_lg.png in Resources */,
+				564E8BF41B13C51200C89ED8 /* eagle_lg.png in Resources */,
 				564E8AC11B1395EB00C89ED8 /* treant_sb.png in Resources */,
+				564E8C611B13C51200C89ED8 /* recipe_mekansm_lg.png in Resources */,
 				564E8A9A1B1395EB00C89ED8 /* necrolyte_sb.png in Resources */,
 				564E8AB81B1395EB00C89ED8 /* spirit_breaker_sb.png in Resources */,
+				564E8C531B13C51200C89ED8 /* recipe_greater_crit_lg.png in Resources */,
+				564E8C2D1B13C51200C89ED8 /* orchid_lg.png in Resources */,
+				564E8C1D1B13C51200C89ED8 /* monkey_king_bar_lg.png in Resources */,
 				564E8AAE1B1395EB00C89ED8 /* shadow_demon_sb.png in Resources */,
 				564E8A6D1B1395EB00C89ED8 /* brewmaster_sb.png in Resources */,
+				564E8BD11B13C51200C89ED8 /* belt_of_strength_lg.png in Resources */,
 				564E8A9D1B1395EB00C89ED8 /* nyx_assassin_sb.png in Resources */,
+				564E8C411B13C51200C89ED8 /* recipe_bfury_lg.png in Resources */,
+				564E8CAE1B13C51200C89ED8 /* vladmir_lg.png in Resources */,
 				564E8A631B1395EB00C89ED8 /* abaddon_sb.png in Resources */,
+				564E8C6F1B13C51200C89ED8 /* recipe_radiance_lg.png in Resources */,
+				564E8CA21B13C51200C89ED8 /* tango_lg.png in Resources */,
+				564E8BE01B13C51200C89ED8 /* butterfly_lg.png in Resources */,
 				564E8A8F1B1395EB00C89ED8 /* lina_sb.png in Resources */,
+				564E8BEA1B13C51200C89ED8 /* dagon_2_lg.png in Resources */,
 				564E8AB91B1395EB00C89ED8 /* storm_spirit_sb.png in Resources */,
 				56DD66D31B0D150900652205 /* heart_64.png in Resources */,
+				564E8C791B13C51200C89ED8 /* recipe_shivas_guard_lg.png in Resources */,
+				564E8C711B13C51200C89ED8 /* recipe_refresher_lg.png in Resources */,
 				564E8A6A1B1395EB00C89ED8 /* beastmaster_sb.png in Resources */,
 				564E8AA71B1395EB00C89ED8 /* pugna_sb.png in Resources */,
+				564E8CBC1B13C51200C89ED8 /* winter_skates_lg.png in Resources */,
+				564E8C321B13C51200C89ED8 /* point_booster_lg.png in Resources */,
+				564E8CBB1B13C51200C89ED8 /* winter_mushroom_lg.png in Resources */,
+				564E8BE41B13C51200C89ED8 /* clarity_lg.png in Resources */,
+				564E8C8F1B13C51200C89ED8 /* rod_of_atos_lg.png in Resources */,
+				564E8C7A1B13C51200C89ED8 /* recipe_skadi_lg.png in Resources */,
+				564E8BF81B13C51200C89ED8 /* flask_lg.png in Resources */,
+				564E8C7C1B13C51200C89ED8 /* recipe_soul_ring_lg.png in Resources */,
+				564E8CA11B13C51200C89ED8 /* talisman_of_evasion_lg.png in Resources */,
+				564E8BFE1B13C51200C89ED8 /* glimmer_cape_lg.png in Resources */,
+				564E8BF11B13C51200C89ED8 /* diffusal_blade_2_lg.png in Resources */,
 				564E8A681B1395EB00C89ED8 /* bane_sb.png in Resources */,
+				564E8BD51B13C51200C89ED8 /* blade_of_alacrity_lg.png in Resources */,
 				56DD66D71B0D177100652205 /* dota2_48.png in Resources */,
+				564E8C171B13C51200C89ED8 /* mantle_lg.png in Resources */,
+				564E8C1E1B13C51200C89ED8 /* moon_shard_lg.png in Resources */,
 				564E8A891B1395EB00C89ED8 /* keeper_of_the_light_sb.png in Resources */,
+				564E8BE51B13C51200C89ED8 /* claymore_lg.png in Resources */,
+				564E8BE91B13C51200C89ED8 /* cyclone_lg.png in Resources */,
 				564E8AA21B1395EB00C89ED8 /* phantom_assassin_sb.png in Resources */,
 				564E8AC81B1395EB00C89ED8 /* viper_sb.png in Resources */,
+				564E8C361B13C51200C89ED8 /* quarterstaff_lg.png in Resources */,
+				564E8C2B1B13C51200C89ED8 /* ogre_axe_lg.png in Resources */,
+				564E8BDC1B13C51200C89ED8 /* bracer_lg.png in Resources */,
 				564E8AAB1B1395EB00C89ED8 /* riki_sb.png in Resources */,
 				564E8A921B1395EB00C89ED8 /* luna_sb.png in Resources */,
 				564E8A821B1395EB00C89ED8 /* faceless_void_sb.png in Resources */,
+				564E8C371B13C51200C89ED8 /* quelling_blade_lg.png in Resources */,
+				564E8CB41B13C51200C89ED8 /* winter_coco_lg.png in Resources */,
+				564E8C131B13C51200C89ED8 /* maelstrom_lg.png in Resources */,
 				564E8A881B1395EB00C89ED8 /* juggernaut_sb.png in Resources */,
+				564E8C281B13C51200C89ED8 /* null_talisman_lg.png in Resources */,
+				564E8BF01B13C51200C89ED8 /* desolator_lg.png in Resources */,
 				564E8AC01B1395EB00C89ED8 /* tiny_sb.png in Resources */,
+				564E8C461B13C51200C89ED8 /* recipe_buckler_lg.png in Resources */,
+				564E8BF51B13C51200C89ED8 /* enchanted_mango_lg.png in Resources */,
+				564E8C6E1B13C51200C89ED8 /* recipe_power_treads_lg.png in Resources */,
+				564E8CA41B13C51200C89ED8 /* tpscroll_lg.png in Resources */,
+				564E8C421B13C51200C89ED8 /* recipe_black_king_bar_lg.png in Resources */,
 				56DD66CF1B0D13E700652205 /* heart_128.png in Resources */,
+				564E8C5D1B13C51200C89ED8 /* recipe_magic_wand_lg.png in Resources */,
+				564E8BED1B13C51200C89ED8 /* dagon_5_lg.png in Resources */,
+				564E8C201B13C51200C89ED8 /* mystery_hook_lg.png in Resources */,
+				564E8C1B1B13C51200C89ED8 /* mithril_hammer_lg.png in Resources */,
+				564E8C901B13C51200C89ED8 /* sange_and_yasha_lg.png in Resources */,
 				564E8A8A1B1395EB00C89ED8 /* kunkka_sb.png in Resources */,
+				564E8BDE1B13C51200C89ED8 /* broadsword_lg.png in Resources */,
 				564E8ABC1B1395EB00C89ED8 /* templar_assassin_sb.png in Resources */,
+				564E8C241B13C51200C89ED8 /* mystic_staff_lg.png in Resources */,
+				564E8C5C1B13C51200C89ED8 /* recipe_maelstrom_lg.png in Resources */,
+				564E8C1A1B13C51200C89ED8 /* mekansm_lg.png in Resources */,
 				564E8A981B1395EB00C89ED8 /* morphling_sb.png in Resources */,
+				564E8C451B13C51200C89ED8 /* recipe_bracer_lg.png in Resources */,
 				564E8AC21B1395EB00C89ED8 /* troll_warlord_sb.png in Resources */,
 				564E8A971B1395EB00C89ED8 /* mirana_sb.png in Resources */,
+				564E8C9F1B13C51200C89ED8 /* staff_of_wizardry_lg.png in Resources */,
 				564E8A871B1395EB00C89ED8 /* jakiro_sb.png in Resources */,
 				56DD66D21B0D150900652205 /* heart_32.png in Resources */,
+				564E8BE81B13C51200C89ED8 /* crimson_guard_lg.png in Resources */,
 				564E8AB51B1395EB00C89ED8 /* slark_sb.png in Resources */,
+				564E8BDD1B13C51200C89ED8 /* branches_lg.png in Resources */,
+				564E8C911B13C51200C89ED8 /* sange_lg.png in Resources */,
+				564E8CAA1B13C51200C89ED8 /* urn_of_shadows_lg.png in Resources */,
+				564E8CB71B13C51200C89ED8 /* winter_greevil_garbage_lg.png in Resources */,
+				564E8C0E1B13C51200C89ED8 /* invis_sword_lg.png in Resources */,
+				564E8C5F1B13C51200C89ED8 /* recipe_mask_of_madness_lg.png in Resources */,
+				564E8C861B13C51200C89ED8 /* recipe_yasha_lg.png in Resources */,
 				564E8AB61B1395EB00C89ED8 /* sniper_sb.png in Resources */,
 				564E8A7E1B1395EB00C89ED8 /* elder_titan_sb.png in Resources */,
+				564E8BD71B13C51200C89ED8 /* blink_lg.png in Resources */,
+				564E8C2C1B13C51200C89ED8 /* orb_of_venom_lg.png in Resources */,
+				564E8CB51B13C51200C89ED8 /* winter_cookie_lg.png in Resources */,
+				564E8BE61B13C51200C89ED8 /* cloak_lg.png in Resources */,
 				564E8AB11B1395EB00C89ED8 /* silencer_sb.png in Resources */,
+				564E8CA91B13C51200C89ED8 /* ultimate_scepter_lg.png in Resources */,
+				564E8C091B13C51200C89ED8 /* heavens_halberd_lg.png in Resources */,
 				564E8A8D1B1395EB00C89ED8 /* lich_sb.png in Resources */,
 				564E8ACF1B1395EB00C89ED8 /* witch_doctor_sb.png in Resources */,
 				564E8A731B1395EB00C89ED8 /* clinkz_sb.png in Resources */,
+				564E8BCD1B13C51200C89ED8 /* arcane_boots_lg.png in Resources */,
+				564E8C2E1B13C51200C89ED8 /* pers_lg.png in Resources */,
+				564E8C011B13C51200C89ED8 /* greevil_whistle_lg.png in Resources */,
+				564E8C121B13C51200C89ED8 /* lotus_orb_lg.png in Resources */,
+				564E8C981B13C51200C89ED8 /* slippers_lg.png in Resources */,
+				564E8C211B13C51200C89ED8 /* mystery_missile_lg.png in Resources */,
+				564E8BD91B13C51200C89ED8 /* boots_lg.png in Resources */,
 				564E8AA81B1395EB00C89ED8 /* queenofpain_sb.png in Resources */,
+				564E8CB61B13C51200C89ED8 /* winter_greevil_chewy_lg.png in Resources */,
+				564E8C681B13C51200C89ED8 /* recipe_oblivion_staff_lg.png in Resources */,
 				564E8A941B1395EB00C89ED8 /* magnataur_sb.png in Resources */,
+				564E8CB31B13C51200C89ED8 /* winter_cake_lg.png in Resources */,
+				564E8CA61B13C51200C89ED8 /* travel_boots_2_lg.png in Resources */,
+				564E8C3C1B13C51200C89ED8 /* recipe_ancient_janggo_lg.png in Resources */,
+				564E8C151B13C51200C89ED8 /* magic_wand_lg.png in Resources */,
+				564E8C391B13C51200C89ED8 /* rapier_lg.png in Resources */,
 				564E8A8E1B1395EB00C89ED8 /* life_stealer_sb.png in Resources */,
 				564E8A701B1395EB00C89ED8 /* centaur_sb.png in Resources */,
+				564E8C491B13C51200C89ED8 /* recipe_dagon_2_lg.png in Resources */,
+				564E8C671B13C51200C89ED8 /* recipe_null_talisman_lg.png in Resources */,
+				564E8C271B13C51200C89ED8 /* necronomicon_lg.png in Resources */,
+				564E8C471B13C51200C89ED8 /* recipe_butterfly_lg.png in Resources */,
+				564E8C871B13C51200C89ED8 /* refresher_lg.png in Resources */,
 				56DD66D51B0D15A800652205 /* dota2_32.png in Resources */,
+				564E8C7F1B13C51200C89ED8 /* recipe_travel_boots_lg.png in Resources */,
 				564E8AD01B1395EB00C89ED8 /* zuus_sb.png in Resources */,
 				564E8ACE1B1395EB00C89ED8 /* wisp_sb.png in Resources */,
+				564E8C2A1B13C51200C89ED8 /* octarine_core_lg.png in Resources */,
+				564E8BCE1B13C51200C89ED8 /* armlet_lg.png in Resources */,
+				564E8C401B13C51200C89ED8 /* recipe_basher_lg.png in Resources */,
 				564E8A8B1B1395EB00C89ED8 /* legion_commander_sb.png in Resources */,
+				564E8C821B13C51200C89ED8 /* recipe_vanguard_lg.png in Resources */,
 				564E8ACD1B1395EB00C89ED8 /* winter_wyvern_sb.png in Resources */,
+				564E8C0D1B13C51200C89ED8 /* hyperstone_lg.png in Resources */,
+				564E8C001B13C51200C89ED8 /* greater_crit_lg.png in Resources */,
+				564E8C351B13C51200C89ED8 /* present_lg.png in Resources */,
+				564E8BDF1B13C51200C89ED8 /* buckler_lg.png in Resources */,
 				564E8A9B1B1395EB00C89ED8 /* nevermore_sb.png in Resources */,
+				564E8C961B13C51200C89ED8 /* silver_edge_lg.png in Resources */,
+				564E8C641B13C51200C89ED8 /* recipe_necronomicon_2_lg.png in Resources */,
 				564E8AC51B1395EB00C89ED8 /* ursa_sb.png in Resources */,
 				564E8A801B1395EB00C89ED8 /* enchantress_sb.png in Resources */,
+				564E8C431B13C51200C89ED8 /* recipe_blade_mail_lg.png in Resources */,
 				564E8A911B1395EB00C89ED8 /* lone_druid_sb.png in Resources */,
+				564E8BCF1B13C51200C89ED8 /* assault_lg.png in Resources */,
+				564E8C161B13C51200C89ED8 /* manta_lg.png in Resources */,
 				564E8A761B1395EB00C89ED8 /* dazzle_sb.png in Resources */,
 				564E8ACB1B1395EB00C89ED8 /* weaver_sb.png in Resources */,
+				564E8BDB1B13C51200C89ED8 /* bottle_lg.png in Resources */,
+				564E8C5E1B13C51200C89ED8 /* recipe_manta_lg.png in Resources */,
 				564E8A961B1395EB00C89ED8 /* meepo_sb.png in Resources */,
 				564E8AA01B1395EB00C89ED8 /* omniknight_sb.png in Resources */,
+				564E8C581B13C51200C89ED8 /* recipe_helm_of_the_dominator_lg.png in Resources */,
+				564E8C4E1B13C51200C89ED8 /* recipe_desolator_lg.png in Resources */,
+				564E8C2F1B13C51200C89ED8 /* phase_boots_lg.png in Resources */,
+				564E8CA51B13C51200C89ED8 /* tranquil_boots_lg.png in Resources */,
+				564E8C881B13C51200C89ED8 /* relic_lg.png in Resources */,
 				564E8AB31B1395EB00C89ED8 /* skywrath_mage_sb.png in Resources */,
+				564E8BCB1B13C51200C89ED8 /* aegis_lg.png in Resources */,
+				564E8C1F1B13C51200C89ED8 /* mystery_arrow_lg.png in Resources */,
 				564E8AC71B1395EB00C89ED8 /* venomancer_sb.png in Resources */,
+				564E8C3B1B13C51200C89ED8 /* recipe_abyssal_blade_lg.png in Resources */,
+				564E8C661B13C51200C89ED8 /* recipe_necronomicon_lg.png in Resources */,
+				564E8C111B13C51200C89ED8 /* lifesteal_lg.png in Resources */,
 				564E8AC61B1395EB00C89ED8 /* vengefulspirit_sb.png in Resources */,
+				564E8BD31B13C51200C89ED8 /* black_king_bar_lg.png in Resources */,
 				564E8A8C1B1395EB00C89ED8 /* leshrac_sb.png in Resources */,
 				564E8A7A1B1395EB00C89ED8 /* dragon_knight_sb.png in Resources */,
 				564E8A7D1B1395EB00C89ED8 /* earthshaker_sb.png in Resources */,
+				564E8C041B13C51200C89ED8 /* halloween_candy_corn_lg.png in Resources */,
 				564E8A9E1B1395EB00C89ED8 /* obsidian_destroyer_sb.png in Resources */,
+				564E8BFB1B13C51200C89ED8 /* gauntlets_lg.png in Resources */,
 				564E8ABA1B1395EB00C89ED8 /* sven_sb.png in Resources */,
+				564E8C8C1B13C51200C89ED8 /* ring_of_protection_lg.png in Resources */,
+				564E8C141B13C51200C89ED8 /* magic_stick_lg.png in Resources */,
+				564E8CA81B13C51200C89ED8 /* ultimate_orb_lg.png in Resources */,
+				564E8BD41B13C51200C89ED8 /* blade_mail_lg.png in Resources */,
 				564E8AC31B1395EB00C89ED8 /* tusk_sb.png in Resources */,
+				564E8C191B13C51200C89ED8 /* medallion_of_courage_lg.png in Resources */,
+				564E8C7B1B13C51200C89ED8 /* recipe_soul_booster_lg.png in Resources */,
+				564E8C331B13C51200C89ED8 /* poor_mans_shield_lg.png in Resources */,
+				564E8C781B13C51200C89ED8 /* recipe_sheepstick_lg.png in Resources */,
 				564E8A711B1395EB00C89ED8 /* chaos_knight_sb.png in Resources */,
+				564E8C6A1B13C51200C89ED8 /* recipe_pers_lg.png in Resources */,
+				564E8C651B13C51200C89ED8 /* recipe_necronomicon_3_lg.png in Resources */,
+				564E8C771B13C51200C89ED8 /* recipe_satanic_lg.png in Resources */,
+				564E8C971B13C51200C89ED8 /* skadi_lg.png in Resources */,
 				564E8A671B1395EB00C89ED8 /* axe_sb.png in Resources */,
+				564E8C621B13C51200C89ED8 /* recipe_mjollnir_lg.png in Resources */,
+				564E8BE71B13C51200C89ED8 /* courier_lg.png in Resources */,
+				564E8BD81B13C51200C89ED8 /* bloodstone_lg.png in Resources */,
+				564E8CAC1B13C51200C89ED8 /* veil_of_discord_lg.png in Resources */,
+				564E8CA01B13C51200C89ED8 /* stout_shield_lg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,6 +1756,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				564E89EF1B12431000C89ED8 /* PlayerTableViewCell.swift in Sources */,
+				564E8AD21B13C30E00C89ED8 /* Items.swift in Sources */,
 				566EDEDE1B0FCC1100BBA84E /* Player.swift in Sources */,
 				56DD66C81B0CD13800652205 /* NewsTableViewController.swift in Sources */,
 				564E89F11B12822600C89ED8 /* Summary.swift in Sources */,

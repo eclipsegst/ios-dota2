@@ -20,6 +20,12 @@ struct Player {
     var level = 0
     var player_slot = 0
     var kda = ""
+    var item_0 = 0
+    var item_1 = 0
+    var item_2 = 0
+    var item_3 = 0
+    var item_4 = 0
+    var item_5 = 0
 
     
     /* Construct a TMDBMovie from a dictionary */
@@ -33,6 +39,12 @@ struct Player {
         level = dictionary["level"] as! Int
         player_slot = dictionary["player_slot"] as! Int
         kda = "\(kills)/\(deaths)/\(assists)"
+        item_0 = dictionary["item_0"] as! Int
+        item_1 = dictionary["item_1"] as! Int
+        item_2 = dictionary["item_2"] as! Int
+        item_3 = dictionary["item_3"] as! Int
+        item_4 = dictionary["item_4"] as! Int
+        item_5 = dictionary["item_5"] as! Int
         
 
     }
