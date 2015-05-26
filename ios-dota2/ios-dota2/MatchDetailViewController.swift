@@ -12,6 +12,7 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
 
     var match: Match?
     var players: [Player] = [Player]()
+    var summaries: [Summary] = [Summary]()
     
     var appDelegate: AppDelegate!
     var session: NSURLSession!
@@ -65,11 +66,35 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
                         println(result["radiant_win"])
                         
                         if let playersRaw = result["players"] as? [[String : AnyObject]] {
-                            
+                            for player in playersRaw {
+                                
+                            }
                             self.players = Player.playersFromResults(playersRaw)
                             
                             //ToDo:
                             //Getall the summary of all the players
+                            
+                            for player in self.players {
+                                let accountid = player.account_id
+                                
+                                Dota2Client.sharedInstance().getPlayerSummaries(nil, account_id: accountid) { (result, error) -> Void in
+                                    if let summary = result {
+                                        println("summary test = \(summary.avatarfull)")
+                                        
+                                        self.summaries.append(summary)
+//                                        if self.summaries.count == self.players.count {
+                                            dispatch_async(dispatch_get_main_queue(), {
+                                                self.tableView.reloadData()
+                                            })
+//                                        }
+                                        
+                                        
+                                    }
+                                }
+                                
+                            }
+
+                            
                             
                             
                             dispatch_async(dispatch_get_main_queue()) {
@@ -112,7 +137,6 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         }
         
         task.resume()
-        
         
     }
     
@@ -177,7 +201,17 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         }
         
         cell.levelLabel.text = "Lv.\(level)"
-        cell.playerNameLabel.text = "\(accountID)"
+        if accountID == 4294967295 {
+            cell.playerNameLabel.text = "Anonymous"
+        } else {
+            var idInt = 76561197960265728 + accountID
+            let id = String(idInt)
+            for summary in summaries {
+                if summary.steamid == String(id) {
+                    cell.playerNameLabel.text = summary.personaname
+                }
+            }
+        }
         cell.kdaLabel.text = kda
         
         var heroName = Heroes.heroes[heroID]
@@ -237,13 +271,7 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         }
         
         
-        //        Dota2Client.sharedInstance().getPlayerSummaries(nil, account_id: accountID) { (result, error) -> Void in
-        //            if let summaries = result {
-        //                dispatch_async(dispatch_get_main_queue(), {
-        //                    cell.playerNameLabel.text = player.personaname
-        //                })
-        //            }
-        //        }
+    
         
         
         return cell

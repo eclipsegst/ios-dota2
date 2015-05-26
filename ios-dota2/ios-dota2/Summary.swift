@@ -14,22 +14,24 @@ struct Summary {
     
     var steamid: String? = nil
     var personaname = ""
+    var avatarfull = ""
     
     /* Construct a TMDBMovie from a dictionary */
     init(dictionary: [String : AnyObject]) {
         
         steamid = dictionary["steamid"] as? String
         personaname = dictionary["personaname"] as! String
+        avatarfull = dictionary["avatarfull"] as! String
 
     }
     
     /* Helper: Given an array of dictionaries, convert them to an array of TMDBMovie objects */
-    static func summaryFromResults(results: [String : AnyObject]) -> [Summary] {
+    static func summaryFromResults(results: [String : AnyObject]) -> Summary {
         var summary = [Summary]()
         
         summary.append(Summary(dictionary: results))
         
-        return summary
+        return summary[summary.startIndex]
     }
     
     

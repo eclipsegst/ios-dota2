@@ -167,7 +167,7 @@ class Dota2Client : NSObject {
     }
     
     // MARK: - Get player summaries
-    func getPlayerSummaries(steamidInt: Int64?, account_id: Int?, completionHandler: (result: [Summary]?, error: NSError?) -> Void) {
+    func getPlayerSummaries(steamidInt: Int?, account_id: Int?, completionHandler: (result: Summary?, error: NSError?) -> Void) {
         println("start getPlayerSummaries")
         // 1. Set the parameters, method
         //        let parameters = [Dota2Client.ParameterKeys: Dota2Client.Constants.ApiKey!]
