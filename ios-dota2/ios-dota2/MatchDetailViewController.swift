@@ -25,6 +25,7 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
     @IBOutlet weak var durationLabel: UILabel!
     @IBOutlet weak var firstBloodTimeLabel: UILabel!
     @IBOutlet weak var radiantWinLabel: UILabel!
+    @IBOutlet weak var gameModeLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -123,6 +124,10 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
                                 let radiantWin = self.convertWin(radiantWinBool!)
                                 
                                 self.radiantWinLabel.text = "\(radiantWin)"
+                                var gameModeInt = result["game_mode"] as? Int
+                                
+                                let gameModeStr = Constants.GameMode[gameModeInt!]
+                                self.gameModeLabel.text = "Game Mode: \(gameModeStr!)"
                                 
                                 self.tableView.reloadData()
                             }
@@ -159,15 +164,19 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         var sec = seconds % 60
         var min = (seconds/60) % 60
         var hours = (seconds / 3600)
-        
-        return String(format: "%d h, %d m, %d s", Int(hours), Int(min), Int(sec))
+        let hoursInt = Int(hours)
+        if hoursInt == 0 {
+             return String(format: "%.2d:%.2d", Int(min), Int(sec))
+        } else {
+            return String(format: "%.2d:%.2d:%.2d", Int(hours), Int(min), Int(sec))
+        }
     }
     
     func convertWin(m: Int) -> String {
         if m == 1 {
-            return "Result: Radiant Win"
+            return "Result: Radiant Victory"
         } else {
-            return "Result: Dier Win"
+            return "Result: Dier Victory"
         }
     }
     

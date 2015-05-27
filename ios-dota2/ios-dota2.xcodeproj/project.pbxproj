@@ -380,6 +380,8 @@
 		565FF9861B16027200B5365C /* dota_2_logo_blue_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9841B16027200B5365C /* dota_2_logo_blue_640x1136.png */; };
 		565FF9881B16038D00B5365C /* dota_2_logo_blue_1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9871B16038D00B5365C /* dota_2_logo_blue_1242x2208.png */; };
 		565FF98A1B16045400B5365C /* dota_2_logo_blue_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9891B16045400B5365C /* dota_2_logo_blue_640x960.png */; };
+		565FF98C1B16090700B5365C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FF98B1B16090700B5365C /* Constants.swift */; };
+		565FF98E1B1626CD00B5365C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FF98D1B1626CD00B5365C /* News.swift */; };
 		566EDEDC1B0FBBA900BBA84E /* MatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */; };
 		566EDEDE1B0FCC1100BBA84E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EDEDD1B0FCC1100BBA84E /* Player.swift */; };
 		56DD669B1B0CC5EA00652205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD669A1B0CC5EA00652205 /* AppDelegate.swift */; };
@@ -789,6 +791,8 @@
 		565FF9841B16027200B5365C /* dota_2_logo_blue_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota_2_logo_blue_640x1136.png; sourceTree = "<group>"; };
 		565FF9871B16038D00B5365C /* dota_2_logo_blue_1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota_2_logo_blue_1242x2208.png; sourceTree = "<group>"; };
 		565FF9891B16045400B5365C /* dota_2_logo_blue_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota_2_logo_blue_640x960.png; sourceTree = "<group>"; };
+		565FF98B1B16090700B5365C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		565FF98D1B1626CD00B5365C /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDetailViewController.swift; sourceTree = "<group>"; };
 		566EDEDD1B0FCC1100BBA84E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		56DD66951B0CC5EA00652205 /* ios-dota2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-dota2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1304,12 +1308,11 @@
 				56DD66DA1B0D39AD00652205 /* FriendsTableViewController.swift */,
 				56DD66DC1B0F6D8F00652205 /* MatchTableViewController.swift */,
 				566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */,
-				564E89F21B1375B000C89ED8 /* Heroes.swift */,
 				56DD66DE1B0F86E600652205 /* Dota2Client.swift */,
-				564E8AD11B13C30E00C89ED8 /* Items.swift */,
-				56DD66E01B0F982500652205 /* Match.swift */,
 				566EDEDD1B0FCC1100BBA84E /* Player.swift */,
+				56DD66E01B0F982500652205 /* Match.swift */,
 				564E89F01B12822600C89ED8 /* Summary.swift */,
+				565FF98D1B1626CD00B5365C /* News.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1317,6 +1320,9 @@
 		56DD66CA1B0CD15000652205 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				564E8AD11B13C30E00C89ED8 /* Items.swift */,
+				565FF98B1B16090700B5365C /* Constants.swift */,
+				564E89F21B1375B000C89ED8 /* Heroes.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1814,6 +1820,7 @@
 				564E89F11B12822600C89ED8 /* Summary.swift in Sources */,
 				56DD669E1B0CC5EA00652205 /* ios_dota2.xcdatamodeld in Sources */,
 				56DD66E11B0F982500652205 /* Match.swift in Sources */,
+				565FF98C1B16090700B5365C /* Constants.swift in Sources */,
 				566EDEDC1B0FBBA900BBA84E /* MatchDetailViewController.swift in Sources */,
 				56DD66DB1B0D39AD00652205 /* FriendsTableViewController.swift in Sources */,
 				56DD66CD1B0CE54600652205 /* NewsTableViewCell.swift in Sources */,
@@ -1821,6 +1828,7 @@
 				56DD66DF1B0F86E600652205 /* Dota2Client.swift in Sources */,
 				564E89F31B1375B000C89ED8 /* Heroes.swift in Sources */,
 				56DD66DD1B0F6D8F00652205 /* MatchTableViewController.swift in Sources */,
+				565FF98E1B1626CD00B5365C /* News.swift in Sources */,
 				56DD66D91B0D192100652205 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,6 +18,7 @@ class SummaryViewController: UIViewController {
     @IBOutlet weak var realnameLabel: UILabel!
     
     @IBOutlet weak var timecreatedLabel: UILabel!
+    @IBOutlet weak var communityVisibilityStateLabel: UILabel!
     
     @IBOutlet weak var avatarImageView: UIImageView!
     override func viewDidLoad() {
@@ -69,11 +70,17 @@ class SummaryViewController: UIViewController {
                                 println("success")
                                 
                                 let personaname = playerInfoDictionary["personaname"] as? String
+                                
                                 let realname = playerInfoDictionary["realname"] as? String
+                                
+                                let visibilityStateInt = playerInfoDictionary["communityvisibilitystate"] as! Int
+                                let visibilityStateStr = Constants.CommunityVisibilityState[visibilityStateInt]
                                 
                                 var dateAnyObject: AnyObject = playerInfoDictionary["timecreated"]!
                                 var timeStamp = NSTimeInterval(dateAnyObject as! NSNumber)
                                 let timecreated = self.convertNSDateToString(NSDate(timeIntervalSince1970: timeStamp))
+                                
+                                
                                 
                                 let avatarurl = playerInfoDictionary["avatarfull"] as? String
                                 println(avatarurl!)
@@ -82,11 +89,12 @@ class SummaryViewController: UIViewController {
                                 
                                 if let imageData = data {
                                     dispatch_async(dispatch_get_main_queue(), {
-                                        self.personanameLabel.text = personaname
-                                        self.realnameLabel.text = realname
-                                        self.timecreatedLabel.text = timecreated
-//                                        self.avatarImageView.image = 
+                                        self.realnameLabel.text = "Real Name: \(realname!)"
+                                        self.personanameLabel.text = "Persona Name: \(personaname!)"
+                                        self.timecreatedLabel.text = "Time Created: \(timecreated)"
+                                        self.communityVisibilityStateLabel.text = "Visibility: \(visibilityStateStr!)"
                                         self.avatarImageView.image = UIImage(data: imageData)
+                                        
                                     })
                                 }
                             }

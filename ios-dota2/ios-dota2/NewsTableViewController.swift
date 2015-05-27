@@ -91,7 +91,6 @@ class NewsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return news.count
     }
-
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
@@ -101,51 +100,14 @@ class NewsTableViewController: UITableViewController {
 
 
         cell.titleLabel.text = news.title
-        cell.authorLabel.text = news.author
+        let authorName = news.author
+        if authorName == "" {
+            cell.authorLabel.text = "unknown"
+        } else {
+            cell.authorLabel.text = news.author
+        }
         cell.dateLabel.text = news.date
         
         return cell
-    }
-
-
-}
-
-struct News {
-    var title = ""
-    var author = ""
-    var gid = ""
-    var date = ""
-    
-    init(dictionary: [String : AnyObject]) {
-        title = dictionary["title"] as! String
-        author = dictionary["author"] as! String
-        gid = dictionary["gid"] as! String
-        
-        var dateAnyObject: AnyObject = dictionary["date"]!
-        var timeStamp = NSTimeInterval(dateAnyObject as! NSNumber)
-        date = convertNSDateToString(NSDate(timeIntervalSince1970: timeStamp))
-
-        
-    }
-    
-    static func newsFromResults(results: [[String : AnyObject]]) -> [News] {
-        var news = [News]()
-        
-        for result in results {
-            news.append(News(dictionary: result))
-        }
-        
-        return news
-    }
-    
-    func convertNSDateToString(date: NSDate) -> String {
-        let dateFormatter = NSDateFormatter()
-        var theDateForamt = NSDateFormatterStyle.MediumStyle
-        let theTimeFormat = NSDateFormatterStyle.ShortStyle
-        
-        dateFormatter.dateStyle = theDateForamt
-        dateFormatter.timeStyle = theTimeFormat
-        
-        return dateFormatter.stringFromDate(date)
     }
 }

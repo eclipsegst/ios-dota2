@@ -37,7 +37,6 @@ class MatchTableViewController: UITableViewController {
             }
         }
         
-        
         let image = UIImage(named: "dark_wraith_640x1136")
         let imageView = UIImageView(image: image!)
         self.tableView.backgroundView = imageView
@@ -62,8 +61,8 @@ class MatchTableViewController: UITableViewController {
         let match = matches[indexPath.row]
         println("matchID = \(match.startTime!)")
         cell.textLabel!.text = "Match ID: " + "\(match.matchID)"
-        cell.detailTextLabel!.text = "Date : \(match.startTime!)"
-
+        cell.detailTextLabel?.text = "Date : \(match.startTime!)"
+        
         return cell
     }
     
