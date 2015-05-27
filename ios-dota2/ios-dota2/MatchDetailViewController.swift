@@ -138,6 +138,10 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         
         task.resume()
         
+        let image = UIImage(named: "lina")
+        let imageView = UIImageView(image: image!)
+        self.tableView.backgroundView = imageView
+        
     }
     
     func convertNSDateToString(date: NSDate) -> String {

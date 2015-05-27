@@ -367,6 +367,19 @@
 		564E8CBD1B13C51200C89ED8 /* winter_stocking_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC71B13C51200C89ED8 /* winter_stocking_lg.png */; };
 		564E8CBE1B13C51200C89ED8 /* wraith_band_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC81B13C51200C89ED8 /* wraith_band_lg.png */; };
 		564E8CBF1B13C51200C89ED8 /* yasha_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8BC91B13C51200C89ED8 /* yasha_lg.png */; };
+		564E8CC31B15221F00C89ED8 /* lina.png in Resources */ = {isa = PBXBuildFile; fileRef = 564E8CC21B15221F00C89ED8 /* lina.png */; };
+		565FF9701B15E64000B5365C /* dota2_launch_640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF96F1B15E64000B5365C /* dota2_launch_640_960.png */; };
+		565FF9721B15EB0100B5365C /* dota2_launch_640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9711B15EB0100B5365C /* dota2_launch_640_1136.png */; };
+		565FF9791B15ED6B00B5365C /* dota2_launch_1242_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9771B15ED6B00B5365C /* dota2_launch_1242_2208.png */; };
+		565FF97A1B15ED6B00B5365C /* dota2_launch_750_1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9781B15ED6B00B5365C /* dota2_launch_750_1334.png */; };
+		565FF97C1B15F2A400B5365C /* drow_640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF97B1B15F2A400B5365C /* drow_640_960.png */; };
+		565FF97F1B15FCA500B5365C /* lina_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF97D1B15FCA500B5365C /* lina_640x1136.png */; };
+		565FF9801B15FCA500B5365C /* mirana_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF97E1B15FCA500B5365C /* mirana_640x1136.png */; };
+		565FF9821B15FCC500B5365C /* dark_wraith_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9811B15FCC500B5365C /* dark_wraith_640x1136.png */; };
+		565FF9851B16027200B5365C /* dota_2_logo_blue_750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9831B16027200B5365C /* dota_2_logo_blue_750x1334.png */; };
+		565FF9861B16027200B5365C /* dota_2_logo_blue_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9841B16027200B5365C /* dota_2_logo_blue_640x1136.png */; };
+		565FF9881B16038D00B5365C /* dota_2_logo_blue_1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9871B16038D00B5365C /* dota_2_logo_blue_1242x2208.png */; };
+		565FF98A1B16045400B5365C /* dota_2_logo_blue_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 565FF9891B16045400B5365C /* dota_2_logo_blue_640x960.png */; };
 		566EDEDC1B0FBBA900BBA84E /* MatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */; };
 		566EDEDE1B0FCC1100BBA84E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566EDEDD1B0FCC1100BBA84E /* Player.swift */; };
 		56DD669B1B0CC5EA00652205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD669A1B0CC5EA00652205 /* AppDelegate.swift */; };
@@ -763,6 +776,19 @@
 		564E8BC71B13C51200C89ED8 /* winter_stocking_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter_stocking_lg.png; sourceTree = "<group>"; };
 		564E8BC81B13C51200C89ED8 /* wraith_band_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wraith_band_lg.png; sourceTree = "<group>"; };
 		564E8BC91B13C51200C89ED8 /* yasha_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yasha_lg.png; sourceTree = "<group>"; };
+		564E8CC21B15221F00C89ED8 /* lina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lina.png; sourceTree = "<group>"; };
+		565FF96F1B15E64000B5365C /* dota2_launch_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota2_launch_640_960.png; sourceTree = "<group>"; };
+		565FF9711B15EB0100B5365C /* dota2_launch_640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota2_launch_640_1136.png; sourceTree = "<group>"; };
+		565FF9771B15ED6B00B5365C /* dota2_launch_1242_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota2_launch_1242_2208.png; sourceTree = "<group>"; };
+		565FF9781B15ED6B00B5365C /* dota2_launch_750_1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota2_launch_750_1334.png; sourceTree = "<group>"; };
+		565FF97B1B15F2A400B5365C /* drow_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drow_640_960.png; sourceTree = "<group>"; };
+		565FF97D1B15FCA500B5365C /* lina_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lina_640x1136.png; sourceTree = "<group>"; };
+		565FF97E1B15FCA500B5365C /* mirana_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mirana_640x1136.png; sourceTree = "<group>"; };
+		565FF9811B15FCC500B5365C /* dark_wraith_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark_wraith_640x1136.png; sourceTree = "<group>"; };
+		565FF9831B16027200B5365C /* dota_2_logo_blue_750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota_2_logo_blue_750x1334.png; sourceTree = "<group>"; };
+		565FF9841B16027200B5365C /* dota_2_logo_blue_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota_2_logo_blue_640x1136.png; sourceTree = "<group>"; };
+		565FF9871B16038D00B5365C /* dota_2_logo_blue_1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota_2_logo_blue_1242x2208.png; sourceTree = "<group>"; };
+		565FF9891B16045400B5365C /* dota_2_logo_blue_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dota_2_logo_blue_640x960.png; sourceTree = "<group>"; };
 		566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDetailViewController.swift; sourceTree = "<group>"; };
 		566EDEDD1B0FCC1100BBA84E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		56DD66951B0CC5EA00652205 /* ios-dota2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-dota2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1246,8 +1272,21 @@
 			isa = PBXGroup;
 			children = (
 				56DD66CE1B0D13E700652205 /* heart_128.png */,
+				565FF9831B16027200B5365C /* dota_2_logo_blue_750x1334.png */,
+				565FF9891B16045400B5365C /* dota_2_logo_blue_640x960.png */,
+				565FF9841B16027200B5365C /* dota_2_logo_blue_640x1136.png */,
+				565FF9871B16038D00B5365C /* dota_2_logo_blue_1242x2208.png */,
+				565FF9771B15ED6B00B5365C /* dota2_launch_1242_2208.png */,
+				565FF9781B15ED6B00B5365C /* dota2_launch_750_1334.png */,
 				56DD66D41B0D15A800652205 /* dota2_32.png */,
+				565FF97B1B15F2A400B5365C /* drow_640_960.png */,
 				56DD66D01B0D150900652205 /* heart_32.png */,
+				565FF97D1B15FCA500B5365C /* lina_640x1136.png */,
+				565FF97E1B15FCA500B5365C /* mirana_640x1136.png */,
+				564E8CC21B15221F00C89ED8 /* lina.png */,
+				565FF9811B15FCC500B5365C /* dark_wraith_640x1136.png */,
+				565FF96F1B15E64000B5365C /* dota2_launch_640_960.png */,
+				565FF9711B15EB0100B5365C /* dota2_launch_640_1136.png */,
 				56DD66D11B0D150900652205 /* heart_64.png */,
 				56DD66C11B0CCC5C00652205 /* dota2_120.png */,
 				56DD66C21B0CCC5C00652205 /* dota2_92.png */,
@@ -1371,6 +1410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565FF9791B15ED6B00B5365C /* dota2_launch_1242_2208.png in Resources */,
 				564E8A841B1395EB00C89ED8 /* gyrocopter_sb.png in Resources */,
 				564E8C551B13C51200C89ED8 /* recipe_headdress_lg.png in Resources */,
 				564E8C4D1B13C51200C89ED8 /* recipe_dagon_lg.png in Resources */,
@@ -1445,6 +1485,7 @@
 				564E8ABF1B1395EB00C89ED8 /* tinker_sb.png in Resources */,
 				564E8C061B13C51200C89ED8 /* hand_of_midas_lg.png in Resources */,
 				564E8C8B1B13C51200C89ED8 /* ring_of_health_lg.png in Resources */,
+				565FF9881B16038D00B5365C /* dota_2_logo_blue_1242x2208.png in Resources */,
 				564E8CBF1B13C51200C89ED8 /* yasha_lg.png in Resources */,
 				564E8BE11B13C51200C89ED8 /* chainmail_lg.png in Resources */,
 				564E8C5B1B13C51200C89ED8 /* recipe_lesser_crit_lg.png in Resources */,
@@ -1507,6 +1548,7 @@
 				564E8A7C1B1395EB00C89ED8 /* earth_spirit_sb.png in Resources */,
 				564E8A831B1395EB00C89ED8 /* furion_sb.png in Resources */,
 				564E8C761B13C51200C89ED8 /* recipe_sange_lg.png in Resources */,
+				565FF97A1B15ED6B00B5365C /* dota2_launch_750_1334.png in Resources */,
 				564E8BEE1B13C51200C89ED8 /* dagon_lg.png in Resources */,
 				564E8C341B13C51200C89ED8 /* power_treads_lg.png in Resources */,
 				564E8CB81B13C51200C89ED8 /* winter_greevil_treat_lg.png in Resources */,
@@ -1544,6 +1586,7 @@
 				564E8AC11B1395EB00C89ED8 /* treant_sb.png in Resources */,
 				564E8C611B13C51200C89ED8 /* recipe_mekansm_lg.png in Resources */,
 				564E8A9A1B1395EB00C89ED8 /* necrolyte_sb.png in Resources */,
+				565FF9821B15FCC500B5365C /* dark_wraith_640x1136.png in Resources */,
 				564E8AB81B1395EB00C89ED8 /* spirit_breaker_sb.png in Resources */,
 				564E8C531B13C51200C89ED8 /* recipe_greater_crit_lg.png in Resources */,
 				564E8C2D1B13C51200C89ED8 /* orchid_lg.png in Resources */,
@@ -1576,6 +1619,7 @@
 				564E8C7C1B13C51200C89ED8 /* recipe_soul_ring_lg.png in Resources */,
 				564E8CA11B13C51200C89ED8 /* talisman_of_evasion_lg.png in Resources */,
 				564E8BFE1B13C51200C89ED8 /* glimmer_cape_lg.png in Resources */,
+				565FF9721B15EB0100B5365C /* dota2_launch_640_1136.png in Resources */,
 				564E8BF11B13C51200C89ED8 /* diffusal_blade_2_lg.png in Resources */,
 				564E8A681B1395EB00C89ED8 /* bane_sb.png in Resources */,
 				564E8BD51B13C51200C89ED8 /* blade_of_alacrity_lg.png in Resources */,
@@ -1602,6 +1646,7 @@
 				564E8AC01B1395EB00C89ED8 /* tiny_sb.png in Resources */,
 				564E8C461B13C51200C89ED8 /* recipe_buckler_lg.png in Resources */,
 				564E8BF51B13C51200C89ED8 /* enchanted_mango_lg.png in Resources */,
+				565FF9851B16027200B5365C /* dota_2_logo_blue_750x1334.png in Resources */,
 				564E8C6E1B13C51200C89ED8 /* recipe_power_treads_lg.png in Resources */,
 				564E8CA41B13C51200C89ED8 /* tpscroll_lg.png in Resources */,
 				564E8C421B13C51200C89ED8 /* recipe_black_king_bar_lg.png in Resources */,
@@ -1621,12 +1666,14 @@
 				564E8C451B13C51200C89ED8 /* recipe_bracer_lg.png in Resources */,
 				564E8AC21B1395EB00C89ED8 /* troll_warlord_sb.png in Resources */,
 				564E8A971B1395EB00C89ED8 /* mirana_sb.png in Resources */,
+				565FF9801B15FCA500B5365C /* mirana_640x1136.png in Resources */,
 				564E8C9F1B13C51200C89ED8 /* staff_of_wizardry_lg.png in Resources */,
 				564E8A871B1395EB00C89ED8 /* jakiro_sb.png in Resources */,
 				56DD66D21B0D150900652205 /* heart_32.png in Resources */,
 				564E8BE81B13C51200C89ED8 /* crimson_guard_lg.png in Resources */,
 				564E8AB51B1395EB00C89ED8 /* slark_sb.png in Resources */,
 				564E8BDD1B13C51200C89ED8 /* branches_lg.png in Resources */,
+				565FF97C1B15F2A400B5365C /* drow_640_960.png in Resources */,
 				564E8C911B13C51200C89ED8 /* sange_lg.png in Resources */,
 				564E8CAA1B13C51200C89ED8 /* urn_of_shadows_lg.png in Resources */,
 				564E8CB71B13C51200C89ED8 /* winter_greevil_garbage_lg.png in Resources */,
@@ -1660,8 +1707,10 @@
 				564E8CA61B13C51200C89ED8 /* travel_boots_2_lg.png in Resources */,
 				564E8C3C1B13C51200C89ED8 /* recipe_ancient_janggo_lg.png in Resources */,
 				564E8C151B13C51200C89ED8 /* magic_wand_lg.png in Resources */,
+				564E8CC31B15221F00C89ED8 /* lina.png in Resources */,
 				564E8C391B13C51200C89ED8 /* rapier_lg.png in Resources */,
 				564E8A8E1B1395EB00C89ED8 /* life_stealer_sb.png in Resources */,
+				565FF97F1B15FCA500B5365C /* lina_640x1136.png in Resources */,
 				564E8A701B1395EB00C89ED8 /* centaur_sb.png in Resources */,
 				564E8C491B13C51200C89ED8 /* recipe_dagon_2_lg.png in Resources */,
 				564E8C671B13C51200C89ED8 /* recipe_null_talisman_lg.png in Resources */,
@@ -1676,6 +1725,7 @@
 				564E8BCE1B13C51200C89ED8 /* armlet_lg.png in Resources */,
 				564E8C401B13C51200C89ED8 /* recipe_basher_lg.png in Resources */,
 				564E8A8B1B1395EB00C89ED8 /* legion_commander_sb.png in Resources */,
+				565FF9861B16027200B5365C /* dota_2_logo_blue_640x1136.png in Resources */,
 				564E8C821B13C51200C89ED8 /* recipe_vanguard_lg.png in Resources */,
 				564E8ACD1B1395EB00C89ED8 /* winter_wyvern_sb.png in Resources */,
 				564E8C0D1B13C51200C89ED8 /* hyperstone_lg.png in Resources */,
@@ -1683,6 +1733,7 @@
 				564E8C351B13C51200C89ED8 /* present_lg.png in Resources */,
 				564E8BDF1B13C51200C89ED8 /* buckler_lg.png in Resources */,
 				564E8A9B1B1395EB00C89ED8 /* nevermore_sb.png in Resources */,
+				565FF9701B15E64000B5365C /* dota2_launch_640_960.png in Resources */,
 				564E8C961B13C51200C89ED8 /* silver_edge_lg.png in Resources */,
 				564E8C641B13C51200C89ED8 /* recipe_necronomicon_2_lg.png in Resources */,
 				564E8AC51B1395EB00C89ED8 /* ursa_sb.png in Resources */,
@@ -1718,6 +1769,7 @@
 				564E8A9E1B1395EB00C89ED8 /* obsidian_destroyer_sb.png in Resources */,
 				564E8BFB1B13C51200C89ED8 /* gauntlets_lg.png in Resources */,
 				564E8ABA1B1395EB00C89ED8 /* sven_sb.png in Resources */,
+				565FF98A1B16045400B5365C /* dota_2_logo_blue_640x960.png in Resources */,
 				564E8C8C1B13C51200C89ED8 /* ring_of_protection_lg.png in Resources */,
 				564E8C141B13C51200C89ED8 /* magic_stick_lg.png in Resources */,
 				564E8CA81B13C51200C89ED8 /* ultimate_orb_lg.png in Resources */,
@@ -1898,6 +1950,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "ios-dota2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1908,6 +1961,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "ios-dota2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

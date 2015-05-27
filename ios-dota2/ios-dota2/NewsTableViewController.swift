@@ -75,6 +75,10 @@ class NewsTableViewController: UITableViewController {
         
         task.resume()
         
+        let image = UIImage(named: "lina_640x1136")
+        let imageView = UIImageView(image: image!)
+        self.tableView.backgroundView = imageView
+        
     }
 
     override func didReceiveMemoryWarning() {

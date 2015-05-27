@@ -27,11 +27,20 @@ class SummaryViewController: UIViewController {
         
         session = NSURLSession.sharedSession()
         
+        
+        
     }
     
     override func viewWillAppear(animated: Bool) {
         
         super.viewWillAppear(animated)
+//        
+//        let image = UIImage(named: "lina")
+//        let imageView = UIImageView(image: image!)
+//        self.view.addSubview(imageView)
+//        
+//        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "drow_640_960")!)
+        
         // Build the URL
         let urlString = appDelegate.baseURLString + "ISteamUser/GetPlayerSummaries/v0002/?" + "key=" + appDelegate.apiKey + "&steamids=" + "\(appDelegate.steamid)"
         println(urlString)
@@ -91,6 +100,10 @@ class SummaryViewController: UIViewController {
         
         // Start the request
         task.resume()
+        
+
+        
+
     }
     
     func convertNSDateToString(date: NSDate) -> String {

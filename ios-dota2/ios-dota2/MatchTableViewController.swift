@@ -36,6 +36,11 @@ class MatchTableViewController: UITableViewController {
                 println(error)
             }
         }
+        
+        
+        let image = UIImage(named: "dark_wraith_640x1136")
+        let imageView = UIImageView(image: image!)
+        self.tableView.backgroundView = imageView
     }
     
 
