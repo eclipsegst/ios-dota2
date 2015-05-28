@@ -44,7 +44,7 @@
                             <outlet property="delegate" destination="REb-CB-Lng" id="yuy-Yg-cnn"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Friends" image="dota2Icon" id="Y50-BC-e7n"/>
+                    <tabBarItem key="tabBarItem" title="Friends" image="friend_32x32.png" id="Y50-BC-e7n" colorLabel="IBBuiltInLabel-Blue"/>
                     <navigationItem key="navigationItem" title="Friends" id="g2c-ue-6kb"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKa-Cu-5hp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -120,7 +120,7 @@
                             <constraint firstItem="nlz-7Z-fVh" firstAttribute="width" secondItem="yh1-wQ-kCS" secondAttribute="width" id="wn6-dI-CNO"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Summary" image="dota2Icon" id="Y9B-Lm-CTR"/>
+                    <tabBarItem key="tabBarItem" title="Summary" image="profile_32x32.png" id="Y9B-Lm-CTR"/>
                     <navigationItem key="navigationItem" title="Summary" id="VzU-gT-sTl"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="1008" y="1322"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="GOt-3h-JOP">
             <objects>
-                <tabBarController id="w6O-h2-gt3" sceneMemberID="viewController">
+                <tabBarController id="w6O-h2-gt3" customClass="MainTabBarController" customModule="ios_dota2" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="l73-XC-St7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -148,8 +148,8 @@
                     <connections>
                         <segue destination="xfD-kr-osB" kind="relationship" relationship="viewControllers" id="lcM-IR-QGg"/>
                         <segue destination="4Ks-UC-o5r" kind="relationship" relationship="viewControllers" id="wyV-xT-9xf"/>
-                        <segue destination="3TZ-UZ-uNL" kind="relationship" relationship="viewControllers" id="6kl-IY-hfu"/>
                         <segue destination="PBw-Qg-Zkh" kind="relationship" relationship="viewControllers" id="W5A-sZ-WRS"/>
+                        <segue destination="3TZ-UZ-uNL" kind="relationship" relationship="viewControllers" id="6kl-IY-hfu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bW1-iZ-myP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -223,7 +223,7 @@
                             <outlet property="delegate" destination="Myt-D5-9TG" id="PLg-IP-4wb"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="News" image="dota2Icon" id="3wQ-4f-nFa"/>
+                    <tabBarItem key="tabBarItem" title="News" image="news_32x32.png" id="3wQ-4f-nFa"/>
                     <navigationItem key="navigationItem" title="News" id="SYd-fc-ohJ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="57K-8E-Jjs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -267,7 +267,7 @@
                             <outlet property="delegate" destination="pSG-nt-suM" id="9Ma-1K-bNr"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Match" image="heart_32.png" id="a9p-iT-rDO"/>
+                    <tabBarItem key="tabBarItem" title="Match" image="match_32x32.png" id="a9p-iT-rDO"/>
                     <navigationItem key="navigationItem" title="Match" id="7N9-FJ-MPc"/>
                     <connections>
                         <outlet property="matchesTableView" destination="3Zz-ML-iVI" id="LlS-ft-zIc"/>
@@ -532,12 +532,13 @@
         <scene sceneID="BFF-om-h1y">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3TZ-UZ-uNL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="News" image="dota2Icon" id="OVM-8W-gHS"/>
+                    <tabBarItem key="tabBarItem" title="News" image="news_32x32.png" id="OVM-8W-gHS"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rCP-Va-LrP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.34901960780000002" green="0.79607843140000001" blue="1" alpha="1" colorSpace="deviceRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -552,11 +553,12 @@
         <scene sceneID="xOQ-6h-172">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Ks-UC-o5r" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Match" image="dota2Icon" id="C5f-sQ-I3Y"/>
+                    <tabBarItem key="tabBarItem" title="Match" image="match_32x32.png" id="C5f-sQ-I3Y"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kTy-vA-Dkd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.34901960780000002" green="0.79607843140000001" blue="1" alpha="1" colorSpace="deviceRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -571,12 +573,13 @@
         <scene sceneID="35Q-mM-741">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xfD-kr-osB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Summary" image="dota2Icon" id="C6K-Kn-w6g"/>
+                    <tabBarItem key="tabBarItem" title="Summary" image="profile_32x32.png" id="C6K-Kn-w6g"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tQe-iG-7ti">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.34901960780000002" green="0.79607843140000001" blue="1" alpha="1" colorSpace="deviceRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -591,11 +594,12 @@
         <scene sceneID="dWp-pz-NCs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PBw-Qg-Zkh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Friends" image="dota2Icon" id="B5j-PL-HsF"/>
+                    <tabBarItem key="tabBarItem" title="Friends" image="friend_32x32.png" id="B5j-PL-HsF" colorLabel="IBBuiltInLabel-Blue"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a68-Ua-C0c">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.34901960780000002" green="0.79607843140000001" blue="1" alpha="1" colorSpace="deviceRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -626,7 +630,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dota2Icon" width="32" height="32"/>
-        <image name="heart_32.png" width="32" height="32"/>
+        <image name="friend_32x32.png" width="32" height="32"/>
+        <image name="match_32x32.png" width="32" height="32"/>
+        <image name="news_32x32.png" width="32" height="32"/>
+        <image name="profile_32x32.png" width="32" height="32"/>
     </resources>
 </document>
