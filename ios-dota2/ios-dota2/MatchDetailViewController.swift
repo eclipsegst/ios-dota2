@@ -46,7 +46,7 @@ class MatchDetailViewController: UIViewController, UITableViewDataSource, UITabl
         var mutableMethod : String = Dota2Client.Methods.GetMatchDetails
 
         
-        let urlString = Dota2Client.Constants.BaseURL + mutableMethod + Dota2Client.escapedParameters(parameters) + "&key=" + Dota2Client.Constants.ApiKey
+        let urlString = Dota2Client.Constants.BaseURL + mutableMethod + Dota2Client.escapedParameters(parameters) + "&key=" + appDelegate.apiKey
         let url = NSURL(string: urlString)!
         
         let request = NSURLRequest(URL: url)

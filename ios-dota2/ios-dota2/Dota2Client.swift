@@ -7,18 +7,21 @@
 //
 
 import Foundation
+import UIKit
 
 class Dota2Client : NSObject {
     
     // Shared session
     var session: NSURLSession
-    
+    var appDelegate: AppDelegate
     var accountID : String? = nil
-   // accountID = "137156691"
     
     
     override init() {
+        
+        appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         session = NSURLSession.sharedSession()
+        
         super.init()
     }
     
@@ -28,7 +31,7 @@ class Dota2Client : NSObject {
         
         // 1. Set the parameters
         var mutableParameters = parameters
-        mutableParameters[ParameterKeys.ApiKey] = Constants.ApiKey
+        mutableParameters[ParameterKeys.ApiKey] = appDelegate.apiKey
         
         // 2 & 3 Build the URL and configure the request
         let urlString = Constants.BaseURL + method + Dota2Client.escapedParameters(mutableParameters)
@@ -134,14 +137,13 @@ class Dota2Client : NSObject {
     func getMatchHistory(completionHandler: (result: [Match]?, error: NSError?) -> Void) {
         println("start getMatchHistory")
         // 1. Set the parameters, method
-//        let parameters = [Dota2Client.ParameterKeys: Dota2Client.Constants.ApiKey!]
-        let parameters = [Dota2Client.ParameterKeys.AccountID : Constants.AccountID]
+        let accountidStr = "\(appDelegate.accountid)"
+        let parameters = [Dota2Client.ParameterKeys.AccountID : accountidStr]
         var mutableMethod : String = Methods.GetMatchHistory
         
         println("parameters = \(parameters)")
         println("mutableMethod = \(mutableMethod)")
-            
-//        mutableMethod = Dota2Client.subtitudeKeyInMethod(mutableMethod, key: Dota2Client.ParameterKeys.AccountID, value:Dota2Client.Constants.AccountID)
+
         
         taskForGETMethod(mutableMethod, parameters: parameters) {JSONResult, error in
             
@@ -170,7 +172,6 @@ class Dota2Client : NSObject {
     func getPlayerSummaries(steamidInt: Int?, account_id: Int?, completionHandler: (result: Summary?, error: NSError?) -> Void) {
         println("start getPlayerSummaries")
         // 1. Set the parameters, method
-        //        let parameters = [Dota2Client.ParameterKeys: Dota2Client.Constants.ApiKey!]
         var steamid = ""
         
         if steamidInt == nil {
@@ -223,11 +224,6 @@ extension Dota2Client {
     
     // MARK: - Constatns
     struct Constants {
-        
-        // MARK: API Key
-        static let ApiKey : String = ""
-        static let AccountID: String = ""
-        static let SteamID: String = ""
         
         // MARK: URLs
         static let BaseURL : String = "http://api.steampowered.com/"

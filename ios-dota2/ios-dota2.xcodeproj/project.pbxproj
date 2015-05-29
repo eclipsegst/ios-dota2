@@ -13,6 +13,8 @@
 		563132D71B17BAE7000C70D7 /* friend_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 563132D61B17BAE7000C70D7 /* friend_32x32.png */; };
 		563132DB1B17BB2D000C70D7 /* news_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 563132DA1B17BB2D000C70D7 /* news_32x32.png */; };
 		563132DD1B17BD9A000C70D7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563132DC1B17BD9A000C70D7 /* MainTabBarController.swift */; };
+		563132DF1B18B5C5000C70D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563132DE1B18B5C5000C70D7 /* LoginViewController.swift */; };
+		563132E51B18BF0D000C70D7 /* ios-dota2.User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563132E41B18BF0D000C70D7 /* ios-dota2.User.swift */; };
 		564E89EF1B12431000C89ED8 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E89EE1B12431000C89ED8 /* PlayerTableViewCell.swift */; };
 		564E89F11B12822600C89ED8 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E89F01B12822600C89ED8 /* Summary.swift */; };
 		564E89F31B1375B000C89ED8 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E89F21B1375B000C89ED8 /* Heroes.swift */; };
@@ -430,6 +432,8 @@
 		563132D61B17BAE7000C70D7 /* friend_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friend_32x32.png; sourceTree = "<group>"; };
 		563132DA1B17BB2D000C70D7 /* news_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news_32x32.png; sourceTree = "<group>"; };
 		563132DC1B17BD9A000C70D7 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		563132DE1B18B5C5000C70D7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		563132E41B18BF0D000C70D7 /* ios-dota2.User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ios-dota2.User.swift"; sourceTree = "<group>"; };
 		564E89EE1B12431000C89ED8 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
 		564E89F01B12822600C89ED8 /* Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 		564E89F21B1375B000C89ED8 /* Heroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
@@ -1225,6 +1229,7 @@
 		56DD668C1B0CC5E900652205 = {
 			isa = PBXGroup;
 			children = (
+				563132E41B18BF0D000C70D7 /* ios-dota2.User.swift */,
 				56DD66971B0CC5EA00652205 /* ios-dota2 */,
 				56DD66B01B0CC5EA00652205 /* ios-dota2Tests */,
 				56DD66961B0CC5EA00652205 /* Products */,
@@ -1322,6 +1327,7 @@
 			children = (
 				56DD66D81B0D192100652205 /* SummaryViewController.swift */,
 				56DD66C71B0CD13800652205 /* NewsTableViewController.swift */,
+				563132DE1B18B5C5000C70D7 /* LoginViewController.swift */,
 				56DD66DA1B0D39AD00652205 /* FriendsTableViewController.swift */,
 				56DD66DC1B0F6D8F00652205 /* MatchTableViewController.swift */,
 				566EDEDB1B0FBBA900BBA84E /* MatchDetailViewController.swift */,
@@ -1840,9 +1846,11 @@
 				564E8AD21B13C30E00C89ED8 /* Items.swift in Sources */,
 				563132DD1B17BD9A000C70D7 /* MainTabBarController.swift in Sources */,
 				566EDEDE1B0FCC1100BBA84E /* Player.swift in Sources */,
+				563132DF1B18B5C5000C70D7 /* LoginViewController.swift in Sources */,
 				56DD66C81B0CD13800652205 /* NewsTableViewController.swift in Sources */,
 				564E89F11B12822600C89ED8 /* Summary.swift in Sources */,
 				56DD669E1B0CC5EA00652205 /* ios_dota2.xcdatamodeld in Sources */,
+				563132E51B18BF0D000C70D7 /* ios-dota2.User.swift in Sources */,
 				56DD66E11B0F982500652205 /* Match.swift in Sources */,
 				565FF98C1B16090700B5365C /* Constants.swift in Sources */,
 				566EDEDC1B0FBBA900BBA84E /* MatchDetailViewController.swift in Sources */,

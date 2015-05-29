@@ -21,6 +21,8 @@ class MainTabBarController: UITabBarController {
 //                item.image = image.imageWithColor(UIColor.lightGrayColor()).imageWithRenderingMode(.AlwaysOriginal)
 //            }
 //        }
+        
+//        self.navigationItem.setHidesBackButton(true, animated: false)
     }
 
     override func didReceiveMemoryWarning() {

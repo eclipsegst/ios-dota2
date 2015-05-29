@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
 class SummaryViewController: UIViewController {
+    
+    let managedObjectContext = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
     
     var appDelegate: AppDelegate!
     var session: NSURLSession!
@@ -21,6 +24,7 @@ class SummaryViewController: UIViewController {
     @IBOutlet weak var communityVisibilityStateLabel: UILabel!
     
     @IBOutlet weak var avatarImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -108,10 +112,46 @@ class SummaryViewController: UIViewController {
         
         // Start the request
         task.resume()
-        
+    }
+    
+    
+    @IBAction func logoutButtonTouch(sender: AnyObject) {
 
-        
+        let entityDescription =
+        NSEntityDescription.entityForName("User", inManagedObjectContext: managedObjectContext!)
 
+        var error: NSError?
+
+        let request = NSFetchRequest()
+        request.entity = entityDescription
+
+
+        var objects = managedObjectContext?.executeFetchRequest(request, error: &error)
+
+        if let results =  objects
+        {
+            if results.count > 0 {
+                for result in results {
+                    managedObjectContext!.deleteObject(result as! NSManagedObject)
+                }
+            } else {
+                println("There is no user info")
+            }
+        }
+
+        objects?.removeAll(keepCapacity: false)
+
+        managedObjectContext!.save(nil)
+        
+        completeLogout()
+        println("Logout Success")
+        
+    }
+    
+    func completeLogout() {
+        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("LoginViewController") as! LoginViewController
+        self.presentViewController(controller, animated: true, completion: nil)
+        
     }
     
     func convertNSDateToString(date: NSDate) -> String {
